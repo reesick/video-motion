@@ -1,0 +1,19 @@
+{
+  "name": "video-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motion-graphics videos built in code: HTML scenes, Playwright frames, ffmpeg.",
+  "scripts": {
+    "film": "powershell -ExecutionPolicy Bypass -File alos/make.ps1",
+    "intros": "powershell -ExecutionPolicy Bypass -File alos/make_intros.ps1",
+    "madison": "powershell -ExecutionPolicy Bypass -File make.ps1"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "devDependencies": {
+    "d3": "^7.9.2",
+    "playwright": "^1.64.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}

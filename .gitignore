@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# renders (rebuild with make.ps1 / alos/make.ps1; publish finals as GitHub Releases)
+/output/
+alos/output/
+*.mp4
+
+# third-party media: not ours to redistribute (see README "Assets you add yourself")
+/reference/
+/audio/
+assets/audio/*
+!assets/audio/CREDITS.md
+alos/assets/*.mp3
+alos/audio/music/
+alos/audio/music77.wav
+
+# regenerable voice-over intermediates (voiceover.wav + lines.json are kept)
+alos/audio/vo/L*.wav
+alos/audio/vo/L*.mp3
+
+# clone of the product's own repo (lives at its own origin)
+alos/research/repo/
+
+# one-off patch scripts, OS junk
+tools/_*.py
+Thumbs.db
+desktop.ini
+.DS_Store
