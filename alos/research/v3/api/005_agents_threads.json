@@ -1,0 +1,70 @@
+{
+ "threads": [
+  {
+   "thread_id": "INC-1001",
+   "checkpoints": 179,
+   "last": "1f1dcee2-4ad8-60c4-80b1-9db90507d3fd",
+   "running": false,
+   "waiting_for_human": false,
+   "request": null,
+   "phase": "awaiting_goods",
+   "title": "Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days.",
+   "status": "verifying"
+  },
+  {
+   "thread_id": "INC-1002",
+   "checkpoints": 100,
+   "last": "1f1dcee2-1f46-6a69-8062-6bd45df1ecb2",
+   "running": false,
+   "waiting_for_human": false,
+   "request": null,
+   "phase": "awaiting_goods",
+   "title": "Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days.",
+   "status": "verifying"
+  },
+  {
+   "thread_id": "patrol:NEXA",
+   "checkpoints": 82,
+   "last": "1f1dcee1-ec53-6e67-8050-1720396078f6",
+   "running": false,
+   "waiting_for_human": false,
+   "request": null,
+   "phase": "patrolled",
+   "title": "patrol thread",
+   "status": null
+  },
+  {
+   "thread_id": "po:PO-7725",
+   "checkpoints": 73,
+   "last": "1f1dc4ce-c9b0-6443-8047-321bfc20115a",
+   "running": false,
+   "waiting_for_human": false,
+   "request": null,
+   "phase": "verified",
+   "title": "po thread",
+   "status": null
+  },
+  {
+   "thread_id": "po:PO-7718",
+   "checkpoints": 45,
+   "last": "1f1dc4ce-327a-6680-802b-8a243900f3f3",
+   "running": false,
+   "waiting_for_human": false,
+   "request": null,
+   "phase": "verified",
+   "title": "po thread",
+   "status": null
+  },
+  {
+   "thread_id": "payee:SUP-21",
+   "checkpoints": 49,
+   "last": "1f1dc4cd-b969-6d3f-802f-bca858324a54",
+   "running": false,
+   "waiting_for_human": false,
+   "request": null,
+   "phase": "communicated",
+   "title": "payee thread",
+   "status": null
+  }
+ ]
+}

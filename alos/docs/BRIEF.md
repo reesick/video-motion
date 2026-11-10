@@ -82,7 +82,7 @@ Also answer:
 | The full money lifecycle, in order (e.g. hold → … → release / void / refund) | **Mandate** (Vault, human approves once) → **Hold** (Orders AUTHORIZE: buyer's funds reserved) → **Invoice read** (Gemini extracts it; Python does the three-way match) → **Capture** on verified goods, then **Payout** to the supplier. Bad paths: **Void** if the supplier's claim is contradicted, **Refund** if goods fail QC after capture. Over-limit amounts: the hold still happens, but **release waits for a human code**. |
 | Spending rules (agent limit, who approves above it, how: code/email/…) | Three limits, all deterministic: (1) **per order**: the agent holds and releases up to **$5,000** alone; above that the hold is placed but **capture waits** for a **6-digit one-time code sent by email**; (2) **per project budget envelope** (e.g. PRJ-2041: $48,000 for Nov–Jan); a hold that would break it also needs the code; (3) **payee lock**: payouts only to the supplier's verified PayPal email; changing it takes 72 h + the code + a confirmation to the old contact. |
 | How PayPal solves the trust problem between buyer and supplier, in 2–3 sentences | The supplier sees money **committed** through PayPal the moment the order is placed, so they ship. The buyer's money only **moves** when goods are verified, and is **voided or refunded** automatically if the supplier lied or shipped the wrong part. PayPal is the neutral party holding the money, so neither side has to trust the other's word. |
-| The ONE sentence about PayPal judges should remember | **"Seven guards stand between the AI and your money: PayPal holds it, and it moves only on proof, to the right supplier, at a fair price, once."** |
+| The ONE sentence about PayPal judges should remember | **"A team of AI agents reads the world, but only the Treasurer can move money: PayPal holds it, and it moves only on proof, to the right supplier, at a fair price, once."** |
 | Proof we can show (sandbox dashboard screenshots / transaction IDs) | IDs above (orders 2YD51330MB766861S / 4EY1554464456701K, authorizations 5LK9680517471812N / 45357457J6295492T, capture 91M79894DL640601B, refund 2H629030W4747693S, payout batch BZYS2T6Z25Y7G). Sandbox **Activity** page for `dops-buyer-dada@business.example.com` shows the holds, the capture, the void and the refund; the in-app Payments ledger shows the same PayPal IDs. |
 
 ---
@@ -100,44 +100,43 @@ All screens are live at **agenticlogisticsystem.vercel.app**. The product is a *
 | 5 | **Payee lock + duplicate shield** | `/payments` ledger | Red rows: **"Payee change from look-alike domain: blocked, 72 h lock"** ($4,410); **"ZH-INV-55120-A duplicate of ZH-INV-55120: blocked"** ($5,880) | guard_events G-114, G-118 |
 | 6 | **Pays on proof, minus penalties** | `/payments` → PO-7744 PaymentCard | ThreeWayMatch ✓ → **"Late-delivery credit −$180 (6 days × 5%/wk)"** → **"Captured $4,020 of $4,200"** → Payout to 🔒 verified email | Partial capture, payout SUCCESS |
 | 7 | **Budget envelope** keeps the project on budget | `/projects/PRJ-2041?tab=money` | Burn bar **"$31,420 committed of $48,000 · forecast $44,900"**; a $9,855 air option would cross the line → **Approvals** card with 6-digit code | APR-88 |
-| 8 | **Hidden shared supplier** found under a "dual source" | `/shipments` globe | Two connector routes (Delta, Kirin) converge on a red node **"Penang Plating Works: shared sub-supplier"** | S2 flag on COMP-131 |
+| 8 | **Hidden shared supplier** found under a "dual source" | `/shipments` globe | Two connector routes (Coastal Connectors, Sahyadri Harness Works) converge on a red node **"Penang Plating Works: shared sub-supplier"** | S2 flag on COMP-131 |
 | 9 | **Re-plans the timeline** | `/projects/PRJ-2041?tab=timeline` (Bryntum Gantt) | Bars shift after PO-7790; teal diamonds **"Release funds (after QC)"**; red **Due** line still met | SCU-700, due in 6 days |
 
 ---
 
 ## 6. Tech stack (what we used)
 
-| Layer | Tools / services (exact names) | Why we chose it (one line) |
+| Layer | What | Why it matters on screen |
 |---|---|---|
-| Frontend | React 19, Vite 8, TypeScript, Tailwind CSS v4, shadcn/ui, Motion, lucide-react, React Router 7, Zustand, TanStack Query; **AG Grid Enterprise 36** + **AG Studio 3.1**; **Bryntum Gantt / Scheduler / TaskBoard 8** | A dense, "frosted glass on lavender" control room, with grids and timelines built for real operations data. |
-| Backend | Python 3.12, **FastAPI**, asyncpg, httpx, WebSockets | An async API for an agent that reacts to events in real time. |
-| Database | **Supabase Postgres** (project AUTONOMOUS_CRM, 10 migrations, row-level security, multi-tenant `org_id`) | One source of truth with tenant isolation and an audit log that survives resets. |
-| AI / LLM (model + what it is and isn't allowed to do) | **Google Gemini** (`GEMINI_MODEL` in `.env`). **Allowed:** read supplier emails and warehouse replies, extract claims, dates and invoice totals, spot contradictions, explain decisions. **Not allowed:** choose a supplier, approve spend, or call any PayPal write API. | Language is messy, money isn't; the model handles the messy part only. |
-| Decision engine | Deterministic Python: `backend/app/solver.py` (hard constraints: certification, hazmat-can't-fly, budget, due date), `agent.py` state machine, `finance_agent.py` three-way match, authority limit and the **7 Buyer Shield guards** (fair price, budget envelope, payee lock, duplicate shield, late-delivery credit, quality holdback, hold expiry), `timers.py` buy timers | Every money decision is reproducible and readable; every refusal is logged in `guard_events`. |
-| Payments | **PayPal sandbox**: Vault v3, Orders v2 (AUTHORIZE), Payments v2 (capture / void / refund), Payouts, Webhooks | Holds that are captured on proof and voided on lies give trust between strangers. |
-| Email / messaging | Gmail **SMTP** out, **IMAP** in; supplier and warehouse threads (`comms.py`) | Suppliers live in email, so the agent works where they are. |
-| Maps / visualization | **Mapbox GL JS 3** (globe projection, great-circle routes), Recharts, AG Charts (inside AG Studio) | A real Earth with real routes; you can zoom from the globe to a street. |
-| Hosting | **Vercel** (frontend), **Render** Docker web service (backend: agentic-logistic-orchestration-system.onrender.com), Supabase (database) | Push to `main` deploys both. |
+| Agents | **LangGraph multi-agent team**: a Supervisor routes every turn to 8 specialists: Sentinel, Investigator, Liaison, Sourcing, Approval, Procurement, **Treasurer** (the only one that moves money, no LLM), Verifier. Plus a **Copilot** (Gemini ReAct, read-only tools) | Agent Team page: the team graph, each incident as a thread, turn-by-turn trail |
+| Agent memory | **Postgres checkpointer**: one thread per incident, every turn saved; approvals pause the graph with `interrupt()` and resume days later. **Long-term store**: each supplier's record (lies, late, defects, payee alerts → trusted / watch / proof-only) and past incidents | "memory · postgres" badge; Suppliers "Agent memory" column; "Excluded SUP-21 on its memory record" in the trail |
+| Decisions | Deterministic solver + **7 Buyer Shield guards** (`guards.py`), every verdict in `guard_events` | Buyer Shield ledger |
+| AI | Google Gemini reads supplier emails, quotes and claims; drafts messages; powers the Copilot | Investigator and Liaison steps; Copilot panel |
+| Money | PayPal sandbox: Vault, Orders AUTHORIZE, capture / partial capture / void / refund / reauthorize, Payouts, verified webhooks | Payments ledger with real IDs |
+| Email | SMTP out (codes, chases, payee confirmations) + **IMAP in** (supplier replies → agent team) | Simulation Lab "Inbound supplier email" |
+| UI | React 19, Tailwind v4 (Lavender Glass), **AG Grid Enterprise + AG Studio**, **Bryntum Gantt / Scheduler / TaskBoard**, Mapbox 3D globe | every screen |
+| Platform | FastAPI on **Render** (Docker), Supabase Postgres (row-level security), Vercel; **Postman** collection | — |
 
 ---
 
 ## 7. Results and proof numbers
 
-| Metric | Value | Where it comes from |
+All numbers below were produced **live on the deployed system** (Render + PayPal sandbox) on 9 Nov 2026. The UI reads the same ledger, so record the video right after a fresh run (see §9 checklist) and read the totals off the screen.
+
+| Metric | Live value | Where it comes from |
 |---|---|---|
-| Money protected by the Buyer Shield (all 7 guards) | **$25,438** | live app, Mission Control "Protected" (sum of guard_events) |
-| ↳ voided on a supplier lie | $5,880 | PayPal authorization 45357457J6295492T |
-| ↳ refunded on failed QC | $1,240 | refund 2H629030W4747693S |
-| ↳ broker overcharge blocked | $7,770 | Fair-price guard, PRJ-2041 |
-| ↳ duplicate invoice blocked | $5,880 | Duplicate shield |
-| ↳ payee-change redirect stopped | $4,410 | Payee lock |
-| ↳ late-delivery credit deducted | $180 | Partial capture, PO-7744 |
-| ↳ early-pay discount captured | $78 (37% annualized) | Delta Connectors 2/10 net 30 |
-| Buy timers running / red handled / projects slipped | **23 / 3 / 0** | Buy-timers tab |
-| Supplier claims checked vs carrier/warehouse | **192** (17 contradictions) | Suppliers page |
-| Money held in PayPal, released only on proof | **$35,790** | Payments KPI "Held" |
-| Real sandbox money moved | $13,700 held · $7,820 captured · $5,880 voided · $1,240 refunded · $15 paid out | PayPal sandbox (IDs in §4) |
-| Disruption → funded recovery plan | **~1 h 18 min** | INC-301 step timestamps |
+| Hold voided on a supplier lie (S3) | **$1,404.76**, PO-7712 | Treasurer agent, after the Investigator caught "dispatched" vs COSCO "no pickup" |
+| Broker quote blocked (4.6× should-cost) | **$3,400** overcharge stopped | Fair-price guard |
+| Payee change from look-alike domain | **$1,404.76** kept with the verified payee | Payee lock (72 h cooling-off; approving early returns HTTP 409) |
+| Late-delivery credit, PO-7718 (6 days late) | **−$174.88** from the capture | Partial capture |
+| Quality holdback (380/400 passed) + retention | **$214.76** not paid, **$408.05** retention held | Partial capture, `final_capture=false` |
+| Duplicate invoice CC-7725-A | refused (**$770**) | Duplicate shield |
+| Early-pay discount (2/10 net 30) | **$15.71** taken, 37%/yr vs 12% cost of capital | Early-pay optimizer |
+| Real PayPal captures | e.g. `03N1676279699893G` ($3,497.55 net of credit + retention) | Payments ledger |
+| Agent memory in action | Sourcing excluded the lying supplier on its record | Agent Team trail |
+| Buy timers | 3 red → 2 handed to the team as incidents, 1 covered by stock | Sentinel patrol |
+| Checkpoints per incident thread | 11+ (every agent turn) | Agent Team header |
 
 ---
 
@@ -153,27 +152,29 @@ All screens are live at **agenticlogisticsystem.vercel.app**. The product is a *
 
 ---
 
-## 9. Draft beats (~80 s)
+## 9. Draft beats (~85 s)
 
-Voice-over directions are written for Fish Audio Drama 3 (each line well under 500 characters).
+**Recording checklist (10 minutes before):** open `/api/health` to wake Render → Buyer Shield **Run guard drill** → Simulation Lab **Supplier lies about dispatch** → wait ~1 min until Approvals shows the plan waiting → start recording. Don't approve before beat 10.
 
-| # | Time (s) | Voice-over (exact words) | On screen | Cursor / button | Handoff into next beat |
+| # | Time (s) | Voice-over (exact words) | On screen | Cursor / button | Handoff |
 |---|---|---|---|---|---|
-| 1 | 0.0–3.5 | "[low, measured] One hour of downtime in a car plant costs two point three million dollars." | Black → **$2,300,000** counter ticking; "Siemens, 2024" | — | Digits scatter into a headline |
-| 2 | 3.5–7.5 | "[heavier] India's biggest carmaker couldn't build forty-six thousand cars in one quarter. <slow>For want of chips.</slow>" | Headline card "46,000 cars not built · Oct–Dec 2022"; a single chip icon blinks red | — | Chip icon flies into an inbox |
-| 3 | 7.5–13.0 | "[tense, quick] Suppliers overcharge. [beat] Push dates back. [beat] Invoice twice. [beat] And say it shipped when it didn't." | Four email cards stack fast: broker quote **$14.20**, "revised ETD +9 days", **ZH-INV-55120-A**, "Goods dispatched 3 days ago" | — | Cards freeze, crack, fall away |
-| 4 | 13.0–16.0 | "[confident, warm] Meet DisruptionOps. Your buyer-side agent." | Wordmark assembles; lavender glass washes in | — | Wordmark lifts into Mission Control top bar |
-| 5 | 16.0–21.0 | "It watches every project, every part, every shipment." | `/` Mission Control: globe over India, routes into Pune; KPI **Protected $25,438** | Cursor hovers the KPI | Zoom into PRJ-2043 |
-| 6 | 21.0–27.0 | "It knows the last day you can order each part, [beat] and orders before the deadline is at risk." | Buy-timers tab: **PCB-12 · order by 9 Nov · 2 d 04 h** turns red → "Agent drafted PO-7801"; Gantt order-by diamond | Cursor clicks the red timer | Inspector opens on the quote |
-| 7 | 27.0–32.0 | "[dry] A broker wants four times the fair price. [beat] Blocked." | Price check **$14.20 vs should-cost $3.10 · 4.6× · Blocked**; Formosa $3.24 ✓ chosen | — | Slide to PO-7712 |
-| 8 | 32.0–38.5 | "An AI reads the supplier's email. [beat] Plain code checks the carrier. [emphatic] The story doesn't match, so the PayPal hold is voided." | "Supplier says / Carrier says" → **Contradiction** → **Hold voided $5,880** | Cursor clicks PO-7712 | Ledger scrolls in |
-| 9 | 38.5–44.0 | "[cool] A duplicate invoice. A new bank account from a look-alike domain. [beat] Neither gets paid." | Payments ledger: red rows **Duplicate blocked $5,880**, **Payee change blocked $4,410 · 72 h lock** | — | Row PO-7744 expands |
-| 10 | 44.0–50.5 | "[rising] Money moves only on proof, [beat] minus what the supplier owes you for being late." | PaymentCard PO-7744: ThreeWayMatch ✓ → **Late credit −$180** → **Captured $4,020 of $4,200** → payout to 🔒 email | — | Card shrinks into the Money tab |
-| 11 | 50.5–56.5 | "And it keeps every project inside its budget. [beat] Over the line, it asks you first." | Money tab burn bar **$31,420 of $48,000**; Approvals card **"Release $9,855?"**, code typed, **Approve** | Cursor types the code | Check-mark becomes a globe pin |
-| 12 | 56.5–62.0 | "It even finds the hidden supplier your two backups secretly share." | Globe: two connector routes converge on red node **Penang Plating Works** | — | Globe pulls back to Gantt |
-| 13 | 62.0–67.0 | "So the project still ships on time." | Bryntum Gantt: bars shift, Due line met, teal "Release funds" diamonds | — | Gantt collapses into numbers |
-| 14 | 67.0–74.0 | "Twenty-five thousand dollars protected. [beat] Zero projects slipped. [beat] Every move through PayPal." | **$25,438 protected · 0 slipped · 23 buy timers · 7 guards** | — | Numbers fold into the tagline |
-| 15 | 74.0–80.0 | "[quiet, certain] DisruptionOps. Never pay for what didn't arrive." | End card: logo, tagline, sub-line *Money moves only on proof*, **agenticlogisticsystem.vercel.app**, "Built on PayPal sandbox" | — | Fade to lavender |
+| 1 | 0.0–3.5 | "[low, measured] One hour of downtime in a car plant costs two point three million dollars." | Black → **$2,300,000** counter; "Siemens, 2024" | — | Digits scatter into a headline |
+| 2 | 3.5–7.5 | "[heavier] India's biggest carmaker couldn't build forty-six thousand cars in one quarter. <slow>For want of chips.</slow>" | "46,000 cars not built · Oct–Dec 2022"; one chip blinks red | — | Chip flies into an inbox |
+| 3 | 7.5–13.0 | "[tense, quick] Suppliers overcharge. [beat] Push dates back. [beat] Invoice twice. [beat] And say it shipped when it didn't." | Four email cards: broker quote, "will now ship on 24 Nov", CC-7725-A, "goods dispatched" | — | Cards crack and fall |
+| 4 | 13.0–17.0 | "[confident, warm] Meet DisruptionOps: a team of AI agents that works for the buyer." | Wordmark → **Agent Team** page: supervisor and eight agents light up | — | Zoom into the team graph |
+| 5 | 17.0–23.0 | "A Sentinel watches every project. When a part's order-by date turns red, it hands it to the team." | Buyer Shield buy timers: red countdown; Gantt order-by diamond | Hover the red timer | Cut to the thread trail |
+| 6 | 23.0–30.0 | "The Investigator reads the supplier's email. [beat] The carrier disagrees. [emphatic] So the Treasurer voids the PayPal hold." | Agent Team trail: Investigator → Treasurer "Pay-on-proof: hold voided"; Payments row PO-7712 **Hold voided** | Click the INC thread | Memory line highlights |
+| 7 | 30.0–35.0 | "And the team remembers. That supplier is now proof-only." | Trail line "Excluded SUP-21 on its memory record"; Suppliers page "proof only" badge | — | Slide to Buyer Shield |
+| 8 | 35.0–42.0 | "[dry] A broker wants four times the fair price. Blocked. [beat] A look-alike domain asks for a new payout account. Locked." | Ledger rows: **fair_price · block**, **payee_lock · block**; Approvals: payee change, button disabled "cooling-off" | — | PaymentCard expands |
+| 9 | 42.0–50.0 | "[rising] Money moves only on proof, [beat] minus what the supplier owes you for being late." | PO-7718: ThreeWayMatch ✓ → **late credit −$174.88** → **retention $408.05** → captured → payout to 🔒 payee | — | Cut to Approvals |
+| 10 | 50.0–57.0 | "Above its limit, the team stops and asks. [beat] One click, and the same thread picks up where it paused." | Approvals: "agent plan" card → **Approve** → Agent Team: Procurement → Treasurer hold appear live | Click Approve | Gantt slides in |
+| 11 | 57.0–62.0 | "It even finds the hidden supplier your two backups secretly share." | Globe: two dashed links converge on red **Penang Plating Works · shared sub-supplier** | — | Pull back |
+| 12 | 62.0–67.0 | "So the project still ships on time." | Bryntum Gantt: bars shift, Due line met, teal release diamonds | — | Collapse to numbers |
+| 13 | 67.0–74.0 | "[steady] Every refusal is logged. Every dollar moves through PayPal. Nothing moves on a guess." | Buyer Shield KPI (read the live total) · guard tiles light up one by one | — | Copilot types |
+| 14 | 74.0–79.0 | "Ask it anything." | Copilot: "Which supplier should we trust least?" → answer citing tools | Type the question | Fade |
+| 15 | 79.0–85.0 | "[quiet, certain] DisruptionOps. Never pay for what didn't arrive." | End card: logo, tagline, **agenticlogisticsystem.vercel.app**, "Built on PayPal sandbox" | — | Fade to lavender |
+
+Beat 14 needs a working Gemini key on Render. Without one, cut it and run 79 s.
 
 ---
 

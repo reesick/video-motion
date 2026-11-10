@@ -292,6 +292,41 @@ Notes we got and what fixed them:
 - Whisper mishears the brand ("Disruption Ops", "Lie detected" heard as "Like hot"). Change the script wording, not the timing logic.
 - Use read-only clicks when crawling a live app. Writes (inject, approve, pay) need the owner's permission.
 
+## Mistakes we made, and the fix we now use
+
+Every row cost at least one round of feedback. Check these before you show the owner anything.
+
+| What went wrong | Why | Fix (now the default) |
+|---|---|---|
+| UI didn't match the live app; invented values (a broker name, round numbers) | Rebuilt screens from memory and old screenshots | Capture first: `node tools/capture_pages.mjs <url> <out> /route …` saves a screenshot, the page text, **and every `/api/` JSON the page renders**. Copy strings and numbers from that JSON. Nothing on screen without a source. |
+| Pages captured half-loaded (spinners, empty grids) | Fixed 2.5 s wait; the backend (Render free tier) cold-starts | `networkidle` + `SETTLE=8000` (env). Wake the backend first (`/api/health`). |
+| Backend API returned 401 | Endpoints need the app's session | Don't call the API directly; let the browser load the page and record its responses (`page.on('response')`). |
+| Leftover element on screen ($2.3M still at the top when 46,000 showed) | The old element only shrank, never left | When a new number takes over, the old one must **leave** (fly + fade to 0). Review a still at every handoff. |
+| Text spilling out of cards | Long live strings + our larger fonts | KPI sub-lines are `nowrap` + ellipsis at 13.5 px; long rows get `min-width:0` on the flex child; check stills at 1:1, not just tiles. |
+| A countdown pill rendered its text inside the 7 px dot | `el.lastChild.textContent = …` hit the `<i>` dot | Put changing text in its own `<span>` and target that. |
+| Stamp looked like a faded red box in light theme | `K.retheme()` remaps inline `rgba(255,255,255,a)` to dark | Use solid hex (`#fffafa`, `#fdfcff`) for anything that must stay white. Same for overlay cards: translucent `var(--card)` lets text bleed through. |
+| "Blocked" moment felt weak | A pill that only bumped | First-gen recipe: inspector card slides in → numbers count (ratio 1.0→4.6×) → bars race → stamp **slams** (2.4× → 1, overshoot + shake + page jolt) → saved amount counts up. |
+| "Minus what the supplier owes you" didn't read | Capture counted up from $0 | Start at the held amount; each deduction chip **flies from its row into the total** and the number ticks down to the captured amount. Use exact figures so the maths adds up (4,295.24 − 214.76 − 174.88 − 408.05 = 3,497.55). |
+| Thread trail too small to read | Real 3-column page at 1:1 | Camera push (1.3×) into the thread card, pan with new rows, clip to the page area (below the top bar, right of the sidebar), zoom out before the next page. The stage cursor doesn't follow a zoomed layer, so no clicks while zoomed. |
+| Characters turned into `Â·` / `â€"` | PowerShell 5 `Get-Content`/`Set-Content` re-encoded UTF-8 | Edit JS with the editor tool, or `[IO.File]::ReadAllText/WriteAllText` with UTF-8 (no BOM). Grep for `Â|â€` before rendering. |
+| PowerShell ate `${…}` in a JS template string | `"…${btn(…)}…"` is a PS variable | Single-quote PS strings or edit the file directly. |
+| A brief beat couldn't be shown live (Copilot: Gemini key 401) | Dependency down on the deployed app | Build it anyway from the app's own records, comment it in code as a stand-in, and tell the owner exactly what to replace (`CA` in `film_b.js`). |
+| Brief and live UI disagreed (which two suppliers share Penang Plating) | Brief written from seed data, UI from a later run | Ask; the owner chose the brief. Note the source next to the data in code. |
+| Wanted to change the film while a render was running | Render workers read `studio/`, `timing.js`, `vo/` | Copy to a new cut (`alos/studio_v4`, `audio/vo_v4`, `docs/cues_v4.json`, `output/v4/`) with its own `make_v4.ps1`. `tools/alos_cues.py` takes `CUES_VO_DIR`, `CUES_TRANSCRIPT`, `CUES_OUT`. |
+| `.gitignore` `audio/` also hid `alos/audio/vo` | Unanchored pattern | Anchor root-only folders: `/audio/`, `/output/`, `/reference/`. Dry-run with a throwaway `--git-dir` before the first push. |
+
+### The loop that works (per change)
+1. Capture the live page (`capture_pages.mjs`) and read its JSON.
+2. Edit one scene, `node --check` the file.
+3. Stills at the beat's key words (`stills.mjs` + `tile_images.py`), look at handoffs and at 1:1 crops.
+4. Fix, re-still, then the full render.
+
+### New cut checklist (brief changed)
+1. New lines in `docs/vo_lines_vN.txt` (keep lines 1–3 identical to keep the intro timing).
+2. `tts_lines.py … audio/vo_vN … "+4%" 0.38 0.2` → `transcribe.py` → write `studio_vN/timing.js`.
+3. Re-anchor scenes on words (`W('voids', L(6))`), not seconds; re-time cues in `alos_cues.py`.
+4. `make_vN.ps1`.
+
 ## Files you'll copy for the next project
 
 | File | What it is |
@@ -301,5 +336,9 @@ Notes we got and what fixed them:
 | `alos/docs/vo_lines.txt` | Script format for `tts_lines.py` |
 | `alos/docs/fish_chunks.txt` | Fish Audio Drama 3 chunks (<500 chars) |
 | `alos/studio/*` | Studio: copy, then rewrite only `film_a.js` / `film_b.js` and the CSS tokens |
+| `alos/studio_v4/*` | Latest cut (brief v3): Agent Team, Buyer Shield, stamps, deduction fly-in, thread camera push |
 | `alos/make.ps1` | One-command build |
+| `alos/make_v4.ps1` | One-command build of a parallel cut (own studio, voice, cues, output) |
+| `tools/capture_pages.mjs` | Live-app capture: screenshots + page text + every API JSON the page renders |
+| `tools/capture_copilot.mjs` | Ask the app's Copilot a suggested question and save the reply |
 | `tools/*` | All research, audio, review and render tools (unchanged between projects) |

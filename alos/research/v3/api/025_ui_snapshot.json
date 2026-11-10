@@ -1,0 +1,1923 @@
+{
+ "AUTHORITY_LIMIT_USD": 5000,
+ "INR_PER_USD": 84,
+ "components": [
+  {
+   "id": "COMP-104",
+   "name": "Motor Driver IC",
+   "partNumber": "MDIC-7701",
+   "category": "electronics",
+   "hazmat": false,
+   "certifications": [
+    "AEC-Q100",
+    "ISO-9001"
+   ],
+   "unitPriceUsd": 1.4
+  },
+  {
+   "id": "COMP-118",
+   "name": "Connector Set",
+   "partNumber": "CS-1180",
+   "category": "electronics",
+   "hazmat": false,
+   "certifications": [
+    "ISO-9001"
+   ],
+   "unitPriceUsd": 0.26
+  },
+  {
+   "id": "COMP-207",
+   "name": "Li-ion Cell Module",
+   "partNumber": "LICM-2240",
+   "category": "electronics",
+   "hazmat": true,
+   "certifications": [
+    "IEC-62133",
+    "ISO-9001"
+   ],
+   "unitPriceUsd": 10.6
+  },
+  {
+   "id": "COMP-311",
+   "name": "Wiring Harness",
+   "partNumber": "WH-3310",
+   "category": "electronics",
+   "hazmat": false,
+   "certifications": [
+    "ISO-9001"
+   ],
+   "unitPriceUsd": 0.76
+  },
+  {
+   "id": "COMP-402",
+   "name": "Microcontroller MCU",
+   "partNumber": "MCU-8802",
+   "category": "electronics",
+   "hazmat": false,
+   "certifications": [
+    "AEC-Q100",
+    "IATF-16949"
+   ],
+   "unitPriceUsd": 4.05
+  },
+  {
+   "id": "COMP-520",
+   "name": "TFT Display Panel",
+   "partNumber": "TFT-5200",
+   "category": "electronics",
+   "hazmat": false,
+   "certifications": [
+    "ISO-9001"
+   ],
+   "unitPriceUsd": 4.88
+  }
+ ],
+ "suppliers": [
+  {
+   "id": "SUP-103",
+   "name": "Coastal Connectors Pvt. Ltd.",
+   "city": "Chennai",
+   "country": "India",
+   "lat": 13.0827,
+   "lng": 80.2707,
+   "reliability": 79,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup42-dada@business.example.com",
+   "certified": [
+    "ISO-9001"
+   ],
+   "leadDays": 2,
+   "healthScore": 71,
+   "signals": [
+    "shares plating house with SUP-77"
+   ],
+   "trust": "trusted",
+   "memoryCounts": {
+    "good_delivery": 2
+   }
+  },
+  {
+   "id": "SUP-18",
+   "name": "Budget Semicon Traders",
+   "city": "Shenzhen",
+   "country": "China",
+   "lat": 22.5431,
+   "lng": 114.0579,
+   "reliability": 66,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup42-dada@business.example.com",
+   "certified": [
+    "ISO-9001"
+   ],
+   "leadDays": 3,
+   "healthScore": 38,
+   "signals": []
+  },
+  {
+   "id": "SUP-21",
+   "name": "Zhen Hua Electronics Co., Ltd.",
+   "city": "Shenzhen",
+   "country": "China",
+   "lat": 22.5431,
+   "lng": 114.0579,
+   "reliability": 70,
+   "claimsChecked": 1,
+   "claimsContradicted": 5,
+   "paypalAccount": "dops-sup21-dada@business.example.com",
+   "certified": [
+    "AEC-Q100",
+    "ISO-9001"
+   ],
+   "leadDays": 3,
+   "healthScore": 41,
+   "signals": [
+    "carrier contradicted dispatch claims"
+   ],
+   "trust": "proof_only",
+   "memoryCounts": {
+    "payee_alert": 7,
+    "contradiction": 1
+   }
+  },
+  {
+   "id": "SUP-29",
+   "name": "Lowcost Display Co.",
+   "city": "Shenzhen",
+   "country": "China",
+   "lat": 22.5431,
+   "lng": 114.0579,
+   "reliability": 60,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup42-dada@business.example.com",
+   "certified": [
+    "ISO-9001"
+   ],
+   "leadDays": 12,
+   "healthScore": 44,
+   "signals": []
+  },
+  {
+   "id": "SUP-33",
+   "name": "Deccan Rapid Supply Pvt. Ltd.",
+   "city": "Pune",
+   "country": "India",
+   "lat": 18.5204,
+   "lng": 73.8567,
+   "reliability": 55,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup33-dada@business.example.com",
+   "certified": [
+    "AEC-Q100",
+    "ISO-9001"
+   ],
+   "leadDays": 1,
+   "healthScore": 78,
+   "signals": []
+  },
+  {
+   "id": "SUP-42",
+   "name": "Western Components Ltd",
+   "city": "Chennai",
+   "country": "India",
+   "lat": 13.0827,
+   "lng": 80.2707,
+   "reliability": 81,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup42-dada@business.example.com",
+   "certified": [
+    "AEC-Q100",
+    "ISO-9001",
+    "IATF-16949"
+   ],
+   "leadDays": 2,
+   "healthScore": 82,
+   "signals": []
+  },
+  {
+   "id": "SUP-57",
+   "name": "Formosa Precision Corp.",
+   "city": "Taipei",
+   "country": "Taiwan",
+   "lat": 25.033,
+   "lng": 121.5654,
+   "reliability": 95,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup57-dada@business.example.com",
+   "certified": [
+    "AEC-Q100",
+    "ISO-9001",
+    "IATF-16949"
+   ],
+   "leadDays": 3,
+   "healthScore": 93,
+   "signals": []
+  },
+  {
+   "id": "SUP-64",
+   "name": "Bharat Bulk Components Pvt. Ltd.",
+   "city": "Chennai",
+   "country": "India",
+   "lat": 13.0827,
+   "lng": 80.2707,
+   "reliability": 78,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup42-dada@business.example.com",
+   "certified": [
+    "AEC-Q100",
+    "ISO-9001"
+   ],
+   "leadDays": 2,
+   "healthScore": 78,
+   "signals": []
+  },
+  {
+   "id": "SUP-71",
+   "name": "AeroCell Logistics Pte. Ltd.",
+   "city": "Singapore",
+   "country": "Singapore",
+   "lat": 1.3521,
+   "lng": 103.8198,
+   "reliability": 84,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup71-dada@business.example.com",
+   "certified": [
+    "IEC-62133",
+    "ISO-9001"
+   ],
+   "leadDays": 2,
+   "healthScore": 78,
+   "signals": []
+  },
+  {
+   "id": "SUP-77",
+   "name": "Sahyadri Harness Works",
+   "city": "Pune",
+   "country": "India",
+   "lat": 18.5089,
+   "lng": 73.8553,
+   "reliability": 88,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup42-dada@business.example.com",
+   "certified": [
+    "ISO-9001"
+   ],
+   "leadDays": 1,
+   "healthScore": 78,
+   "signals": []
+  },
+  {
+   "id": "SUP-88",
+   "name": "Konkan Energy Systems Pvt. Ltd.",
+   "city": "Mumbai",
+   "country": "India",
+   "lat": 19.076,
+   "lng": 72.8777,
+   "reliability": 86,
+   "claimsChecked": 1,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup42-dada@business.example.com",
+   "certified": [
+    "IEC-62133",
+    "ISO-9001"
+   ],
+   "leadDays": 2,
+   "healthScore": 78,
+   "signals": [],
+   "trust": "proof_only",
+   "memoryCounts": {
+    "late": 5,
+    "defect": 6
+   }
+  },
+  {
+   "id": "SUP-95",
+   "name": "Nexus Micro Sdn. Bhd.",
+   "city": "Penang",
+   "country": "Malaysia",
+   "lat": 5.4141,
+   "lng": 100.3288,
+   "reliability": 82,
+   "claimsChecked": 0,
+   "claimsContradicted": 0,
+   "paypalAccount": "dops-sup95-dada@business.example.com",
+   "certified": [
+    "AEC-Q100",
+    "IATF-16949",
+    "ISO-9001"
+   ],
+   "leadDays": 4,
+   "healthScore": 78,
+   "signals": []
+  }
+ ],
+ "projects": [
+  {
+   "id": "PRJ-2041",
+   "name": "SCU-700 · Smart Controller Units",
+   "customerId": "Bharat EV Motors",
+   "product": "Smart Controller Unit",
+   "units": 700,
+   "dueAt": "2026-11-11T17:48:05.054886+00:00",
+   "originalDueAt": "2026-11-11T17:48:05.054886+00:00",
+   "health": "on_track",
+   "priority": "high",
+   "productionOrders": [
+    "PROD-884",
+    "PROD-882"
+   ],
+   "materialsSecured": 1,
+   "committedUsd": 2190.47,
+   "heldUsd": 1404.76,
+   "releasedUsd": 770,
+   "recoveredUsd": 0,
+   "openIncidents": 0,
+   "owner": "A. Kulkarni",
+   "summary": "Controllers for Bharat EV's Q4 scooter run. MCUs come from Zhen Hua (Shenzhen) on PO-7712."
+  },
+  {
+   "id": "PRJ-2042",
+   "name": "BMS-380 · Battery Management Systems",
+   "customerId": "Bharat EV Motors",
+   "product": "Battery Mgmt System",
+   "units": 380,
+   "dueAt": "2026-11-14T17:48:05.054886+00:00",
+   "originalDueAt": "2026-11-14T17:48:05.054886+00:00",
+   "health": "at_risk",
+   "priority": "critical",
+   "productionOrders": [
+    "PROD-887",
+    "PROD-883"
+   ],
+   "materialsSecured": 0.7,
+   "committedUsd": 4295.24,
+   "heldUsd": 0,
+   "releasedUsd": 3497.55,
+   "recoveredUsd": 0,
+   "openIncidents": 1,
+   "owner": "R. Iyer",
+   "summary": "Certified BMS ICs plus Li-ion cell modules (hazmat: sea or road only)."
+  },
+  {
+   "id": "PRJ-2043",
+   "name": "TCU-500 · Telematics Units",
+   "customerId": "Shakti Auto",
+   "product": "Telematics Unit",
+   "units": 500,
+   "dueAt": "2026-11-16T17:48:05.054886+00:00",
+   "originalDueAt": "2026-11-16T17:48:05.054886+00:00",
+   "health": "at_risk",
+   "priority": "medium",
+   "productionOrders": [
+    "PROD-885"
+   ],
+   "materialsSecured": 0.7,
+   "committedUsd": 0,
+   "heldUsd": 0,
+   "releasedUsd": 0,
+   "recoveredUsd": 0,
+   "openIncidents": 1,
+   "owner": "A. Kulkarni",
+   "summary": "LTE modems for Shakti's fleet telematics."
+  },
+  {
+   "id": "PRJ-2044",
+   "name": "IC-450 · Instrument Clusters",
+   "customerId": "Shakti Auto",
+   "product": "Instrument Cluster",
+   "units": 450,
+   "dueAt": "2026-11-19T17:48:05.054886+00:00",
+   "originalDueAt": "2026-11-19T17:48:05.054886+00:00",
+   "health": "on_track",
+   "priority": "low",
+   "productionOrders": [
+    "PROD-886"
+   ],
+   "materialsSecured": 1,
+   "committedUsd": 0,
+   "heldUsd": 0,
+   "releasedUsd": 0,
+   "recoveredUsd": 0,
+   "openIncidents": 0,
+   "owner": "S. Deshmukh",
+   "summary": "7-inch automotive displays for the 2027 cluster."
+  },
+  {
+   "id": "PRJ-2045",
+   "name": "SCU-300 · Smart Controller Units",
+   "customerId": "Shakti Auto",
+   "product": "Smart Controller Unit",
+   "units": 300,
+   "dueAt": "2026-11-22T17:48:05.054886+00:00",
+   "originalDueAt": "2026-11-22T17:48:05.054886+00:00",
+   "health": "on_track",
+   "priority": "low",
+   "productionOrders": [
+    "PROD-888"
+   ],
+   "materialsSecured": 1,
+   "committedUsd": 0,
+   "heldUsd": 0,
+   "releasedUsd": 0,
+   "recoveredUsd": 0,
+   "openIncidents": 0,
+   "owner": "S. Deshmukh",
+   "summary": "Low-priority run the agent may stand down to cover SCU-700."
+  }
+ ],
+ "customers": [
+  {
+   "id": "Bharat EV Motors",
+   "name": "Bharat EV Motors",
+   "city": "Chennai",
+   "tier": "key"
+  },
+  {
+   "id": "Shakti Auto",
+   "name": "Shakti Auto",
+   "city": "Pune",
+   "tier": "key"
+  }
+ ],
+ "purchaseOrders": [
+  {
+   "id": "PO-A9003",
+   "projectId": "PRJ-2043",
+   "componentId": "COMP-402",
+   "supplierId": "SUP-95",
+   "qty": 310,
+   "unitPriceUsd": 4.05,
+   "totalUsd": 1254.76,
+   "mode": "AIR",
+   "createdAt": "2026-11-10T10:04:25.646601+00:00",
+   "promisedAt": "2026-11-10T09:51:51+00:00",
+   "etaAt": "2026-11-10T09:51:51+00:00",
+   "createdByAgent": true,
+   "financial": "payout_sent",
+   "confidence": 85,
+   "incidentId": "INC-1002"
+  },
+  {
+   "id": "PO-7712",
+   "projectId": "PRJ-2041",
+   "componentId": "COMP-104",
+   "supplierId": "SUP-21",
+   "qty": 1000,
+   "unitPriceUsd": 1.4,
+   "totalUsd": 1404.76,
+   "mode": "SEA",
+   "createdAt": "2026-11-09T14:49:22.092503+00:00",
+   "promisedAt": "2026-11-12T14:49:22.092503+00:00",
+   "etaAt": "2026-11-12T14:49:22.092503+00:00",
+   "createdByAgent": false,
+   "financial": "funds_held",
+   "confidence": 85
+  },
+  {
+   "id": "PO-7718",
+   "projectId": "PRJ-2042",
+   "componentId": "COMP-207",
+   "supplierId": "SUP-88",
+   "qty": 400,
+   "unitPriceUsd": 10.74,
+   "totalUsd": 4295.24,
+   "mode": "ROAD",
+   "createdAt": "2026-11-09T14:49:22.092503+00:00",
+   "promisedAt": "2026-11-03T14:49:22.262222+00:00",
+   "etaAt": "2026-11-14T14:49:22.092503+00:00",
+   "createdByAgent": false,
+   "financial": "retention_held",
+   "confidence": 85
+  },
+  {
+   "id": "PO-7725",
+   "projectId": "PRJ-2041",
+   "componentId": "COMP-118",
+   "supplierId": "SUP-103",
+   "qty": 3000,
+   "unitPriceUsd": 0.26,
+   "totalUsd": 785.71,
+   "mode": "RAIL",
+   "createdAt": "2026-11-09T14:49:22.092503+00:00",
+   "promisedAt": "2026-11-13T14:49:22.092503+00:00",
+   "etaAt": "2026-11-13T14:49:22.092503+00:00",
+   "createdByAgent": false,
+   "financial": "funds_released",
+   "confidence": 85
+  }
+ ],
+ "shipments": [
+  {
+   "poId": "PO-7712",
+   "status": "in_transit",
+   "supplierClaim": "in_transit",
+   "carrierStatus": "in_transit",
+   "carrier": "",
+   "tracking": "",
+   "progress": 0,
+   "promisedFrom": "2026-11-09T14:49:22.092503+00:00",
+   "promisedTo": "2026-11-12T14:49:22.092503+00:00"
+  },
+  {
+   "poId": "PO-7718",
+   "status": "delivered",
+   "supplierClaim": "in_transit",
+   "carrierStatus": "in_transit",
+   "carrier": "",
+   "tracking": "",
+   "progress": 0,
+   "promisedFrom": "2026-11-09T14:49:22.092503+00:00",
+   "promisedTo": "2026-11-14T14:49:22.092503+00:00"
+  },
+  {
+   "poId": "PO-7725",
+   "status": "delivered",
+   "supplierClaim": "",
+   "carrierStatus": "not_shipped",
+   "carrier": "",
+   "tracking": "",
+   "progress": 0,
+   "promisedFrom": "2026-11-09T14:49:22.092503+00:00",
+   "promisedTo": "2026-11-13T14:49:22.092503+00:00"
+  },
+  {
+   "poId": "PO-A9003",
+   "status": "booked",
+   "supplierClaim": "",
+   "carrierStatus": "",
+   "carrier": "",
+   "tracking": "",
+   "progress": 0,
+   "promisedFrom": "2026-11-10T10:04:25.646601+00:00",
+   "promisedTo": "2026-11-10T09:51:51+00:00"
+  }
+ ],
+ "payments": [
+  {
+   "id": "PAY-28",
+   "poId": "PO-A9003",
+   "projectId": "",
+   "supplierId": "SUP-71",
+   "amountUsd": 37.64,
+   "state": "payout_sent",
+   "authorizationId": null,
+   "captureId": null,
+   "invoiceNumber": null,
+   "match": "matched",
+   "needsApproval": false,
+   "events": [
+    {
+     "at": "2026-11-10T10:04:34.727137+00:00",
+     "type": "PAYMENTS.PAYOUTSBATCH.CREATED",
+     "detail": "$37.64 expedite fee to AeroCell Logistics.",
+     "api": "POST /v1/payments/payouts"
+    },
+    {
+     "at": "2026-11-10T10:05:07.653916+00:00",
+     "type": "WEBHOOK · PAYMENT.PAYOUTS-ITEM.SUCCEEDED",
+     "detail": "PayPal confirmed payment.payouts-item.succeeded (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    },
+    {
+     "at": "2026-11-10T10:05:17.730813+00:00",
+     "type": "WEBHOOK · PAYMENT.PAYOUTSBATCH.SUCCESS",
+     "detail": "PayPal confirmed payment.payoutsbatch.success (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    }
+   ]
+  },
+  {
+   "id": "33300640RF112814G",
+   "poId": "PO-A9003",
+   "projectId": "",
+   "supplierId": "SUP-95",
+   "amountUsd": 1254.76,
+   "state": "funds_held",
+   "authorizationId": "4GK996340S1186848",
+   "captureId": null,
+   "invoiceNumber": null,
+   "match": "pending",
+   "needsApproval": false,
+   "events": [
+    {
+     "at": "2026-11-10T10:04:32.648584+00:00",
+     "type": "ORDER.CREATED",
+     "detail": "Order to Nexus Micro (sole source), intent AUTHORIZE, against the mandate",
+     "api": "POST /v2/checkout/orders"
+    },
+    {
+     "at": "2026-11-10T10:04:32.787356+00:00",
+     "type": "PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "$1,254.76 held — reserved, not moved. Recovery order for incident INC-1002.",
+     "api": "AUTHORIZE (vault_id)"
+    },
+    {
+     "at": "2026-11-10T10:05:30.433848+00:00",
+     "type": "WEBHOOK · PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "PayPal confirmed payment.authorization.created (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    }
+   ]
+  },
+  {
+   "id": "1DY15681CW664392U",
+   "poId": "PO-7725",
+   "projectId": "PRJ-2041",
+   "supplierId": "SUP-103",
+   "amountUsd": 785.71,
+   "state": "funds_released",
+   "authorizationId": "42H17076EB2652547",
+   "captureId": "85V41861R8658502U",
+   "invoiceNumber": "CC-7725",
+   "match": "matched",
+   "needsApproval": false,
+   "events": [
+    {
+     "at": "2026-11-09T14:49:42.343593+00:00",
+     "type": "ORDER.CREATED",
+     "detail": "Order to Coastal Connectors, intent AUTHORIZE, against the mandate",
+     "api": "POST /v2/checkout/orders"
+    },
+    {
+     "at": "2026-11-09T14:49:42.481631+00:00",
+     "type": "PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "$785.71 held — reserved, not moved. Hold requested from the Buyer Shield.",
+     "api": "AUTHORIZE (vault_id)"
+    },
+    {
+     "at": "2026-11-09T14:49:59.548991+00:00",
+     "type": "WEBHOOK · PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "PayPal confirmed payment.authorization.created (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    },
+    {
+     "at": "2026-11-09T14:50:25.844314+00:00",
+     "type": "GOODS.RECEIVED",
+     "detail": "Warehouse received 3000, 3000 passed QC (ordered 3000).",
+     "api": "warehouse_reply"
+    },
+    {
+     "at": "2026-11-09T14:50:26.805937+00:00",
+     "type": "MATCH.PASSED",
+     "detail": "PO, held amount and goods receipt agree.",
+     "api": "finance_agent.three_way_match"
+    },
+    {
+     "at": "2026-11-09T14:50:30.348816+00:00",
+     "type": "PAYMENT.CAPTURE.COMPLETED",
+     "detail": "$770.00 captured after verified goods · early-pay discount -$15.71.",
+     "api": "POST /v2/payments/authorizations/{id}/capture"
+    },
+    {
+     "at": "2026-11-09T14:50:31.141867+00:00",
+     "type": "PAYOUT.FAILED",
+     "detail": "PayPal payouts.create failed (422): INSUFFICIENT_FUNDS",
+     "api": "POST /v1/payments/payouts"
+    },
+    {
+     "at": "2026-11-09T14:50:36.659590+00:00",
+     "type": "GUARD.DUPLICATE.BLOCKED",
+     "detail": "PO-7725 is already paid ($770.00); invoice CC-7725-A refused as a duplicate of CC-7725.",
+     "api": "guards.duplicate"
+    },
+    {
+     "at": "2026-11-09T14:50:48.777538+00:00",
+     "type": "WEBHOOK · PAYMENT.CAPTURE.COMPLETED",
+     "detail": "PayPal confirmed payment.capture.completed (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    },
+    {
+     "at": "2026-11-09T14:50:52.295885+00:00",
+     "type": "INVOICING.INVOICE.SENT",
+     "detail": "Chargeback invoice INV2-JPSU-F5RF-66EG-KFPB for $120.00 sent to Coastal Connectors (dops-sup42-dada@business.example.com): Rework: 20 units failed incoming QC, 3.5 h of line time",
+     "api": "POST /v2/invoicing/invoices + /send"
+    }
+   ]
+  },
+  {
+   "id": "3PC49681TC323704T",
+   "poId": "PO-7718",
+   "projectId": "PRJ-2042",
+   "supplierId": "SUP-88",
+   "amountUsd": 4295.24,
+   "state": "retention_held",
+   "authorizationId": "760188304G101793D",
+   "captureId": "6TK16417HL838264C",
+   "invoiceNumber": "KES-2209",
+   "match": "mismatch",
+   "needsApproval": false,
+   "events": [
+    {
+     "at": "2026-11-09T14:49:36.438644+00:00",
+     "type": "ORDER.CREATED",
+     "detail": "Order to Konkan Energy Systems, intent AUTHORIZE, against the mandate",
+     "api": "POST /v2/checkout/orders"
+    },
+    {
+     "at": "2026-11-09T14:49:36.576886+00:00",
+     "type": "PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "$4,295.24 held — reserved, not moved. Hold requested from the Buyer Shield.",
+     "api": "AUTHORIZE (vault_id)"
+    },
+    {
+     "at": "2026-11-09T14:49:49.499875+00:00",
+     "type": "WEBHOOK · PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "PayPal confirmed payment.authorization.created (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    },
+    {
+     "at": "2026-11-09T14:50:13.817964+00:00",
+     "type": "GOODS.RECEIVED",
+     "detail": "Warehouse received 400, 380 passed QC (ordered 400).",
+     "api": "warehouse_reply"
+    },
+    {
+     "at": "2026-11-09T14:50:14.781175+00:00",
+     "type": "MATCH.PARTIAL",
+     "detail": "Only 380/400 usable — paying for 95%.",
+     "api": "finance_agent.three_way_match"
+    },
+    {
+     "at": "2026-11-09T14:50:18.768673+00:00",
+     "type": "PAYMENT.CAPTURE.COMPLETED",
+     "detail": "$3,497.55 captured after verified goods · late credit -$174.88 · retention $408.05 still held.",
+     "api": "POST /v2/payments/authorizations/{id}/capture"
+    },
+    {
+     "at": "2026-11-09T14:50:20.110949+00:00",
+     "type": "PAYOUT.FAILED",
+     "detail": "PayPal payouts.create failed (422): INSUFFICIENT_FUNDS",
+     "api": "POST /v1/payments/payouts"
+    },
+    {
+     "at": "2026-11-09T14:50:39.959093+00:00",
+     "type": "WEBHOOK · PAYMENT.CAPTURE.COMPLETED",
+     "detail": "PayPal confirmed payment.capture.completed (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    }
+   ]
+  },
+  {
+   "id": "16G37721SM9802600",
+   "poId": "PO-7712",
+   "projectId": "PRJ-2041",
+   "supplierId": "SUP-21",
+   "amountUsd": 1404.76,
+   "state": "funds_held",
+   "authorizationId": "6X333400H42505238",
+   "captureId": null,
+   "invoiceNumber": null,
+   "match": "pending",
+   "needsApproval": false,
+   "events": [
+    {
+     "at": "2026-11-09T14:49:29.872790+00:00",
+     "type": "ORDER.CREATED",
+     "detail": "Order to Zhen Hua Electronics, intent AUTHORIZE, against the mandate",
+     "api": "POST /v2/checkout/orders"
+    },
+    {
+     "at": "2026-11-09T14:49:30.016192+00:00",
+     "type": "PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "$1,404.76 held — reserved, not moved. Hold requested from the Buyer Shield.",
+     "api": "AUTHORIZE (vault_id)"
+    },
+    {
+     "at": "2026-11-09T14:49:50.178143+00:00",
+     "type": "WEBHOOK · PAYMENT.AUTHORIZATION.CREATED",
+     "detail": "PayPal confirmed payment.authorization.created (signature verified)",
+     "api": "POST /api/webhooks/paypal"
+    }
+   ]
+  }
+ ],
+ "incidents": [
+  {
+   "id": "INC-1002",
+   "projectId": "PRJ-2043",
+   "title": "Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days.",
+   "scenario": "",
+   "severity": "medium",
+   "stage": "funds_held",
+   "openedAt": "2026-11-09T14:50:41.619392+00:00",
+   "supplierId": "",
+   "poId": "",
+   "amountUsd": 0,
+   "options": [],
+   "steps": [
+    {
+     "at": "2026-08-24T03:45:08.566986+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:11.948455+00:00",
+     "label": "Checked usable inventory — 250 units of Motor Driver IC on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:12.086774+00:00",
+     "label": "ERP overstates stock by 1010 units. Using the warehouse figure, not ERP.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:12.225722+00:00",
+     "label": "Calculated 2.8 days of production cover at current consumption.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:12.365715+00:00",
+     "label": "Verified 1 inbound shipment(s) against carrier tracking.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:12.779000+00:00",
+     "label": "Raised a warehouse task to verify usable stock.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:18.831627+00:00",
+     "label": "Sent parallel RFQs to 3 alternate suppliers (SUP-57, SUP-42, SUP-64).",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:20.218993+00:00",
+     "label": "Evaluated 7 recovery options, rejected 2 on hard constraints.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:23.359954+00:00",
+     "label": "Rs 73,700 is within my Rs 150,000 authority. Executing without approval.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:27.328989+00:00",
+     "label": "Created 1 recovery purchase order(s): PO-A9004.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:45:27.744552+00:00",
+     "label": "Monitoring. I will not close this until usable stock is confirmed at the plant.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:32.078785+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:34.542314+00:00",
+     "label": "Checked usable inventory — 250 units of Motor Driver IC on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:34.680600+00:00",
+     "label": "ERP overstates stock by 1010 units. Using the warehouse figure, not ERP.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:34.819048+00:00",
+     "label": "Calculated 2.8 days of production cover at current consumption.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:34.959024+00:00",
+     "label": "Verified 2 inbound shipment(s) against carrier tracking.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:35.372056+00:00",
+     "label": "Raised a warehouse task to verify usable stock.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:40.507527+00:00",
+     "label": "Sent parallel RFQs to 3 alternate suppliers (SUP-57, SUP-42, SUP-64).",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:41.890327+00:00",
+     "label": "Evaluated 7 recovery options, rejected 2 on hard constraints.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:44.767316+00:00",
+     "label": "Rs 73,700 is within my Rs 150,000 authority. Executing without approval.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:48.405707+00:00",
+     "label": "Created 1 recovery purchase order(s): PO-A9005.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:46:48.820448+00:00",
+     "label": "Monitoring. I will not close this until usable stock is confirmed at the plant.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:01.966009+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:02.799455+00:00",
+     "label": "Checked usable inventory — 420 units of Li-ion Cell Module on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:02.945248+00:00",
+     "label": "Calculated 10.5 days of production cover at current consumption.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:07.840689+00:00",
+     "label": "Sent parallel RFQs to 2 alternate suppliers (SUP-88, SUP-71).",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:09.294016+00:00",
+     "label": "Evaluated 1 recovery options, rejected 2 on hard constraints.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:12.600334+00:00",
+     "label": "Rs 0 is within my Rs 150,000 authority. Executing without approval.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:12.892184+00:00",
+     "label": "Created 0 recovery purchase order(s): .",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:13.329841+00:00",
+     "label": "Monitoring. I will not close this until usable stock is confirmed at the plant.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:42.839916+00:00",
+     "label": "[buy_timer] PRJ-2043: order Microcontroller MCU by 09 Nov or the project slips (-0 h left). Handed to the team as INC-1002.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:44.423065+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:45.542047+00:00",
+     "label": "Checked usable inventory — 310 units of Microcontroller MCU on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:45.682070+00:00",
+     "label": "Calculated 5.6 days of production cover at current consumption.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:49.517970+00:00",
+     "label": "Sent parallel RFQs to 1 alternate suppliers (SUP-95).",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:52.513864+00:00",
+     "label": "Applied human constraint — excluded SUP-21, SUP-88.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:52.655063+00:00",
+     "label": "Evaluated 3 recovery options, rejected 0 on hard constraints.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:21:55.702577+00:00",
+     "label": "Rs 151,400 exceeds my Rs 150,000 authority. Stopping for human approval.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:30:14.303383+00:00",
+     "label": "[buy_timer] PRJ-2043: order Microcontroller MCU by 09 Nov or the project slips (-0 h left). Handed to the team as INC-1002.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T11:30:16.142372+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    }
+   ]
+  },
+  {
+   "id": "INC-1001",
+   "projectId": "PRJ-2042",
+   "title": "Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days.",
+   "scenario": "",
+   "severity": "high",
+   "stage": "funds_held",
+   "openedAt": "2026-11-09T14:50:40.440863+00:00",
+   "supplierId": "",
+   "poId": "",
+   "amountUsd": 0,
+   "options": [],
+   "steps": [
+    {
+     "at": "2026-08-24T03:36:55.596663+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:00.998602+00:00",
+     "label": "Checked usable inventory — 690 units of Motor Driver IC on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:01.136146+00:00",
+     "label": "ERP overstates stock by 410 units. Using the warehouse figure, not ERP.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:01.273827+00:00",
+     "label": "Calculated 7.7 days of production cover at current consumption.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:01.411566+00:00",
+     "label": "Verified 1 inbound shipment(s) against carrier tracking.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:05.706095+00:00",
+     "label": "Raised a warehouse task to verify usable stock.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:14.832306+00:00",
+     "label": "Sent parallel RFQs to 3 alternate suppliers (SUP-57, SUP-42, SUP-64).",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:16.477970+00:00",
+     "label": "Evaluated 7 recovery options, rejected 2 on hard constraints.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:37:19.777916+00:00",
+     "label": "This costs almost nothing in money and 11 days of Shakti Auto's time. Delaying another customer is not mine to decide. Stopping for approval.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:38:04.483870+00:00",
+     "label": "operator approved: Delay PROD-888 for Shakti Auto + buy 160",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:38:04.623094+00:00",
+     "label": "Human approved the plan. Resuming execution.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:38:05.316076+00:00",
+     "label": "Stood PROD-888 down for 11 days. 300 units released; buying the remaining 160.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:38:08.769425+00:00",
+     "label": "Created 1 recovery purchase order(s): PO-A9003.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:38:09.185813+00:00",
+     "label": "Monitoring. I will not close this until usable stock is confirmed at the plant.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T03:44:36.217678+00:00",
+     "label": "Usable stock now covers the production requirement. Incident closed.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:04:50.722051+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:04:51.386079+00:00",
+     "label": "Checked usable inventory — 210 units of Motor Driver IC on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:04:51.528804+00:00",
+     "label": "ERP overstates stock by 890 units. Using the warehouse figure, not ERP.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:04:51.671660+00:00",
+     "label": "Calculated 2.3 days of production cover at current consumption.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:04:51.813963+00:00",
+     "label": "Verified 1 inbound shipment(s) against carrier tracking.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:04:55.889665+00:00",
+     "label": "Raised a warehouse task to verify usable stock.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:00.337975+00:00",
+     "label": "Sent parallel RFQs to 3 alternate suppliers (SUP-57, SUP-42, SUP-64).",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:02.040686+00:00",
+     "label": "Evaluated 9 recovery options, rejected 2 on hard constraints.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:05:05.240912+00:00",
+     "label": "Rs 116,800 is within my Rs 150,000 authority. Executing without approval.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:11:57.647104+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:11:59.071997+00:00",
+     "label": "Checked usable inventory — 210 units of Motor Driver IC on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:11:59.209805+00:00",
+     "label": "ERP overstates stock by 890 units. Using the warehouse figure, not ERP.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:11:59.347756+00:00",
+     "label": "Calculated 1.3 days of production cover at current consumption.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:11:59.488058+00:00",
+     "label": "Verified 1 inbound shipment(s) against carrier tracking.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:03.481277+00:00",
+     "label": "Zhen Hua Electronics Co., Ltd. says 'dispatched' but the carrier shows 'label_created_no_pickup'. Treating that shipment as unreliable.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:07.060014+00:00",
+     "label": "Asked SUP-21 to confirm actual carrier pickup time.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:07.556812+00:00",
+     "label": "Raised a warehouse task to verify usable stock.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:11.849540+00:00",
+     "label": "Sent parallel RFQs to 3 alternate suppliers (SUP-57, SUP-42, SUP-64).",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:13.514672+00:00",
+     "label": "Evaluated 9 recovery options, rejected 2 on hard constraints.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:16.468434+00:00",
+     "label": "Rs 73,700 is within my Rs 150,000 authority. Executing without approval.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:20.062356+00:00",
+     "label": "Created 1 recovery purchase order(s): PO-A9003.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-08-24T10:12:20.480497+00:00",
+     "label": "Monitoring. I will not close this until usable stock is confirmed at the plant.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T10:01:35.894231+00:00",
+     "label": "Picked up the incident and started investigating.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T10:01:37.616954+00:00",
+     "label": "Checked usable inventory — 690 units of Motor Driver IC on hand.",
+     "status": "done",
+     "by": "agent"
+    },
+    {
+     "at": "2026-11-09T10:01:37.758147+00:00",
+     "label": "ERP overstates stock by 410 units. Using the warehouse figure, not ERP.",
+     "status": "done",
+     "by": "agent"
+    }
+   ]
+  }
+ ],
+ "approvals": [
+  {
+   "id": "APR-1",
+   "incidentId": "",
+   "projectId": "",
+   "poId": "PO-A9003",
+   "amountUsd": 276.19,
+   "limitUsd": 5000,
+   "reason": "$276.19 for PO-A9003 is above the agent's $5,000 authority. The money is held; releasing it needs your code.",
+   "requestedAt": null,
+   "expiresAt": "2026-11-10T10:13:34.152736+00:00",
+   "state": "rejected"
+  }
+ ],
+ "feed": [
+  {
+   "id": "925",
+   "at": "2026-11-10T10:07:13.352851+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Erp Updated",
+   "body": "ERP updated with 0 new purchase order(s)."
+  },
+  {
+   "id": "924",
+   "at": "2026-11-10T10:07:13.215543+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Created 0 recovery purchase order(s): ."
+  },
+  {
+   "id": "923",
+   "at": "2026-11-10T10:07:13.187341+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Interpreted",
+   "body": "Read Bharat Bulk Components Pvt. Ltd.’s reply — No figures given — the supplier acknowledged the enquiry without committing."
+  },
+  {
+   "id": "922",
+   "at": "2026-11-10T10:07:12.902722+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Interpreted",
+   "body": "Read Sahyadri Harness Works’s reply — No figures given — the supplier acknowledged the enquiry without committing."
+  },
+  {
+   "id": "921",
+   "at": "2026-11-10T10:07:12.662983+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Rs 0 is within my Rs 150,000 authority. Executing without approval."
+  },
+  {
+   "id": "920",
+   "at": "2026-11-10T10:07:12.524891+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Option Selected",
+   "body": "Recovery plan: Do nothing — Rs 0."
+  },
+  {
+   "id": "919",
+   "at": "2026-11-10T10:07:12.188782+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Received",
+   "body": "Heard back from Bharat Bulk Components Pvt. Ltd.: We have received your enquiry and will revert shortly."
+  },
+  {
+   "id": "918",
+   "at": "2026-11-10T10:07:11.902606+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Received",
+   "body": "Heard back from Sahyadri Harness Works: We have received your enquiry and will revert shortly."
+  },
+  {
+   "id": "917",
+   "at": "2026-11-10T10:07:11.245541+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Evaluated 1 recovery options, rejected 2 on hard constraints."
+  },
+  {
+   "id": "916",
+   "at": "2026-11-10T10:07:11.108115+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Option Rejected",
+   "body": "Sahyadri Harness Works requires a minimum order of 200, we need 10."
+  },
+  {
+   "id": "915",
+   "at": "2026-11-10T10:07:10.970248+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Option Rejected",
+   "body": "Bharat Bulk Components requires a minimum order of 2000, we need 10."
+  },
+  {
+   "id": "914",
+   "at": "2026-11-10T10:07:10.831720+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Applied human constraint — excluded SUP-21, SUP-88."
+  },
+  {
+   "id": "913",
+   "at": "2026-11-10T10:07:08.769875+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Sent parallel RFQs to 2 alternate suppliers (SUP-77, SUP-64)."
+  },
+  {
+   "id": "912",
+   "at": "2026-11-10T10:07:08.350158+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Sent",
+   "body": "Wrote to Bharat Bulk Components Pvt. Ltd.: URGENT RFQ - Wiring Harness"
+  },
+  {
+   "id": "911",
+   "at": "2026-11-10T10:07:08.348583+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Sent",
+   "body": "Wrote to Sahyadri Harness Works: URGENT RFQ - Wiring Harness"
+  },
+  {
+   "id": "910",
+   "at": "2026-11-10T10:07:06.047868+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Calculated 7.9 days of production cover at current consumption."
+  },
+  {
+   "id": "909",
+   "at": "2026-11-10T10:07:05.910409+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Checked usable inventory — 950 units of Wiring Harness on hand."
+  },
+  {
+   "id": "908",
+   "at": "2026-11-10T10:07:05.414571+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Guard Escalate",
+   "body": "[buy_timer] PRJ-2044: order TFT Display Panel by 11 Nov or the project slips (29 h left). Stock covers it for now; watching."
+  },
+  {
+   "id": "907",
+   "at": "2026-11-10T10:07:05.139489+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Risk Assessed",
+   "body": "TFT Display Panel is covered. No production order is short."
+  },
+  {
+   "id": "906",
+   "at": "2026-11-10T10:07:04.102821+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Guard Escalate",
+   "body": "[buy_timer] PRJ-2043: order Microcontroller MCU by 09 Nov or the project slips (-19 h left). Stock covers it for now; watching."
+  },
+  {
+   "id": "905",
+   "at": "2026-11-10T10:07:03.830322+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Picked up the incident and started investigating."
+  },
+  {
+   "id": "904",
+   "at": "2026-11-10T10:07:03.826681+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Risk Assessed",
+   "body": "Microcontroller MCU is covered. No production order is short."
+  },
+  {
+   "id": "903",
+   "at": "2026-11-10T10:07:03.411199+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Guard Escalate",
+   "body": "[buy_timer] PRJ-2042: order Wiring Harness by 11 Nov or the project slips (29 h left). Handed to the team as INC-1001."
+  },
+  {
+   "id": "902",
+   "at": "2026-11-10T10:07:02.577236+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Risk Assessed",
+   "body": "Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days."
+  },
+  {
+   "id": "901",
+   "at": "2026-11-10T10:04:39.445586+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Erp Updated",
+   "body": "ERP updated with 0 new purchase order(s)."
+  },
+  {
+   "id": "900",
+   "at": "2026-11-10T10:04:39.310613+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Created 0 recovery purchase order(s): ."
+  },
+  {
+   "id": "899",
+   "at": "2026-11-10T10:04:38.916886+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Interpreted",
+   "body": "Read Sahyadri Harness Works’s reply — No figures given — the supplier acknowledged the enquiry without committing."
+  },
+  {
+   "id": "898",
+   "at": "2026-11-10T10:04:38.766705+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Rs 0 is within my Rs 150,000 authority. Executing without approval."
+  },
+  {
+   "id": "897",
+   "at": "2026-11-10T10:04:38.713569+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Interpreted",
+   "body": "Read Bharat Bulk Components Pvt. Ltd.’s reply — No figures given — the supplier acknowledged the enquiry without committing."
+  },
+  {
+   "id": "896",
+   "at": "2026-11-10T10:04:38.627843+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Option Selected",
+   "body": "Recovery plan: Do nothing — Rs 0."
+  },
+  {
+   "id": "895",
+   "at": "2026-11-10T10:04:37.896429+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Received",
+   "body": "Heard back from Sahyadri Harness Works: We have received your enquiry and will revert shortly."
+  },
+  {
+   "id": "894",
+   "at": "2026-11-10T10:04:37.689577+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Received",
+   "body": "Heard back from Bharat Bulk Components Pvt. Ltd.: We have received your enquiry and will revert shortly."
+  },
+  {
+   "id": "893",
+   "at": "2026-11-10T10:04:37.331269+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Evaluated 1 recovery options, rejected 2 on hard constraints."
+  },
+  {
+   "id": "892",
+   "at": "2026-11-10T10:04:37.196038+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Option Rejected",
+   "body": "Sahyadri Harness Works requires a minimum order of 200, we need 10."
+  },
+  {
+   "id": "891",
+   "at": "2026-11-10T10:04:37.061027+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Option Rejected",
+   "body": "Bharat Bulk Components requires a minimum order of 2000, we need 10."
+  },
+  {
+   "id": "890",
+   "at": "2026-11-10T10:04:36.925643+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Applied human constraint — excluded SUP-21, SUP-88."
+  },
+  {
+   "id": "889",
+   "at": "2026-11-10T10:04:34.865009+00:00",
+   "kind": "paypal",
+   "tone": "violet",
+   "title": "Paypal Payout Sent",
+   "body": "Paid AeroCell Logistics a $37.64 air-expedite fee via PayPal Payouts."
+  },
+  {
+   "id": "888",
+   "at": "2026-11-10T10:04:34.548038+00:00",
+   "kind": "agent",
+   "tone": "violet",
+   "title": "Agent Step",
+   "body": "Sent parallel RFQs to 2 alternate suppliers (SUP-77, SUP-64)."
+  },
+  {
+   "id": "887",
+   "at": "2026-11-10T10:04:34.140171+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Sent",
+   "body": "Wrote to Bharat Bulk Components Pvt. Ltd.: URGENT RFQ - Wiring Harness"
+  },
+  {
+   "id": "886",
+   "at": "2026-11-10T10:04:34.057550+00:00",
+   "kind": "email",
+   "tone": "violet",
+   "title": "Message Sent",
+   "body": "Wrote to Sahyadri Harness Works: URGENT RFQ - Wiring Harness"
+  }
+ ],
+ "emails": [
+  {
+   "id": "32",
+   "threadId": "32",
+   "projectId": "",
+   "supplierId": "SUP-21",
+   "direction": "inbound",
+   "from": "SUP-21",
+   "subject": "Delay on PO-7712",
+   "body": "Due to transport issues, delivery may be delayed by 5-7 days. We are trying to resolve this and will update soon.",
+   "at": "2026-11-09T14:49:22.092503+00:00"
+  },
+  {
+   "id": "33",
+   "threadId": "33",
+   "projectId": "",
+   "supplierId": "SUP-88",
+   "direction": "inbound",
+   "from": "SUP-88",
+   "subject": "Re: PO-7718 status",
+   "body": "Dispatch on schedule. No issues expected at our end.",
+   "at": "2026-11-09T14:49:22.092503+00:00"
+  }
+ ],
+ "bom": [
+  {
+   "projectId": "PRJ-2045",
+   "componentId": "COMP-104",
+   "perUnit": 1,
+   "required": 300,
+   "onHand": 690
+  },
+  {
+   "projectId": "PRJ-2041",
+   "componentId": "COMP-118",
+   "perUnit": 3,
+   "required": 2100,
+   "onHand": 8400
+  },
+  {
+   "projectId": "PRJ-2041",
+   "componentId": "COMP-104",
+   "perUnit": 1,
+   "required": 700,
+   "onHand": 690
+  },
+  {
+   "projectId": "PRJ-2042",
+   "componentId": "COMP-311",
+   "perUnit": 2,
+   "required": 760,
+   "onHand": 950
+  },
+  {
+   "projectId": "PRJ-2042",
+   "componentId": "COMP-207",
+   "perUnit": 1,
+   "required": 380,
+   "onHand": 800
+  },
+  {
+   "projectId": "PRJ-2043",
+   "componentId": "COMP-402",
+   "perUnit": 1,
+   "required": 500,
+   "onHand": 310
+  },
+  {
+   "projectId": "PRJ-2044",
+   "componentId": "COMP-520",
+   "perUnit": 1,
+   "required": 450,
+   "onHand": 640
+  }
+ ],
+ "buyTimers": [
+  {
+   "projectId": "PRJ-2042",
+   "componentId": "COMP-311",
+   "name": "Wiring Harness",
+   "qty": 760,
+   "needBy": "2026-11-17T14:49:22.092503+00:00",
+   "orderBy": "2026-11-11T14:49:22.092503+00:00",
+   "orderedPoId": null,
+   "approvedAlternates": "[]",
+   "eolDate": null,
+   "ltbDate": null
+  },
+  {
+   "projectId": "PRJ-2043",
+   "componentId": "COMP-402",
+   "name": "Microcontroller MCU",
+   "qty": 500,
+   "needBy": "2026-11-19T14:49:22.092503+00:00",
+   "orderBy": "2026-11-09T14:49:22.092503+00:00",
+   "orderedPoId": null,
+   "approvedAlternates": "[]",
+   "eolDate": null,
+   "ltbDate": null
+  },
+  {
+   "projectId": "PRJ-2044",
+   "componentId": "COMP-520",
+   "name": "TFT Display Panel",
+   "qty": 450,
+   "needBy": "2026-11-22T14:49:22.092503+00:00",
+   "orderBy": "2026-11-11T14:49:22.092503+00:00",
+   "orderedPoId": null,
+   "approvedAlternates": "[]",
+   "eolDate": "2027-01-23",
+   "ltbDate": "2026-11-29"
+  },
+  {
+   "projectId": "PRJ-2045",
+   "componentId": "COMP-104",
+   "name": "Motor Driver IC",
+   "qty": 300,
+   "needBy": "2026-11-25T14:49:22.092503+00:00",
+   "orderBy": "2026-11-21T14:49:22.092503+00:00",
+   "orderedPoId": null,
+   "approvedAlternates": "[{\"part\": \"FP-MD104-A\", \"approved_by\": \"R. Iyer\", \"supplier_id\": \"SUP-57\"}]",
+   "eolDate": null,
+   "ltbDate": null
+  },
+  {
+   "projectId": "PRJ-2041",
+   "componentId": "COMP-104",
+   "name": "Motor Driver IC",
+   "qty": 700,
+   "needBy": "2026-11-14T14:49:22.092503+00:00",
+   "orderBy": "2026-11-10T14:49:22.092503+00:00",
+   "orderedPoId": "PO-7712",
+   "approvedAlternates": "[{\"part\": \"FP-MD104-A\", \"approved_by\": \"R. Iyer\", \"supplier_id\": \"SUP-57\"}]",
+   "eolDate": null,
+   "ltbDate": null
+  },
+  {
+   "projectId": "PRJ-2041",
+   "componentId": "COMP-118",
+   "name": "Connector Set",
+   "qty": 2100,
+   "needBy": "2026-11-14T14:49:22.092503+00:00",
+   "orderBy": "2026-11-11T14:49:22.092503+00:00",
+   "orderedPoId": "PO-7725",
+   "approvedAlternates": "[{\"part\": \"SHW-CN18\", \"approved_by\": \"A. Kulkarni\", \"supplier_id\": \"SUP-77\"}]",
+   "eolDate": null,
+   "ltbDate": null
+  },
+  {
+   "projectId": "PRJ-2042",
+   "componentId": "COMP-207",
+   "name": "Li-ion Cell Module",
+   "qty": 380,
+   "needBy": "2026-11-17T14:49:22.092503+00:00",
+   "orderBy": "2026-11-12T14:49:22.092503+00:00",
+   "orderedPoId": "PO-7718",
+   "approvedAlternates": "[]",
+   "eolDate": null,
+   "ltbDate": null
+  }
+ ],
+ "budgetEnvelopes": [
+  {
+   "projectId": "PRJ-2041",
+   "category": null,
+   "windowStart": "2026-11-02",
+   "windowEnd": "2027-02-07",
+   "capUsd": 48000
+  },
+  {
+   "projectId": "PRJ-2042",
+   "category": null,
+   "windowStart": "2026-11-02",
+   "windowEnd": "2027-02-07",
+   "capUsd": 60000
+  },
+  {
+   "projectId": "PRJ-2043",
+   "category": null,
+   "windowStart": "2026-11-02",
+   "windowEnd": "2027-02-07",
+   "capUsd": 30000
+  },
+  {
+   "projectId": "PRJ-2044",
+   "category": null,
+   "windowStart": "2026-11-02",
+   "windowEnd": "2027-02-07",
+   "capUsd": 25000
+  },
+  {
+   "projectId": "PRJ-2045",
+   "category": null,
+   "windowStart": "2026-11-02",
+   "windowEnd": "2027-02-07",
+   "capUsd": 12000
+  }
+ ],
+ "subtiers": [
+  {
+   "supplierId": "SUP-21",
+   "name": "Hsinchu Wafer Fab 3",
+   "city": "Hsinchu",
+   "lat": 24.8138,
+   "lng": 120.9675,
+   "category": "motor-driver wafers",
+   "sharedBy": 1
+  },
+  {
+   "supplierId": "SUP-77",
+   "name": "Ningbo Copper Rod Co",
+   "city": "Ningbo",
+   "lat": 29.8683,
+   "lng": 121.544,
+   "category": "copper wire",
+   "sharedBy": 1
+  },
+  {
+   "supplierId": "SUP-103",
+   "name": "Penang Plating Works",
+   "city": "Penang",
+   "lat": 5.4141,
+   "lng": 100.3288,
+   "category": "connector plating",
+   "sharedBy": 2
+  },
+  {
+   "supplierId": "SUP-77",
+   "name": "Penang Plating Works",
+   "city": "Penang",
+   "lat": 5.4141,
+   "lng": 100.3288,
+   "category": "connector plating",
+   "sharedBy": 2
+  }
+ ],
+ "shield": {
+  "total_usd": 6100.11,
+  "by_guard": {
+   "buy_timer": {
+    "count": 27,
+    "usd": 0
+   },
+   "chargeback": {
+    "count": 1,
+    "usd": 120
+   },
+   "duplicate": {
+    "count": 1,
+    "usd": 770
+   },
+   "early_pay": {
+    "count": 1,
+    "usd": 15.71
+   },
+   "fair_price": {
+    "count": 1,
+    "usd": 3400
+   },
+   "late_credit": {
+    "count": 1,
+    "usd": 174.88
+   },
+   "payee_lock": {
+    "count": 1,
+    "usd": 1404.76
+   },
+   "quality_holdback": {
+    "count": 1,
+    "usd": 214.76
+   }
+  }
+ }
+}

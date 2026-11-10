@@ -1,0 +1,47 @@
+{
+ "enabled": true,
+ "memory": "postgres",
+ "agents": [
+  {
+   "id": "supervisor",
+   "role": "Routes every turn from shared state (policy, replayable)"
+  },
+  {
+   "id": "sentinel",
+   "role": "Risk triage, buy timers, push-outs, hold expiry patrol"
+  },
+  {
+   "id": "investigator",
+   "role": "Evidence pack; Gemini reads claims vs carrier truth"
+  },
+  {
+   "id": "liaison",
+   "role": "Supplier/warehouse email, RFQs, ack chases, payee confirmations"
+  },
+  {
+   "id": "sourcing",
+   "role": "Deterministic solver, applies long-term supplier memory"
+  },
+  {
+   "id": "approval",
+   "role": "Human-in-the-loop via LangGraph interrupt()"
+  },
+  {
+   "id": "procurement",
+   "role": "Raises purchase orders in the ERP"
+  },
+  {
+   "id": "treasurer",
+   "role": "Only money mover: PayPal holds/captures/voids/payouts through 7 guards"
+  },
+  {
+   "id": "verifier",
+   "role": "Closes only on usable stock; writes the episode to memory"
+  },
+  {
+   "id": "copilot",
+   "role": "Gemini ReAct agent with read-only tools"
+  }
+ ],
+ "graph_mermaid": "---\nconfig:\n  flowchart:\n    curve: linear\n---\ngraph TD;\n\t__start__([<p>__start__</p>]):::first\n\tsupervisor(supervisor)\n\tsentinel(sentinel)\n\tinvestigator(investigator)\n\tliaison(liaison)\n\tsourcing(sourcing)\n\tapproval(approval)\n\tprocurement(procurement)\n\ttreasurer(treasurer)\n\tverifier(verifier)\n\t__end__([<p>__end__</p>]):::last\n\t__start__ --> supervisor;\n\tapproval --> supervisor;\n\tinvestigator --> supervisor;\n\tliaison --> supervisor;\n\tprocurement --> supervisor;\n\tsentinel --> supervisor;\n\tsourcing --> supervisor;\n\tsupervisor -.-> __end__;\n\tsupervisor -.-> approval;\n\tsupervisor -.-> investigator;\n\tsupervisor -.-> liaison;\n\tsupervisor -.-> procurement;\n\tsupervisor -.-> sentinel;\n\tsupervisor -.-> sourcing;\n\tsupervisor -.-> treasurer;\n\tsupervisor -.-> verifier;\n\ttreasurer --> supervisor;\n\tverifier --> supervisor;\n\tclassDef default fill:#f2f0ff,line-height:1.2\n\tclassDef first fill-opacity:0\n\tclassDef last fill:#bfb6fc\n"
+}

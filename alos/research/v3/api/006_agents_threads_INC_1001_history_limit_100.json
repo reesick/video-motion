@@ -1,0 +1,993 @@
+{
+ "thread_id": "INC-1001",
+ "checkpoints": [
+  {
+   "checkpoint_id": "1f1dcee2-4ad8-60c4-80b1-9db90507d3fd",
+   "next": [],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-10T10:04:40.087350+00:00",
+   "step": 177
+  },
+  {
+   "checkpoint_id": "1f1dcee2-4ad4-6a08-80b0-a67c1f33ed6c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 6,
+   "created_at": "2026-11-10T10:04:40.085935+00:00",
+   "step": 176
+  },
+  {
+   "checkpoint_id": "1f1dcee2-46f6-6af3-80af-ab73e5161e09",
+   "next": [
+    "treasurer"
+   ],
+   "phase": "procured",
+   "turns": 6,
+   "created_at": "2026-11-10T10:04:39.680467+00:00",
+   "step": 175
+  },
+  {
+   "checkpoint_id": "1f1dcee2-46f3-62ef-80ae-af9c48e54633",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "procured",
+   "turns": 5,
+   "created_at": "2026-11-10T10:04:39.679032+00:00",
+   "step": 174
+  },
+  {
+   "checkpoint_id": "1f1dcee2-4089-62e9-80ad-04747310b6bc",
+   "next": [
+    "procurement"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-10T10:04:39.006464+00:00",
+   "step": 173
+  },
+  {
+   "checkpoint_id": "1f1dcee2-407f-6300-80ac-ae984e6d61d6",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-10T10:04:39.002369+00:00",
+   "step": 172
+  },
+  {
+   "checkpoint_id": "1f1dcee2-1844-60df-80ab-02d831f3b085",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-10T10:04:34.783852+00:00",
+   "step": 171
+  },
+  {
+   "checkpoint_id": "1f1dcee2-1841-63f9-80aa-ae8d608ec457",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-10T10:04:34.782691+00:00",
+   "step": 170
+  },
+  {
+   "checkpoint_id": "1f1dcee1-faad-6bb9-80a9-0d6e0a7166fc",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-10T10:04:31.681409+00:00",
+   "step": 169
+  },
+  {
+   "checkpoint_id": "1f1dcee1-faaa-6893-80a8-99c7bcb45f28",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-10T10:04:31.680060+00:00",
+   "step": 168
+  },
+  {
+   "checkpoint_id": "1f1dcee1-de3b-6a53-80a7-5005c33ca800",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-10T10:04:28.698670+00:00",
+   "step": 167
+  },
+  {
+   "checkpoint_id": "1f1dcee1-de3a-6060-80a6-68f44651b2d2",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-10T10:04:28.698001+00:00",
+   "step": 166
+  },
+  {
+   "checkpoint_id": "1f1dcee1-dcd3-63e1-80a5-60c9b9096ca7",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-10T10:04:28.551047+00:00",
+   "step": 165
+  },
+  {
+   "checkpoint_id": "1f1dcee1-dcd0-6a30-80a4-265b669e77ad",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-10T10:04:28.549981+00:00",
+   "step": 164
+  },
+  {
+   "checkpoint_id": "1f1dcee1-dccf-6628-80a3-b13b69b92279",
+   "next": [
+    "__start__"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-10T10:04:28.549461+00:00",
+   "step": 163
+  },
+  {
+   "checkpoint_id": "1f1dc724-0e33-6527-80a2-3f65c03ee36e",
+   "next": [],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T19:17:49.821045+00:00",
+   "step": 162
+  },
+  {
+   "checkpoint_id": "1f1dc724-0e30-6207-80a1-c6ebfa74be77",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 6,
+   "created_at": "2026-11-09T19:17:49.819691+00:00",
+   "step": 161
+  },
+  {
+   "checkpoint_id": "1f1dc724-0a52-6e55-80a0-96a02033d3a0",
+   "next": [
+    "treasurer"
+   ],
+   "phase": "procured",
+   "turns": 6,
+   "created_at": "2026-11-09T19:17:49.414547+00:00",
+   "step": 160
+  },
+  {
+   "checkpoint_id": "1f1dc724-0a4f-69a5-809f-f0889ba3e5fa",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "procured",
+   "turns": 5,
+   "created_at": "2026-11-09T19:17:49.413192+00:00",
+   "step": 159
+  },
+  {
+   "checkpoint_id": "1f1dc724-03d8-6853-809e-a988f863909d",
+   "next": [
+    "procurement"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T19:17:48.735273+00:00",
+   "step": 158
+  },
+  {
+   "checkpoint_id": "1f1dc724-03d5-60ee-809d-cf0451d7a074",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T19:17:48.733853+00:00",
+   "step": 157
+  },
+  {
+   "checkpoint_id": "1f1dc723-dc72-60b9-809c-a1a710d766c5",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T19:17:44.603856+00:00",
+   "step": 156
+  },
+  {
+   "checkpoint_id": "1f1dc723-dc6d-6cba-809b-babadc14b459",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T19:17:44.602108+00:00",
+   "step": 155
+  },
+  {
+   "checkpoint_id": "1f1dc723-c2c3-6f76-809a-fd027bd4f49c",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T19:17:41.911112+00:00",
+   "step": 154
+  },
+  {
+   "checkpoint_id": "1f1dc723-c2bf-6d8d-8099-4d75b6aeffcb",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T19:17:41.909424+00:00",
+   "step": 153
+  },
+  {
+   "checkpoint_id": "1f1dc723-a4cc-69c4-8098-15456285eb97",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T19:17:38.768926+00:00",
+   "step": 152
+  },
+  {
+   "checkpoint_id": "1f1dc723-a4ca-611e-8097-ca1eb0003175",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T19:17:38.767882+00:00",
+   "step": 151
+  },
+  {
+   "checkpoint_id": "1f1dc723-a2bb-6fef-8096-568ad960cc3a",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T19:17:38.552405+00:00",
+   "step": 150
+  },
+  {
+   "checkpoint_id": "1f1dc723-a2b9-6b60-8095-7ae04a20648a",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T19:17:38.551471+00:00",
+   "step": 149
+  },
+  {
+   "checkpoint_id": "1f1dc723-a2b8-63a1-8094-227e48dfccd1",
+   "next": [
+    "__start__"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T19:17:38.550851+00:00",
+   "step": 148
+  },
+  {
+   "checkpoint_id": "1f1dc677-c90b-6d89-8093-7fed00cb4b3e",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T18:00:45.479857+00:00",
+   "step": 147
+  },
+  {
+   "checkpoint_id": "1f1dc677-c908-6eda-8092-6dd2b2305ac7",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T18:00:45.478661+00:00",
+   "step": 146
+  },
+  {
+   "checkpoint_id": "1f1dc677-c703-67b1-8091-2321792b8aa4",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T18:00:45.266715+00:00",
+   "step": 145
+  },
+  {
+   "checkpoint_id": "1f1dc677-c700-6bcb-8090-c713a8468408",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T18:00:45.265590+00:00",
+   "step": 144
+  },
+  {
+   "checkpoint_id": "1f1dc677-c6fe-6c4e-808f-9234d16de30a",
+   "next": [
+    "__start__"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T18:00:45.264779+00:00",
+   "step": 143
+  },
+  {
+   "checkpoint_id": "1f1dc646-2e68-6887-808e-0856be4f4d5c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T17:38:33.931151+00:00",
+   "step": 142
+  },
+  {
+   "checkpoint_id": "1f1dc646-14bc-6fa6-808d-4db402f8c35f",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T17:38:31.239451+00:00",
+   "step": 141
+  },
+  {
+   "checkpoint_id": "1f1dc646-14b8-6f67-808c-c4b64a9392a1",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T17:38:31.237800+00:00",
+   "step": 140
+  },
+  {
+   "checkpoint_id": "1f1dc645-f619-6c40-808b-3655dfd7c211",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T17:38:28.026871+00:00",
+   "step": 139
+  },
+  {
+   "checkpoint_id": "1f1dc645-f616-6b3d-808a-b631d1e73703",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T17:38:28.025612+00:00",
+   "step": 138
+  },
+  {
+   "checkpoint_id": "1f1dc645-f3d9-6012-8089-22b702438a1a",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T17:38:27.790630+00:00",
+   "step": 137
+  },
+  {
+   "checkpoint_id": "1f1dc645-f3d7-62b7-8088-306198c7956b",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T17:38:27.789877+00:00",
+   "step": 136
+  },
+  {
+   "checkpoint_id": "1f1dc645-f3d5-67bc-8087-c4480799cb36",
+   "next": [
+    "__start__"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T17:38:27.789180+00:00",
+   "step": 135
+  },
+  {
+   "checkpoint_id": "1f1dc558-beb6-6f7d-8086-7298342c942c",
+   "next": [],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T15:52:20.298929+00:00",
+   "step": 134
+  },
+  {
+   "checkpoint_id": "1f1dc558-beb4-6781-8085-a0cd40fee3bf",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 6,
+   "created_at": "2026-11-09T15:52:20.297892+00:00",
+   "step": 133
+  },
+  {
+   "checkpoint_id": "1f1dc558-bacb-68bd-8084-42be28b53295",
+   "next": [
+    "treasurer"
+   ],
+   "phase": "procured",
+   "turns": 6,
+   "created_at": "2026-11-09T15:52:19.887922+00:00",
+   "step": 132
+  },
+  {
+   "checkpoint_id": "1f1dc558-bac6-6967-8083-204af14818e0",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "procured",
+   "turns": 5,
+   "created_at": "2026-11-09T15:52:19.885885+00:00",
+   "step": 131
+  },
+  {
+   "checkpoint_id": "1f1dc558-b43c-6712-8082-5cd316c3c5cd",
+   "next": [
+    "procurement"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:52:19.200166+00:00",
+   "step": 130
+  },
+  {
+   "checkpoint_id": "1f1dc558-b43a-62dd-8081-f26b20dd2120",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T15:52:19.199233+00:00",
+   "step": 129
+  },
+  {
+   "checkpoint_id": "1f1dc558-8964-67ed-8080-2c2b2f4d1b57",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T15:52:14.707691+00:00",
+   "step": 128
+  },
+  {
+   "checkpoint_id": "1f1dc558-8961-62ca-807f-75d140adb71b",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:52:14.706330+00:00",
+   "step": 127
+  },
+  {
+   "checkpoint_id": "1f1dc558-6abf-6a00-807e-e1560236b8e3",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:52:11.494429+00:00",
+   "step": 126
+  },
+  {
+   "checkpoint_id": "1f1dc558-6aba-6f98-807d-27126956fe6a",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T15:52:11.492526+00:00",
+   "step": 125
+  },
+  {
+   "checkpoint_id": "1f1dc558-47e5-6a21-807c-84d547a809d0",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T15:52:07.839980+00:00",
+   "step": 124
+  },
+  {
+   "checkpoint_id": "1f1dc558-47e1-6416-807b-deef65eb39b6",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T15:52:07.838193+00:00",
+   "step": 123
+  },
+  {
+   "checkpoint_id": "1f1dc558-45de-67c6-807a-9b1baafea2f0",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T15:52:07.627346+00:00",
+   "step": 122
+  },
+  {
+   "checkpoint_id": "1f1dc558-45dc-6b90-8079-cb4123fd9112",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T15:52:07.626623+00:00",
+   "step": 121
+  },
+  {
+   "checkpoint_id": "1f1dc558-45db-61bc-8078-57f1696e7928",
+   "next": [
+    "__start__"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T15:52:07.625953+00:00",
+   "step": 120
+  },
+  {
+   "checkpoint_id": "1f1dc515-8a7a-6d98-8077-df7358fdfadc",
+   "next": [],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T15:22:16.304152+00:00",
+   "step": 119
+  },
+  {
+   "checkpoint_id": "1f1dc515-8a78-68b3-8076-19f5cc6f4306",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 6,
+   "created_at": "2026-11-09T15:22:16.303195+00:00",
+   "step": 118
+  },
+  {
+   "checkpoint_id": "1f1dc515-8692-63cf-8075-beda6b5b5afb",
+   "next": [
+    "treasurer"
+   ],
+   "phase": "procured",
+   "turns": 6,
+   "created_at": "2026-11-09T15:22:15.894303+00:00",
+   "step": 117
+  },
+  {
+   "checkpoint_id": "1f1dc515-868f-6d1c-8074-cdbd808c08b2",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "procured",
+   "turns": 5,
+   "created_at": "2026-11-09T15:22:15.893308+00:00",
+   "step": 116
+  },
+  {
+   "checkpoint_id": "1f1dc515-800a-602b-8073-af42f820a1ee",
+   "next": [
+    "procurement"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:22:15.209358+00:00",
+   "step": 115
+  },
+  {
+   "checkpoint_id": "1f1dc515-8007-68b3-8072-a8255e282a8e",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T15:22:15.208334+00:00",
+   "step": 114
+  },
+  {
+   "checkpoint_id": "1f1dc515-57d5-69f3-8071-f245671ad739",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T15:22:10.993596+00:00",
+   "step": 113
+  },
+  {
+   "checkpoint_id": "1f1dc515-57d3-61e9-8070-72c5cecaaeb2",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:22:10.992566+00:00",
+   "step": 112
+  },
+  {
+   "checkpoint_id": "1f1dc515-397e-60fb-806f-13cad58f61b6",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:22:07.812002+00:00",
+   "step": 111
+  },
+  {
+   "checkpoint_id": "1f1dc515-397b-6aab-806e-62c931f53425",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T15:22:07.811017+00:00",
+   "step": 110
+  },
+  {
+   "checkpoint_id": "1f1dc515-18ac-6fe7-806d-29a9863cdbe7",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T15:22:04.370924+00:00",
+   "step": 109
+  },
+  {
+   "checkpoint_id": "1f1dc515-18a9-69db-806c-3e34819cd0b7",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T15:22:04.369535+00:00",
+   "step": 108
+  },
+  {
+   "checkpoint_id": "1f1dc515-16a9-679a-806b-fff24f985f87",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T15:22:04.159763+00:00",
+   "step": 107
+  },
+  {
+   "checkpoint_id": "1f1dc515-16a7-6380-806a-bb7034ecb1c3",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T15:22:04.158841+00:00",
+   "step": 106
+  },
+  {
+   "checkpoint_id": "1f1dc515-16a5-63cf-8069-2ded5cf846ac",
+   "next": [
+    "__start__"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T15:22:04.158023+00:00",
+   "step": 105
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-d00a-6cad-8068-84157433070d",
+   "next": [],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T15:07:10.917732+00:00",
+   "step": 104
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-d007-638e-8067-395a2414ea24",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 6,
+   "created_at": "2026-11-09T15:07:10.916255+00:00",
+   "step": 103
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-cc1c-6187-8066-295ad7953347",
+   "next": [
+    "treasurer"
+   ],
+   "phase": "procured",
+   "turns": 6,
+   "created_at": "2026-11-09T15:07:10.505386+00:00",
+   "step": 102
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-cc16-6b37-8065-edfa4de92165",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "procured",
+   "turns": 5,
+   "created_at": "2026-11-09T15:07:10.503173+00:00",
+   "step": 101
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-c58c-687e-8064-916303ec1d2a",
+   "next": [
+    "procurement"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:07:09.817440+00:00",
+   "step": 100
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-c589-60d6-8063-347bb880b172",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T15:07:09.816010+00:00",
+   "step": 99
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-9d8b-667e-8062-ecd2d8f71fcf",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T15:07:05.622672+00:00",
+   "step": 98
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-9d85-6b1e-8061-a4a69df0f8e1",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:07:05.620322+00:00",
+   "step": 97
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-83df-6ede-8060-cd278bae17f5",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:07:02.931001+00:00",
+   "step": 96
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-83dc-686f-805f-910b84398bf4",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T15:07:02.929601+00:00",
+   "step": 95
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-643f-6b16-805e-f0d54aaa4882",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T15:06:59.614783+00:00",
+   "step": 94
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-643c-6b1c-805d-fa6af71250ad",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T15:06:59.613552+00:00",
+   "step": 93
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-6143-6bb9-805c-5f597d33518d",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T15:06:59.301865+00:00",
+   "step": 92
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-6141-6d55-805b-c09ba7148330",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T15:06:59.301086+00:00",
+   "step": 91
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-613f-6afb-805a-e803526596f1",
+   "next": [
+    "__start__"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T15:06:59.300201+00:00",
+   "step": 90
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-6e93-6f66-8059-825702490361",
+   "next": [],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-09T14:50:54.330231+00:00",
+   "step": 89
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-6e91-67ad-8058-8e9b1316932a",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 6,
+   "created_at": "2026-11-09T14:50:54.329199+00:00",
+   "step": 88
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-6aa0-6ad4-8057-0cc75dd4e24d",
+   "next": [
+    "treasurer"
+   ],
+   "phase": "procured",
+   "turns": 6,
+   "created_at": "2026-11-09T14:50:53.916011+00:00",
+   "step": 87
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-6a9e-6aa5-8056-e4c6cf5e8c58",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "procured",
+   "turns": 5,
+   "created_at": "2026-11-09T14:50:53.915181+00:00",
+   "step": 86
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-6400-6710-8055-22390b989ec8",
+   "next": [
+    "procurement"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T14:50:53.221227+00:00",
+   "step": 85
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-63fd-67d1-8054-bd234fa312d5",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T14:50:53.220013+00:00",
+   "step": 84
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-27bd-6e46-8053-779d70e2cf86",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T14:50:46.902515+00:00",
+   "step": 83
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-27bb-66a1-8052-b9713580bd1b",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T14:50:46.901495+00:00",
+   "step": 82
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-0b23-605a-8051-fc5a790deadf",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T14:50:43.903074+00:00",
+   "step": 81
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-0b21-6618-8050-260cf0a60d30",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T14:50:43.902383+00:00",
+   "step": 80
+  },
+  {
+   "checkpoint_id": "1f1dc4ce-ef52-6d66-804f-3086a0f15182",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T14:50:40.986639+00:00",
+   "step": 79
+  },
+  {
+   "checkpoint_id": "1f1dc4ce-ef4e-6e5c-804e-8d45f65a1b41",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T14:50:40.985020+00:00",
+   "step": 78
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "voice": "en-US-AvaNeural",
+ "rate": "+4%",
+ "duration": 77.109,
+ "lines": [
+  {
+   "i": 1,
+   "text": "One hour of downtime in a car plant costs two point three million dollars.",
+   "start": 0.2,
+   "end": 4.184
+  },
+  {
+   "i": 2,
+   "text": "India's biggest carmaker couldn't build forty-six thousand cars in one quarter. For want of chips.",
+   "start": 4.564,
+   "end": 10.323
+  },
+  {
+   "i": 3,
+   "text": "Suppliers overcharge. Push dates back. Invoice twice. And say it shipped, when it didn't.",
+   "start": 10.703,
+   "end": 17.052
+  },
+  {
+   "i": 4,
+   "text": "Meet DisruptionOps. A team of AI agents that works for the buyer.",
+   "start": 17.732,
+   "end": 21.825
+  },
+  {
+   "i": 5,
+   "text": "A Sentinel watches every project. When a part's order-by date turns red, it hands it to the team.",
+   "start": 22.205,
+   "end": 28.237
+  },
+  {
+   "i": 6,
+   "text": "The Investigator reads the supplier's email. The carrier disagrees. So the Treasurer voids the PayPal hold.",
+   "start": 28.617,
+   "end": 35.239
+  },
+  {
+   "i": 7,
+   "text": "And the team remembers. That supplier is now proof-only.",
+   "start": 35.619,
+   "end": 39.036
+  },
+  {
+   "i": 8,
+   "text": "A broker wants four times the fair price. Blocked. A look-alike domain asks for a new payout account. Locked.",
+   "start": 39.416,
+   "end": 46.656
+  },
+  {
+   "i": 9,
+   "text": "Money moves only on proof, minus what the supplier owes you for being late.",
+   "start": 47.036,
+   "end": 51.099
+  },
+  {
+   "i": 10,
+   "text": "Above its limit, the team stops and asks. One click, and the same thread picks up where it paused.",
+   "start": 51.479,
+   "end": 57.325
+  },
+  {
+   "i": 11,
+   "text": "It even finds the hidden supplier your two backups secretly share.",
+   "start": 57.705,
+   "end": 61.303
+  },
+  {
+   "i": 12,
+   "text": "So the project still ships on time.",
+   "start": 61.683,
+   "end": 63.716
+  },
+  {
+   "i": 13,
+   "text": "Every refusal is logged. Every dollar moves through PayPal. Nothing moves on a guess.",
+   "start": 64.296,
+   "end": 69.666
+  },
+  {
+   "i": 14,
+   "text": "Ask it anything.",
+   "start": 70.046,
+   "end": 71.023
+  },
+  {
+   "i": 15,
+   "text": "DisruptionOps. Never pay for what didn't arrive.",
+   "start": 72.803,
+   "end": 75.909
+  }
+ ]
+}

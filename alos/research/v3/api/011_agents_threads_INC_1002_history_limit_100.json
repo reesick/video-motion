@@ -1,0 +1,1003 @@
+{
+ "thread_id": "INC-1002",
+ "checkpoints": [
+  {
+   "checkpoint_id": "1f1dcee2-1f46-6a69-8062-6bd45df1ecb2",
+   "next": [],
+   "phase": "awaiting_goods",
+   "turns": 8,
+   "created_at": "2026-11-10T10:04:35.518917+00:00",
+   "step": 98
+  },
+  {
+   "checkpoint_id": "1f1dcee2-1f44-64de-8061-d6b31dac4e52",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "awaiting_goods",
+   "turns": 7,
+   "created_at": "2026-11-10T10:04:35.517941+00:00",
+   "step": 97
+  },
+  {
+   "checkpoint_id": "1f1dcee1-d8e1-6820-8060-a19036d7b096",
+   "next": [
+    "treasurer"
+   ],
+   "phase": "procured",
+   "turns": 7,
+   "created_at": "2026-11-10T10:04:28.137457+00:00",
+   "step": 96
+  },
+  {
+   "checkpoint_id": "1f1dcee1-d8dd-6e45-805f-411607436725",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "procured",
+   "turns": 6,
+   "created_at": "2026-11-10T10:04:28.135972+00:00",
+   "step": 95
+  },
+  {
+   "checkpoint_id": "1f1dcee1-b967-6b32-805e-e78beac7bbb6",
+   "next": [
+    "procurement"
+   ],
+   "phase": "approved",
+   "turns": 6,
+   "created_at": "2026-11-10T10:04:24.836982+00:00",
+   "step": 94
+  },
+  {
+   "checkpoint_id": "1f1dcee1-b964-6bef-805d-a58ea45f5c0b",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "approved",
+   "turns": 5,
+   "created_at": "2026-11-10T10:04:24.835755+00:00",
+   "step": 93
+  },
+  {
+   "checkpoint_id": "1f1dc724-145f-626f-805c-ad9bc0744ee0",
+   "next": [
+    "approval"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T19:17:50.468143+00:00",
+   "step": 92
+  },
+  {
+   "checkpoint_id": "1f1dc724-145c-6c6c-805b-f074e0e870fe",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T19:17:50.467168+00:00",
+   "step": 91
+  },
+  {
+   "checkpoint_id": "1f1dc723-e665-6c05-805a-b114ebaee3ab",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T19:17:45.647395+00:00",
+   "step": 90
+  },
+  {
+   "checkpoint_id": "1f1dc723-e662-6440-8059-f232f987d93b",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T19:17:45.645955+00:00",
+   "step": 89
+  },
+  {
+   "checkpoint_id": "1f1dc723-c942-6fd7-8058-7dbdee1fb1e9",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T19:17:42.592285+00:00",
+   "step": 88
+  },
+  {
+   "checkpoint_id": "1f1dc723-c93f-6fdf-8057-9a478d96a866",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T19:17:42.591052+00:00",
+   "step": 87
+  },
+  {
+   "checkpoint_id": "1f1dc723-ae6b-63f7-8056-5d3b96bc646f",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T19:17:39.777617+00:00",
+   "step": 86
+  },
+  {
+   "checkpoint_id": "1f1dc723-ae66-6bf0-8055-9c06d96442cc",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T19:17:39.775771+00:00",
+   "step": 85
+  },
+  {
+   "checkpoint_id": "1f1dc723-ad1b-627d-8054-7d02c587beb5",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T19:17:39.639955+00:00",
+   "step": 84
+  },
+  {
+   "checkpoint_id": "1f1dc723-ad12-6c4e-8053-6b7629b83ffc",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T19:17:39.636521+00:00",
+   "step": 83
+  },
+  {
+   "checkpoint_id": "1f1dc723-ad11-651d-8052-120f22f23794",
+   "next": [
+    "__start__"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T19:17:39.635917+00:00",
+   "step": 82
+  },
+  {
+   "checkpoint_id": "1f1dc677-d114-62fc-8051-e58b37b6028c",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T18:00:46.322130+00:00",
+   "step": 81
+  },
+  {
+   "checkpoint_id": "1f1dc677-d10f-6a23-8050-0923462d2144",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T18:00:46.320263+00:00",
+   "step": 80
+  },
+  {
+   "checkpoint_id": "1f1dc677-cfba-64cd-804f-626a219ddf79",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T18:00:46.180456+00:00",
+   "step": 79
+  },
+  {
+   "checkpoint_id": "1f1dc677-cfb7-6ab2-804e-33a32acb9df4",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T18:00:46.179377+00:00",
+   "step": 78
+  },
+  {
+   "checkpoint_id": "1f1dc677-cfb5-6730-804d-9c66e65a1e2f",
+   "next": [
+    "__start__"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T18:00:46.178458+00:00",
+   "step": 77
+  },
+  {
+   "checkpoint_id": "1f1dc646-1b10-6ba8-804c-d52adc409cfe",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T17:38:31.902902+00:00",
+   "step": 76
+  },
+  {
+   "checkpoint_id": "1f1dc646-1b0d-6139-804b-ddfd2d963c08",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T17:38:31.901390+00:00",
+   "step": 75
+  },
+  {
+   "checkpoint_id": "1f1dc645-fdd4-6c34-804a-5fda0492166e",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T17:38:28.837470+00:00",
+   "step": 74
+  },
+  {
+   "checkpoint_id": "1f1dc645-fdd3-60cb-8049-50d5ebb5e65d",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T17:38:28.836764+00:00",
+   "step": 73
+  },
+  {
+   "checkpoint_id": "1f1dc645-fc7f-652b-8048-5ed5126d00f8",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T17:38:28.697612+00:00",
+   "step": 72
+  },
+  {
+   "checkpoint_id": "1f1dc645-fc7b-6763-8047-120475876acf",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T17:38:28.696033+00:00",
+   "step": 71
+  },
+  {
+   "checkpoint_id": "1f1dc645-fc79-6cf6-8046-b528e7bf2643",
+   "next": [
+    "__start__"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T17:38:28.695347+00:00",
+   "step": 70
+  },
+  {
+   "checkpoint_id": "1f1dc558-c46c-6caf-8045-5d9147c57166",
+   "next": [
+    "approval"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:52:20.897688+00:00",
+   "step": 69
+  },
+  {
+   "checkpoint_id": "1f1dc558-c467-6f66-8044-012c4b2c870c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T15:52:20.895706+00:00",
+   "step": 68
+  },
+  {
+   "checkpoint_id": "1f1dc558-8efe-6973-8043-87f23cb129a8",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T15:52:15.295101+00:00",
+   "step": 67
+  },
+  {
+   "checkpoint_id": "1f1dc558-8efb-6eba-8042-aa2f7400e90c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:52:15.294001+00:00",
+   "step": 66
+  },
+  {
+   "checkpoint_id": "1f1dc558-6eab-6906-8041-bd05a37582be",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:52:11.905642+00:00",
+   "step": 65
+  },
+  {
+   "checkpoint_id": "1f1dc558-6ea5-6b26-8040-4bff5273a673",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T15:52:11.903241+00:00",
+   "step": 64
+  },
+  {
+   "checkpoint_id": "1f1dc558-514e-6f32-803f-b0bb576594fd",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T15:52:08.826817+00:00",
+   "step": 63
+  },
+  {
+   "checkpoint_id": "1f1dc558-514c-6040-803e-f4b41635a283",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T15:52:08.825632+00:00",
+   "step": 62
+  },
+  {
+   "checkpoint_id": "1f1dc558-4ff7-601a-803d-6b26f06c1de5",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T15:52:08.685965+00:00",
+   "step": 61
+  },
+  {
+   "checkpoint_id": "1f1dc558-4ff5-63d6-803c-2e99fb24724e",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T15:52:08.685238+00:00",
+   "step": 60
+  },
+  {
+   "checkpoint_id": "1f1dc558-4ff3-6b46-803b-1915b9aa9209",
+   "next": [
+    "__start__"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:52:08.684606+00:00",
+   "step": 59
+  },
+  {
+   "checkpoint_id": "1f1dc515-8daf-62c1-803a-00a6429d7624",
+   "next": [
+    "approval"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:22:16.640158+00:00",
+   "step": 58
+  },
+  {
+   "checkpoint_id": "1f1dc515-8dac-618f-8039-dad3fbdfcc9f",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T15:22:16.638891+00:00",
+   "step": 57
+  },
+  {
+   "checkpoint_id": "1f1dc515-5d00-6f6c-8038-449b739f16ed",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T15:22:11.535633+00:00",
+   "step": 56
+  },
+  {
+   "checkpoint_id": "1f1dc515-5cfe-6460-8037-7a482edf74dd",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:22:11.534526+00:00",
+   "step": 55
+  },
+  {
+   "checkpoint_id": "1f1dc515-3cc5-6ad5-8036-11aead737208",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:22:08.155911+00:00",
+   "step": 54
+  },
+  {
+   "checkpoint_id": "1f1dc515-3cc3-6e56-8035-e8fdd2fd28a2",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T15:22:08.155177+00:00",
+   "step": 53
+  },
+  {
+   "checkpoint_id": "1f1dc515-2083-65e7-8034-6a5ade82e53c",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T15:22:05.192737+00:00",
+   "step": 52
+  },
+  {
+   "checkpoint_id": "1f1dc515-2081-6576-8033-951c8aaf8d42",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T15:22:05.191897+00:00",
+   "step": 51
+  },
+  {
+   "checkpoint_id": "1f1dc515-1f31-6659-8032-f813066510af",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T15:22:05.054305+00:00",
+   "step": 50
+  },
+  {
+   "checkpoint_id": "1f1dc515-1f2f-68fa-8031-0a655481a5ea",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T15:22:05.053550+00:00",
+   "step": 49
+  },
+  {
+   "checkpoint_id": "1f1dc515-1f2d-6ffb-8030-029e282b4573",
+   "next": [
+    "__start__"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:22:05.052900+00:00",
+   "step": 48
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-d648-6e16-802f-d0c4ec353ad7",
+   "next": [
+    "approval"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:07:11.572306+00:00",
+   "step": 47
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-d644-6c9b-802e-87d87235873e",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T15:07:11.570624+00:00",
+   "step": 46
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-a78f-6dee-802d-a539e89fc3f8",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T15:07:06.673041+00:00",
+   "step": 45
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-a78c-638a-802c-c943fcbf1025",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:07:06.671573+00:00",
+   "step": 44
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-89d4-6be2-802b-205638f77af1",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T15:07:03.555560+00:00",
+   "step": 43
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-89ce-62cc-802a-84ffa622dbb2",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T15:07:03.552866+00:00",
+   "step": 42
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-6b9c-61ac-8029-5e05c23f4b55",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T15:07:00.386636+00:00",
+   "step": 41
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-6b99-688d-8028-56f8f58eaa0c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T15:07:00.385580+00:00",
+   "step": 40
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-6a48-6d38-8027-999c7ccbb051",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T15:07:00.247670+00:00",
+   "step": 39
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-6a45-600e-8026-0055fe5e307a",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T15:07:00.246103+00:00",
+   "step": 38
+  },
+  {
+   "checkpoint_id": "1f1dc4f3-6a43-69c0-8025-00d064ac99f1",
+   "next": [
+    "__start__"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T15:07:00.245524+00:00",
+   "step": 37
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-652c-6c06-8024-5357b8e1924f",
+   "next": [
+    "approval"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T14:50:53.344240+00:00",
+   "step": 36
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-652a-6820-8023-3069d5325bd1",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T14:50:53.343316+00:00",
+   "step": 35
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-326b-669c-8022-26f7834d47e1",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T14:50:48.022167+00:00",
+   "step": 34
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-3268-6dba-8021-31336e033d47",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T14:50:48.021117+00:00",
+   "step": 33
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-14ff-60ab-8020-9c3b057327ee",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T14:50:44.936912+00:00",
+   "step": 32
+  },
+  {
+   "checkpoint_id": "1f1dc4cf-14fc-6e42-801f-d7031151d747",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T14:50:44.936026+00:00",
+   "step": 31
+  },
+  {
+   "checkpoint_id": "1f1dc4ce-fe9f-6090-801e-a6d92709fbb7",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T14:50:42.590717+00:00",
+   "step": 30
+  },
+  {
+   "checkpoint_id": "1f1dc4ce-fe9a-64dc-801d-9869693235b7",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T14:50:42.588772+00:00",
+   "step": 29
+  },
+  {
+   "checkpoint_id": "1f1dc4ce-f86c-6e75-801c-5ea2a465a9c9",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T14:50:41.941035+00:00",
+   "step": 28
+  },
+  {
+   "checkpoint_id": "1f1dc4ce-f866-6f0a-801b-eccf9a821e8c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T14:50:41.938595+00:00",
+   "step": 27
+  },
+  {
+   "checkpoint_id": "1f1dc4ce-f865-6213-801a-d10305b3d6ea",
+   "next": [
+    "__start__"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T14:50:41.937841+00:00",
+   "step": 26
+  },
+  {
+   "checkpoint_id": "1f1dc405-a40f-67b9-8019-ac6ebd9832c1",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T13:20:37.542067+00:00",
+   "step": 25
+  },
+  {
+   "checkpoint_id": "1f1dc405-a40c-66cc-8018-d42845be144a",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T13:20:37.540813+00:00",
+   "step": 24
+  },
+  {
+   "checkpoint_id": "1f1dc405-a2b8-6338-8017-73202f7eeab7",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T13:20:37.401464+00:00",
+   "step": 23
+  },
+  {
+   "checkpoint_id": "1f1dc405-a2b6-64de-8016-2e66a00dd8d8",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T13:20:37.400688+00:00",
+   "step": 22
+  },
+  {
+   "checkpoint_id": "1f1dc405-a2b5-60ba-8015-f9bd74af1e0f",
+   "next": [
+    "__start__"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T13:20:37.400162+00:00",
+   "step": 21
+  },
+  {
+   "checkpoint_id": "1f1dc30f-5c0d-69e8-8014-2e53afcda41f",
+   "next": [
+    "approval"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T11:30:26.479345+00:00",
+   "step": 20
+  },
+  {
+   "checkpoint_id": "1f1dc30f-5c0b-6d74-8013-2f9b0a69fdf5",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T11:30:26.478612+00:00",
+   "step": 19
+  },
+  {
+   "checkpoint_id": "1f1dc30f-2ac3-6ab6-8012-adf8728558ae",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T11:30:21.311027+00:00",
+   "step": 18
+  },
+  {
+   "checkpoint_id": "1f1dc30f-2ac0-6e8f-8011-166628e9940c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T11:30:21.309891+00:00",
+   "step": 17
+  },
+  {
+   "checkpoint_id": "1f1dc30f-0811-67eb-8010-df1c14591225",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T11:30:17.672892+00:00",
+   "step": 16
+  },
+  {
+   "checkpoint_id": "1f1dc30f-080f-655c-800f-a6d54a558ab9",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T11:30:17.672000+00:00",
+   "step": 15
+  },
+  {
+   "checkpoint_id": "1f1dc30e-e896-6b3a-800e-32596ef41ac3",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T11:30:14.372008+00:00",
+   "step": 14
+  },
+  {
+   "checkpoint_id": "1f1dc30e-e893-63f8-800d-8e75d396864a",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T11:30:14.370591+00:00",
+   "step": 13
+  },
+  {
+   "checkpoint_id": "1f1dc30e-e730-60aa-800c-ff2358ce01ac",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T11:30:14.225104+00:00",
+   "step": 12
+  },
+  {
+   "checkpoint_id": "1f1dc30e-e72e-6836-800b-9777bca6b18c",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T11:30:14.224476+00:00",
+   "step": 11
+  },
+  {
+   "checkpoint_id": "1f1dc30e-e72c-6a61-800a-2872062dfb94",
+   "next": [
+    "__start__"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T11:30:14.223653+00:00",
+   "step": 10
+  },
+  {
+   "checkpoint_id": "1f1dc2fc-58d7-6e78-8009-e618696a093a",
+   "next": [
+    "approval"
+   ],
+   "phase": "planned",
+   "turns": 5,
+   "created_at": "2026-11-09T11:21:56.115404+00:00",
+   "step": 9
+  },
+  {
+   "checkpoint_id": "1f1dc2fc-58d5-6ea5-8008-3429f6f9f742",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "planned",
+   "turns": 4,
+   "created_at": "2026-11-09T11:21:56.114586+00:00",
+   "step": 8
+  },
+  {
+   "checkpoint_id": "1f1dc2fc-1c8c-6593-8007-e67c8d5bcfbd",
+   "next": [
+    "sourcing"
+   ],
+   "phase": "communicated",
+   "turns": 4,
+   "created_at": "2026-11-09T11:21:49.792993+00:00",
+   "step": 7
+  },
+  {
+   "checkpoint_id": "1f1dc2fc-1c86-6784-8006-9db35cdef0a2",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "communicated",
+   "turns": 3,
+   "created_at": "2026-11-09T11:21:49.790586+00:00",
+   "step": 6
+  },
+  {
+   "checkpoint_id": "1f1dc2fb-f7f1-6bc7-8005-1c453854e6ad",
+   "next": [
+    "liaison"
+   ],
+   "phase": "investigated",
+   "turns": 3,
+   "created_at": "2026-11-09T11:21:45.954795+00:00",
+   "step": 5
+  },
+  {
+   "checkpoint_id": "1f1dc2fb-f7ed-6f15-8004-c50b3758a9cf",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "investigated",
+   "turns": 2,
+   "created_at": "2026-11-09T11:21:45.953239+00:00",
+   "step": 4
+  },
+  {
+   "checkpoint_id": "1f1dc2fb-dac9-61c4-8003-306aa75c8268",
+   "next": [
+    "investigator"
+   ],
+   "phase": "detected",
+   "turns": 2,
+   "created_at": "2026-11-09T11:21:42.897286+00:00",
+   "step": 3
+  },
+  {
+   "checkpoint_id": "1f1dc2fb-dac7-6059-8002-ceef019c5606",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "detected",
+   "turns": 1,
+   "created_at": "2026-11-09T11:21:42.896427+00:00",
+   "step": 2
+  },
+  {
+   "checkpoint_id": "1f1dc2fb-d977-6db0-8001-8c04d50335a2",
+   "next": [
+    "sentinel"
+   ],
+   "phase": "start",
+   "turns": 1,
+   "created_at": "2026-11-09T11:21:42.759134+00:00",
+   "step": 1
+  },
+  {
+   "checkpoint_id": "1f1dc2fb-d974-67cf-8000-508611f744f5",
+   "next": [
+    "supervisor"
+   ],
+   "phase": "start",
+   "turns": 0,
+   "created_at": "2026-11-09T11:21:42.757767+00:00",
+   "step": 0
+  },
+  {
+   "checkpoint_id": "1f1dc2fb-d972-6be4-bfff-459590744204",
+   "next": [
+    "__start__"
+   ],
+   "phase": null,
+   "turns": null,
+   "created_at": "2026-11-09T11:21:42.757054+00:00",
+   "step": -1
+  }
+ ]
+}

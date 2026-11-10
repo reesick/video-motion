@@ -18,14 +18,22 @@ alos/audio/music/
 alos/audio/music77.wav
 
 # regenerable voice-over intermediates (voiceover.wav + lines.json are kept)
-alos/audio/vo/L*.wav
-alos/audio/vo/L*.mp3
+alos/audio/vo*/L*.wav
+alos/audio/vo*/L*.mp3
 
-# clone of the product's own repo (lives at its own origin)
+# clones of the product's own repo (live at their own origin)
 alos/research/repo/
+alos/research/repo_v3/
 
 # one-off patch scripts, OS junk
 tools/_*.py
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# other projects that live in this folder (not part of video-motion; they have Blender, venvs and big models)
+/bridge-whatif/
+/cartoon-shorts/
+/indradhanu/
+/three-shorts/
+/whatif-studio/

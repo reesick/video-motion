@@ -107,10 +107,22 @@
     root.style.background = 'radial-gradient(1200px 900px at 40% 35%,#7c5cf0,#4f46e5 55%,#3442c9)';
     const lg = add(root, `<div class="abs" style="left:0;top:0">${logo(170)}</div>`);
     const wm = add(root, `<div class="abs" style="left:0;top:0;font-size:120px;font-weight:700;letter-spacing:-3px;white-space:nowrap">${[...'DisruptionOps'].map((c) => `<span class="mask" style="padding:0"><span>${c}</span></span>`).join('')}</div>`);
-    const sub = add(root, `<div class="abs" style="left:0;width:1920px;top:640px;text-align:center;font-size:40px;font-weight:500;color:#e3e6ff">${maskWords('Your buyer-side agent.')}</div>`);
+    const sub = add(root, `<div class="abs" style="left:0;width:1920px;top:640px;text-align:center;font-size:40px;font-weight:500;color:#e3e6ff">${maskWords('A team of AI agents that works for the buyer.')}</div>`);
+    // the eight specialists burst out of the wordmark into a ring (same motion as the intro's parts burst), then collapse back
+    const ring = (F.AGR = [['Sentinel', 'activity'], ['Investigator', 'search'], ['Liaison', 'mail'], ['Sourcing', 'flow'], ['Approval', 'check'], ['Procurement', 'box'], ['Treasurer', 'wallet'], ['Verifier', 'shield']]).map(([n, i], k) => {
+      const e = add(root, `<div class="abs" style="left:0;top:0;padding:12px 20px;border-radius:20px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);color:#fff;font-size:22px;font-weight:600;display:flex;gap:10px;align-items:center;white-space:nowrap;backdrop-filter:blur(6px)">${ic(i, 20, '#fff')}${n}</div>`);
+      const a = (-90 + k * 45) * Math.PI / 180; return { e, x: 1005 + 790 * Math.cos(a), y: 445 + 330 * Math.sin(a), w: 0, h: 0 };
+    });
     const letters = [...wm.querySelectorAll('.mask > span')], sw = [...sub.querySelectorAll('.mask > span')];
     return (t) => {
       const t0 = L(4);
+      const tb = W('agents', t0) - 0.15, tcol = L(5) - 0.85;
+      ring.forEach((r, k) => {
+        if (!r.w) { r.w = r.e.offsetWidth; r.h = r.e.offsetHeight; }
+        const m = spring(t, tb + k * 0.06, 1.6, 0.72), b = ep(t, tcol + k * 0.02, tcol + 0.35 + k * 0.02, E.inCubic);
+        const x = lerp(960, r.x, (0.3 + 0.7 * m) * (1 - b)) + M.drift(t, k, 5, 0.3), y = lerp(445, r.y, (0.3 + 0.7 * m) * (1 - b)) + M.drift(t, k + 5, 5, 0.27);
+        S(r.e, { display: t > tb + k * 0.06 && b < 1 ? '' : 'none', transform: `translate(${x - r.w / 2}px,${y - r.h / 2}px) scale(${pop(t, tb + k * 0.06, 2.2, 0.6) * (1 - b)})` });
+      });
       const lk = pop(t, t0, 2.2, 0.62);
       const shrink = ep(t, L(5) - 0.55, L(5) + 0.25, E.inOutCubic);
       // final positions = sidebar brand
@@ -119,7 +131,7 @@
       S(lg, { left: `${LX}px`, top: `${LY}px`, transform: `scale(${lk})` });
       S(wm, { left: `${lerp(770, 122, shrink)}px`, top: `${lerp(392, 44, shrink)}px`, fontSize: `${lerp(120, 21, shrink)}px`, letterSpacing: `${lerp(-3, 0, shrink)}px`, color: shrink > 0.5 ? (K.LIGHT ? '#4f46e5' : '#8ea2ff') : '#fff' });
       letters.forEach((e, i) => rise(e, t, t0 + 0.1 + i * 0.03, 0.32));
-      sw.forEach((e, i) => { rise(e, t, W('your', t0) - 0.05 + i * 0.12, 0.35); e.parentElement.style.opacity = 1 - shrink; });
+      sw.forEach((e, i) => { rise(e, t, W('team', t0) - 0.25 + i * 0.1, 0.35); e.parentElement.style.opacity = 1 - shrink; });
       // the violet field contracts into the sidebar
       if (shrink > 0) root.style.clipPath = `inset(${20 * shrink}px ${(1920 - 320) * shrink}px ${20 * shrink}px ${20 * shrink}px round ${30 * shrink}px)`;
       else root.style.clipPath = 'none';

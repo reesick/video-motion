@@ -1,0 +1,736 @@
+{
+ "thread_id": "INC-1002",
+ "values": {
+  "incident_id": "INC-1002",
+  "org_id": "NEXA",
+  "trigger": "risk",
+  "ctx": {
+   "incident_id": "INC-1002",
+   "component_id": "COMP-402",
+   "component_name": "Microcontroller MCU",
+   "severity": "medium",
+   "headline": "Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days.",
+   "coverage_days": 5.6,
+   "threatened": [
+    {
+     "production_order_id": "PROD-885",
+     "product_name": "Telematics Unit",
+     "oem_customer": "Shakti Auto",
+     "priority": "medium",
+     "shortfall": 310,
+     "hours_to_deadline": 259.8,
+     "coverage_hours": 135.3,
+     "required_units": 500,
+     "usable_stock": 310,
+     "erp_stock": 310,
+     "safety_stock": 120,
+     "incoming_before_deadline": 0
+    }
+   ],
+   "tool_calls": 6,
+   "status": "executing",
+   "run_id": null,
+   "contradictions": [],
+   "suppliers_available": 1,
+   "plan_id": 21,
+   "result": {
+    "shortfall": 310,
+    "hours_left": 259.78,
+    "days_left_display": 10.8,
+    "budget_left": 348600,
+    "budget": {
+     "total": 500000,
+     "placed": 0,
+     "held": 151400,
+     "left": 348600,
+     "holders": [
+      {
+       "incident_id": "INC-1002",
+       "amount": 151400,
+       "reason": "Chosen plan: Nexus Micro (sole source) (AIR). Awaiting approval.",
+       "severity": "medium",
+       "title": "Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days.",
+       "component_name": "Microcontroller MCU",
+       "priority": "medium",
+       "hours_to_stop": 259.5263288213889
+      }
+     ]
+    },
+    "approval_threshold": 150000,
+    "chosen": {
+     "kind": "single",
+     "lines": [
+      {
+       "supplier_id": "SUP-95",
+       "supplier_name": "Nexus Micro (sole source)",
+       "quantity": 310,
+       "unit_price": 340,
+       "mode": "AIR",
+       "lead_time_hours": 312,
+       "freight_cost": 46000,
+       "reliability": 0.82,
+       "quality": 0.93
+      }
+     ],
+     "label": "Nexus Micro (sole source) (AIR)",
+     "total_cost": 151400,
+     "units_covered": 310,
+     "arrival_hours": 312,
+     "continuity": 0.6736,
+     "cost_score": 0.6962,
+     "risk_score": 0.7626,
+     "score": 0.4894,
+     "requires_approval": true,
+     "rationale": "310 units from Nexus Micro (sole source) via AIR, arriving in 13.0 days.",
+     "impact": null
+    },
+    "options": [
+     {
+      "kind": "single",
+      "lines": [
+       {
+        "supplier_id": "SUP-95",
+        "supplier_name": "Nexus Micro (sole source)",
+        "quantity": 310,
+        "unit_price": 340,
+        "mode": "AIR",
+        "lead_time_hours": 312,
+        "freight_cost": 46000,
+        "reliability": 0.82,
+        "quality": 0.93
+       }
+      ],
+      "label": "Nexus Micro (sole source) (AIR)",
+      "total_cost": 151400,
+      "units_covered": 310,
+      "arrival_hours": 312,
+      "continuity": 0.6736,
+      "cost_score": 0.6962,
+      "risk_score": 0.7626,
+      "score": 0.4894,
+      "requires_approval": true,
+      "rationale": "310 units from Nexus Micro (sole source) via AIR, arriving in 13.0 days.",
+      "impact": null
+     },
+     {
+      "kind": "reschedule",
+      "lines": [],
+      "label": "Reschedule this production run",
+      "total_cost": 0,
+      "units_covered": 0,
+      "arrival_hours": 259.7822502491667,
+      "continuity": 0.45,
+      "cost_score": 1,
+      "risk_score": 0,
+      "score": 0.3575,
+      "requires_approval": false,
+      "rationale": "Push this run back and protect higher-priority lines. Costs nothing but forfeits the original deadline.",
+      "impact": null
+     },
+     {
+      "kind": "do_nothing",
+      "lines": [],
+      "label": "Do nothing",
+      "total_cost": 0,
+      "units_covered": 0,
+      "arrival_hours": null,
+      "continuity": 0,
+      "cost_score": 1,
+      "risk_score": 0,
+      "score": 0.2,
+      "requires_approval": false,
+      "rationale": "Accept the shortfall and let the line stop.",
+      "impact": null
+     }
+    ],
+    "rejections": [],
+    "lanes": [
+     {
+      "supplier_id": "SUP-95",
+      "supplier_name": "Nexus Micro (sole source)",
+      "mode": "AIR",
+      "verdict": "chosen",
+      "constraint": null,
+      "human_reason": null,
+      "unit_price": 340,
+      "freight_cost": 46000,
+      "available_quantity": 590,
+      "min_order_quantity": 100,
+      "lead_time_hours": 312,
+      "reliability": 0.82
+     },
+     {
+      "supplier_id": "SUP-95",
+      "supplier_name": "Nexus Micro (sole source)",
+      "mode": "SEA",
+      "verdict": "considered",
+      "constraint": null,
+      "human_reason": null,
+      "unit_price": 340,
+      "freight_cost": 11000,
+      "available_quantity": 590,
+      "min_order_quantity": 100,
+      "lead_time_hours": 552,
+      "reliability": 0.82
+     }
+    ],
+    "weights": {
+     "continuity": 0.35,
+     "cost": 0.2,
+     "risk": 0.15
+    },
+    "suppliers_in_play": [
+     {
+      "id": "SUP-95",
+      "name": "Nexus Micro (sole source)"
+     }
+    ],
+    "excluded": [],
+    "reschedulable": [],
+    "context": {
+     "production_order_id": "PROD-885",
+     "component_id": "COMP-402",
+     "required_units": 500,
+     "usable_stock": 310,
+     "erp_stock": 310,
+     "pool_stock": 310,
+     "claimed_by_others": 0,
+     "safety_stock": 120,
+     "daily_usage": 55,
+     "priority": "medium",
+     "deadline": "2026-11-20T14:49:22.092503+00:00",
+     "is_hazmat": false,
+     "required_certifications": [
+      "AEC-Q100",
+      "IATF-16949"
+     ]
+    }
+   },
+   "narrative": "Production stops in 5.6 days without action. Selected Nexus Micro (sole source) (AIR) at Rs 151,400.",
+   "created_pos": [
+    {
+     "po_id": "PO-A9003",
+     "mode": "AIR",
+     "supplier_id": "SUP-95"
+    }
+   ]
+  },
+  "phase": "awaiting_goods",
+  "evidence": {
+   "contradictions": [],
+   "suppliers_available": 1,
+   "contradictions_settled": false
+  },
+  "plan": {
+   "plan_id": 21,
+   "label": "Nexus Micro (sole source) (AIR)",
+   "kind": "single",
+   "score": 0.4894,
+   "total_cost_inr": 151400,
+   "requires_approval": true,
+   "options": 3,
+   "rejections": 0,
+   "narrative": "Production stops in 5.6 days without action. Selected Nexus Micro (sole source) (AIR) at Rs 151,400.",
+   "excluded_by_memory": [
+    "SUP-88",
+    "SUP-21"
+   ],
+   "lines": [
+    {
+     "supplier_id": "SUP-95",
+     "supplier_name": "Nexus Micro (sole source)",
+     "quantity": 310,
+     "unit_price": 340,
+     "mode": "AIR",
+     "lead_time_hours": 312,
+     "freight_cost": 46000,
+     "reliability": 0.82,
+     "quality": 0.93
+    }
+   ]
+  },
+  "purchase_orders": [
+   {
+    "po_id": "PO-A9003",
+    "mode": "AIR",
+    "supplier_id": "SUP-95"
+   }
+  ],
+  "approval": {
+   "decision": "approve",
+   "note": "from Agent Team",
+   "exclude": []
+  },
+  "trail": [
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T11:21:42+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T11:21:42+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T11:21:42+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T11:21:45+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T11:21:45+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T11:21:49+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T11:21:49+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Nexus Micro (sole source) (AIR)' (score 0.4986) from 3 option(s); 0 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T11:21:56+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T11:21:56+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T11:30:14+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T11:30:14+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T11:30:14+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T11:30:17+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T11:30:17+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T11:30:21+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T11:30:21+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Nexus Micro (sole source) (AIR)' (score 0.4986) from 3 option(s); 0 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T11:30:26+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T11:30:26+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T13:20:37+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T13:20:37+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T13:20:37+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T14:50:41+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T14:50:42+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T14:50:42+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T14:50:44+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T14:50:44+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T14:50:48+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T14:50:48+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Nexus Micro (sole source) (AIR)' (score 0.4986) from 3 option(s); 0 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T14:50:53+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T14:50:53+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T15:07:00+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T15:07:00+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T15:07:00+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T15:07:03+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T15:07:03+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T15:07:06+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T15:07:06+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Nexus Micro (sole source) (AIR)' (score 0.4985) from 3 option(s); 0 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T15:07:11+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T15:07:11+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T15:22:05+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T15:22:05+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T15:22:05+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T15:22:08+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T15:22:08+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T15:22:11+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T15:22:11+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Nexus Micro (sole source) (AIR)' (score 0.4985) from 3 option(s); 0 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T15:22:16+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T15:22:16+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T15:52:08+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T15:52:08+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T15:52:08+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T15:52:11+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T15:52:11+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T15:52:15+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T15:52:15+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Nexus Micro (sole source) (AIR)' (score 0.4969) from 3 option(s); 0 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T15:52:20+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T15:52:20+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T17:38:28+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T17:38:28+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T17:38:28+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T17:38:31+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T17:38:31+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T18:00:46+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T18:00:46+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T18:00:46+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T19:17:39+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Telematics Unit for Shakti Auto needs 310 more Microcontroller MCU — the line stops in 5.6 days. (severity medium, coverage 5.6 d)",
+    "at": "2026-11-09T19:17:39+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T19:17:39+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 1 candidate supplier(s)",
+    "at": "2026-11-09T19:17:42+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T19:17:42+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T19:17:45+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T19:17:45+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Nexus Micro (sole source) (AIR)' (score 0.4894) from 3 option(s); 0 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T19:17:50+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T19:17:50+00:00"
+   },
+   {
+    "agent": "approval",
+    "action": "Human approved the plan (from Agent Team)",
+    "at": "2026-11-10T10:04:24+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: human approved",
+    "at": "2026-11-10T10:04:24+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 1 purchase order(s): PO-A9003",
+    "at": "2026-11-10T10:04:28+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-10T10:04:28+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 1; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-10T10:04:35+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-10T10:04:35+00:00"
+   }
+  ],
+  "guard_verdicts": [
+   {
+    "guard": "fair_price",
+    "outcome": "pass",
+    "po_id": "PO-A9003",
+    "amount_usd": "0.00",
+    "reason": "Quote within +3% of should-cost."
+   },
+   {
+    "guard": "budget",
+    "outcome": "pass",
+    "po_id": "PO-A9003",
+    "amount_usd": "0.00",
+    "reason": "PO is not tied to a project budget."
+   }
+  ],
+  "money": [
+   {
+    "po_id": "PO-A9003",
+    "state": "funds_held",
+    "amount_usd": "1254.76",
+    "captured_usd": null,
+    "credit_usd": null,
+    "retention_usd": null,
+    "authorization_id": "4GK996340S1186848",
+    "capture_id": null,
+    "note": null
+   },
+   {
+    "po_id": "PO-A9003",
+    "state": "expedite_fee_paid",
+    "amount_usd": 37.64
+   }
+  ],
+  "recalled": [
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record"
+  ],
+  "next_agent": "__end__",
+  "turns": 8,
+  "done": false
+ },
+ "next": [],
+ "waiting_for_human": false,
+ "interrupts": [],
+ "checkpoint_id": "1f1dcee2-1f46-6a69-8062-6bd45df1ecb2",
+ "running": false,
+ "memory": "postgres"
+}

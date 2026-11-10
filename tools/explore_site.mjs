@@ -17,7 +17,7 @@ const seen = new Set();
 let n = 0;
 
 const slug = (s) => s.replace(/https?:\/\/[^/]+/, '').replace(/[^a-z0-9]+/gi, '_').replace(/^_|_$/g, '').slice(0, 50) || 'home';
-async function settle() { await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {}); await page.waitForTimeout(2500); }
+async function settle() { await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {}); await page.waitForTimeout(Number(process.env.SETTLE || 2500)); }
 
 async function capture(label) {
   n++;

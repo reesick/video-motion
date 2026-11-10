@@ -1,0 +1,65 @@
+{
+ "checked_at": "2026-11-10T10:07:46.726614+00:00",
+ "integrations": {
+  "paypal": {
+   "state": "live",
+   "detail": "OAuth token issued (sandbox)"
+  },
+  "vault": {
+   "state": "live",
+   "detail": "mandate 429990492e962572x (active) for dops-buyer-dada@business.example.com"
+  },
+  "orders_payments": {
+   "state": "live",
+   "detail": "11 authorization/capture/void calls recorded"
+  },
+  "payouts": {
+   "state": "live",
+   "detail": "2 payouts recorded"
+  },
+  "webhooks": {
+   "state": "live",
+   "detail": "40 signed webhooks verified · 1VG50561ST307660J"
+  },
+  "invoicing": {
+   "state": "live",
+   "detail": "1 chargeback invoices sent"
+  },
+  "agent_toolkit": {
+   "state": "live",
+   "detail": "read-only tools in the Copilot: get_order_details, list_invoices, get_invoice"
+  },
+  "gemini": {
+   "state": "needs_setup",
+   "detail": "gemini-3.6-flash: HTTP 401 {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"UNAUTHENTICATED\",\n  "
+  },
+  "smtp": {
+   "state": "live",
+   "detail": "sending as HEADQUARTERS <officialayushp123@gmail.com>"
+  },
+  "imap": {
+   "state": "live",
+   "detail": "polling imap.gmail.com every 60 s"
+  },
+  "langgraph": {
+   "state": "live",
+   "detail": "memory: postgres"
+  },
+  "supabase": {
+   "state": "live",
+   "detail": "Postgres + row-level security"
+  },
+  "render": {
+   "state": "live",
+   "detail": "https://agentic-logistic-orchestration-system.onrender.com"
+  },
+  "zapier": {
+   "state": "optional",
+   "detail": "optional: set ZAPIER_WEBHOOK_URL"
+  },
+  "postman": {
+   "state": "live",
+   "detail": "postman/DisruptionOps.postman_collection.json"
+  }
+ }
+}

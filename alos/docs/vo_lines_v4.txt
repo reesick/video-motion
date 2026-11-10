@@ -1,0 +1,18 @@
+One hour of downtime in a car plant costs two point three million dollars.
+India's biggest carmaker couldn't build forty-six thousand cars in one quarter. For want of chips.
+Suppliers overcharge. Push dates back. Invoice twice. And say it shipped, when it didn't.
+|0.3
+Meet DisruptionOps. A team of AI agents that works for the buyer.
+A Sentinel watches every project. When a part's order-by date turns red, it hands it to the team.
+The Investigator reads the supplier's email. The carrier disagrees. So the Treasurer voids the PayPal hold.
+And the team remembers. That supplier is now proof-only.
+A broker wants four times the fair price. Blocked. A look-alike domain asks for a new payout account. Locked.
+Money moves only on proof, minus what the supplier owes you for being late.
+Above its limit, the team stops and asks. One click, and the same thread picks up where it paused.
+It even finds the hidden supplier your two backups secretly share.
+So the project still ships on time.
+|0.2
+Every refusal is logged. Every dollar moves through PayPal. Nothing moves on a guess.
+Ask it anything.
+|1.4
+DisruptionOps. Never pay for what didn't arrive.

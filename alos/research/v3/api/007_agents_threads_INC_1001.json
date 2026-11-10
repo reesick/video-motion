@@ -1,0 +1,1078 @@
+{
+ "thread_id": "INC-1001",
+ "values": {
+  "incident_id": "INC-1001",
+  "org_id": "NEXA",
+  "trigger": "risk",
+  "ctx": {
+   "incident_id": "INC-1001",
+   "component_id": "COMP-311",
+   "component_name": "Wiring Harness",
+   "severity": "high",
+   "headline": "Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days.",
+   "coverage_days": 7.9,
+   "threatened": [
+    {
+     "production_order_id": "PROD-887",
+     "product_name": "Battery Management System",
+     "oem_customer": "Bharat EV Motors",
+     "priority": "critical",
+     "shortfall": 10,
+     "hours_to_deadline": 197,
+     "coverage_hours": 190,
+     "required_units": 760,
+     "usable_stock": 950,
+     "erp_stock": 950,
+     "safety_stock": 200,
+     "incoming_before_deadline": 0
+    }
+   ],
+   "tool_calls": 7,
+   "status": "executing",
+   "run_id": null,
+   "contradictions": [],
+   "suppliers_available": 2,
+   "confidence": "low",
+   "plan_id": 22,
+   "result": {
+    "shortfall": 10,
+    "hours_left": 196.96,
+    "days_left_display": 8.2,
+    "budget_left": 394600,
+    "budget": {
+     "total": 500000,
+     "placed": 105400,
+     "held": 0,
+     "left": 394600,
+     "holders": []
+    },
+    "approval_threshold": 150000,
+    "chosen": {
+     "kind": "do_nothing",
+     "lines": [],
+     "label": "Do nothing",
+     "total_cost": 0,
+     "units_covered": 0,
+     "arrival_hours": null,
+     "continuity": 0,
+     "cost_score": 1,
+     "risk_score": 0,
+     "score": 0.2,
+     "requires_approval": false,
+     "rationale": "Accept the shortfall and let the line stop.",
+     "impact": null
+    },
+    "options": [
+     {
+      "kind": "do_nothing",
+      "lines": [],
+      "label": "Do nothing",
+      "total_cost": 0,
+      "units_covered": 0,
+      "arrival_hours": null,
+      "continuity": 0,
+      "cost_score": 1,
+      "risk_score": 0,
+      "score": 0.2,
+      "requires_approval": false,
+      "rationale": "Accept the shortfall and let the line stop.",
+      "impact": null
+     }
+    ],
+    "rejections": [
+     {
+      "supplier_id": "SUP-64",
+      "supplier_name": "Bharat Bulk Components",
+      "constraint": "MIN_ORDER_QUANTITY",
+      "human_reason": "Bharat Bulk Components requires a minimum order of 2000, we need 10.",
+      "detail": {
+       "moq": 2000,
+       "needed": 10
+      }
+     },
+     {
+      "supplier_id": "SUP-77",
+      "supplier_name": "Sahyadri Harness Works",
+      "constraint": "MIN_ORDER_QUANTITY",
+      "human_reason": "Sahyadri Harness Works requires a minimum order of 200, we need 10.",
+      "detail": {
+       "moq": 200,
+       "needed": 10
+      }
+     }
+    ],
+    "lanes": [
+     {
+      "supplier_id": "SUP-64",
+      "supplier_name": "Bharat Bulk Components",
+      "mode": "ROAD",
+      "verdict": "rejected",
+      "constraint": "MIN_ORDER_QUANTITY",
+      "human_reason": "Bharat Bulk Components requires a minimum order of 2000, we need 10.",
+      "unit_price": 59,
+      "freight_cost": 4100,
+      "available_quantity": 5000,
+      "min_order_quantity": 2000,
+      "lead_time_hours": 168,
+      "reliability": 0.78
+     },
+     {
+      "supplier_id": "SUP-64",
+      "supplier_name": "Bharat Bulk Components",
+      "mode": "RAIL",
+      "verdict": "rejected",
+      "constraint": "MIN_ORDER_QUANTITY",
+      "human_reason": "Bharat Bulk Components requires a minimum order of 2000, we need 10.",
+      "unit_price": 59,
+      "freight_cost": 2600,
+      "available_quantity": 5000,
+      "min_order_quantity": 2000,
+      "lead_time_hours": 192,
+      "reliability": 0.78
+     },
+     {
+      "supplier_id": "SUP-77",
+      "supplier_name": "Sahyadri Harness Works",
+      "mode": "ROAD",
+      "verdict": "rejected",
+      "constraint": "MIN_ORDER_QUANTITY",
+      "human_reason": "Sahyadri Harness Works requires a minimum order of 200, we need 10.",
+      "unit_price": 64,
+      "freight_cost": 1500,
+      "available_quantity": 1800,
+      "min_order_quantity": 200,
+      "lead_time_hours": 72,
+      "reliability": 0.88
+     }
+    ],
+    "weights": {
+     "continuity": 0.35,
+     "cost": 0.2,
+     "risk": 0.15
+    },
+    "suppliers_in_play": [
+     {
+      "id": "SUP-64",
+      "name": "Bharat Bulk Components"
+     },
+     {
+      "id": "SUP-77",
+      "name": "Sahyadri Harness Works"
+     }
+    ],
+    "excluded": [],
+    "reschedulable": [],
+    "context": {
+     "production_order_id": "PROD-887",
+     "component_id": "COMP-311",
+     "required_units": 760,
+     "usable_stock": 950,
+     "erp_stock": 950,
+     "pool_stock": 950,
+     "claimed_by_others": 0,
+     "safety_stock": 200,
+     "daily_usage": 120,
+     "priority": "critical",
+     "deadline": "2026-11-18T14:49:22.092503+00:00",
+     "is_hazmat": false,
+     "required_certifications": [
+      "ISO-9001"
+     ]
+    }
+   },
+   "narrative": "Production stops in 7.9 days without action. Selected Do nothing at Rs 0. Bharat Bulk Components requires a minimum order of 2000, we need 10. Sahyadri Harness Works requires a minimum order of 200, we need 10.",
+   "created_pos": []
+  },
+  "phase": "awaiting_goods",
+  "evidence": {
+   "contradictions": [],
+   "suppliers_available": 2,
+   "contradictions_settled": false
+  },
+  "plan": {
+   "chosen": null,
+   "plan_id": 22,
+   "label": "Do nothing",
+   "kind": "do_nothing",
+   "score": 0.2,
+   "total_cost_inr": 0,
+   "requires_approval": false,
+   "options": 1,
+   "rejections": 2,
+   "narrative": "Production stops in 7.9 days without action. Selected Do nothing at Rs 0. Bharat Bulk Components requires a minimum order of 2000, we need 10. Sahyadri Harness Works requires a minimum order of 200, we need 10.",
+   "excluded_by_memory": [
+    "SUP-88",
+    "SUP-21"
+   ],
+   "lines": []
+  },
+  "purchase_orders": [],
+  "approval": {
+   "decision": "approve",
+   "note": "approved from API test",
+   "exclude": []
+  },
+  "trail": [
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T10:01:35+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: EV Drive Controller for Bharat EV Motors needs 160 more Motor Driver IC — the line stops in 7.7 days. (severity medium, coverage 7.7 d)",
+    "at": "2026-11-09T10:01:35+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T10:01:35+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 6 candidate supplier(s)",
+    "at": "2026-11-09T10:01:38+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T10:01:38+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T10:01:43+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T10:01:43+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "No feasible recovery option passed the hard constraints",
+    "at": "2026-11-09T10:01:49+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'no_plan' is terminal for this turn",
+    "at": "2026-11-09T10:01:49+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T10:10:56+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: EV Drive Controller for Bharat EV Motors needs 160 more Motor Driver IC — the line stops in 7.7 days. (severity medium, coverage 7.7 d)",
+    "at": "2026-11-09T10:10:56+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T10:10:56+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 6 candidate supplier(s)",
+    "at": "2026-11-09T10:10:59+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T10:10:59+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T10:11:04+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T10:11:04+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "No feasible recovery option passed the hard constraints",
+    "at": "2026-11-09T10:11:10+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: no option passes every hard constraint: a human must decide",
+    "at": "2026-11-09T10:11:10+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T10:11:10+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: EV Drive Controller for Bharat EV Motors needs 160 more Motor Driver IC — the line stops in 7.7 days. (severity medium, coverage 7.7 d)",
+    "at": "2026-11-09T10:11:10+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T10:11:10+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 1 contradicted claim(s), 6 candidate supplier(s)",
+    "at": "2026-11-09T10:11:15+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: 1 contradicted claim(s): money must not move on them",
+    "at": "2026-11-09T10:11:15+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Pay-on-proof: 1 hold(s) voided/refunded on contradicted claims",
+    "at": "2026-11-09T10:11:18+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: holds secured; now talk to suppliers",
+    "at": "2026-11-09T10:11:18+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T10:11:23+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T10:11:23+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Delay PROD-888 for Shakti Auto + buy 160' (score 0.616) from 6 option(s); 2 rejected on hard constraints; needs human approval",
+    "at": "2026-11-09T10:11:28+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ approval: plan exceeds the agent's authority or affects another customer",
+    "at": "2026-11-09T10:11:28+00:00"
+   },
+   {
+    "agent": "approval",
+    "action": "Human approved the plan (approved from API test)",
+    "at": "2026-11-09T10:13:26+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: human approved",
+    "at": "2026-11-09T10:13:26+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 1 purchase order(s): PO-A9003",
+    "at": "2026-11-09T10:13:30+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T10:13:30+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 1; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T10:13:55+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T10:13:55+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T11:21:41+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T11:21:41+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T11:21:41+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T11:21:44+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T11:21:44+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T11:21:49+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T11:21:49+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-09T11:21:54+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-09T11:21:54+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-09T11:21:55+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T11:21:55+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T11:21:55+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T11:21:55+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T11:30:13+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T11:30:13+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T11:30:13+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T11:30:16+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T11:30:16+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T11:30:20+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T11:30:20+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-09T11:30:25+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-09T11:30:25+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-09T11:30:26+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T11:30:26+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T11:30:26+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T11:30:26+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T13:20:36+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T13:20:36+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T13:20:36+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T14:50:40+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T14:50:40+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T14:50:40+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T14:50:43+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T14:50:43+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T14:50:46+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T14:50:46+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-09T14:50:53+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-09T14:50:53+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-09T14:50:53+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T14:50:53+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T14:50:54+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T14:50:54+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T15:06:59+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T15:06:59+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T15:06:59+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T15:07:02+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T15:07:02+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T15:07:05+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T15:07:05+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-09T15:07:09+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-09T15:07:09+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-09T15:07:10+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T15:07:10+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T15:07:10+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T15:07:10+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T15:22:04+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T15:22:04+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T15:22:04+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T15:22:07+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T15:22:07+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T15:22:10+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T15:22:10+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-09T15:22:15+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-09T15:22:15+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-09T15:22:15+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T15:22:15+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T15:22:16+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T15:22:16+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T15:52:07+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T15:52:07+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T15:52:07+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T15:52:11+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T15:52:11+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T15:52:14+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T15:52:14+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-09T15:52:19+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-09T15:52:19+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-09T15:52:19+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T15:52:19+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T15:52:20+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T15:52:20+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T17:38:27+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T17:38:28+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T17:38:28+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T17:38:31+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T17:38:31+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T17:38:33+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T18:00:45+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T18:00:45+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T18:00:45+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-09T19:17:38+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-09T19:17:38+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-09T19:17:38+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-09T19:17:41+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-09T19:17:41+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-09T19:17:44+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-09T19:17:44+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-09T19:17:48+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-09T19:17:48+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-09T19:17:49+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-09T19:17:49+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-09T19:17:49+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-09T19:17:49+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sentinel: trigger 'risk'",
+    "at": "2026-11-10T10:04:28+00:00"
+   },
+   {
+    "agent": "sentinel",
+    "action": "Triage: Battery Management System for Bharat EV Motors needs 10 more Wiring Harness — the line stops in 7.9 days. (severity high, coverage 7.9 d)",
+    "at": "2026-11-10T10:04:28+00:00",
+    "recalled": 0
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ investigator: need evidence before any decision",
+    "at": "2026-11-10T10:04:28+00:00"
+   },
+   {
+    "agent": "investigator",
+    "action": "Evidence pack done: 0 contradicted claim(s), 2 candidate supplier(s)",
+    "at": "2026-11-10T10:04:31+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ liaison: evidence clean; contact suppliers and warehouse",
+    "at": "2026-11-10T10:04:31+00:00"
+   },
+   {
+    "agent": "liaison",
+    "action": "Contacted contradicted suppliers, the warehouse and alternate suppliers (RFQs)",
+    "at": "2026-11-10T10:04:34+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ sourcing: suppliers contacted; plan the recovery",
+    "at": "2026-11-10T10:04:34+00:00"
+   },
+   {
+    "agent": "sourcing",
+    "action": "Chose 'Do nothing' (score 0.2) from 1 option(s); 2 rejected on hard constraints",
+    "at": "2026-11-10T10:04:39+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ procurement: plan within authority",
+    "at": "2026-11-10T10:04:39+00:00"
+   },
+   {
+    "agent": "procurement",
+    "action": "Raised 0 purchase order(s): ",
+    "at": "2026-11-10T10:04:39+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ treasurer: new POs need PayPal holds through the guards",
+    "at": "2026-11-10T10:04:39+00:00"
+   },
+   {
+    "agent": "treasurer",
+    "action": "Holds placed: 0; blocked by guards: 0. Money moves only on verified goods.",
+    "at": "2026-11-10T10:04:39+00:00"
+   },
+   {
+    "agent": "supervisor",
+    "action": "→ end: phase 'awaiting_goods' is terminal for this turn",
+    "at": "2026-11-10T10:04:40+00:00"
+   }
+  ],
+  "guard_verdicts": [
+   {
+    "guard": "fair_price",
+    "outcome": "pass",
+    "po_id": "PO-7712",
+    "amount_usd": "0.00",
+    "reason": "Quote within +5% of should-cost."
+   },
+   {
+    "guard": "budget",
+    "outcome": "pass",
+    "po_id": "PO-7712",
+    "amount_usd": "0.00",
+    "reason": "PRJ-2041: $1,405 of $48,000 committed after this hold."
+   },
+   {
+    "guard": "pay_on_proof",
+    "outcome": "block",
+    "po_id": "PO-7712",
+    "amount_usd": "1404.76",
+    "reason": "No payment on a contradicted claim (PO-7712)."
+   },
+   {
+    "guard": "fair_price",
+    "outcome": "escalate",
+    "po_id": "PO-A9003",
+    "amount_usd": "0.00",
+    "reason": "Quote is 29% over should-cost; held for negotiation/approval."
+   },
+   {
+    "guard": "budget",
+    "outcome": "pass",
+    "po_id": "PO-A9003",
+    "amount_usd": "0.00",
+    "reason": "PO is not tied to a project budget."
+   }
+  ],
+  "money": [
+   {
+    "po_id": "PO-7712",
+    "state": "hold_voided",
+    "amount_usd": "1404.76",
+    "captured_usd": null,
+    "credit_usd": null,
+    "retention_usd": null,
+    "authorization_id": "1BE31206C04402541",
+    "capture_id": null,
+    "note": "Zhen Hua Electronics Co., Ltd. claimed 'dispatched' but the carrier shows 'label_created_no_pickup'"
+   },
+   {
+    "po_id": "PO-A9003",
+    "state": "awaiting_approval",
+    "amount_usd": "276.19",
+    "captured_usd": null,
+    "credit_usd": null,
+    "retention_usd": null,
+    "authorization_id": "6YU16799491756729",
+    "capture_id": null,
+    "note": null
+   }
+  ],
+  "recalled": [
+   "Zhen Hua Electronics Co., Ltd.: 1 contradiction(s) on record, trust=proof_only",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record",
+   "Excluded SUP-88 on its memory record",
+   "Excluded SUP-21 on its memory record"
+  ],
+  "next_agent": "__end__",
+  "turns": 7,
+  "done": false
+ },
+ "next": [],
+ "waiting_for_human": false,
+ "interrupts": [],
+ "checkpoint_id": "1f1dcee2-4ad8-60c4-80b1-9db90507d3fd",
+ "running": false,
+ "memory": "postgres"
+}

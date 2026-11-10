@@ -1,0 +1,17 @@
+{
+ "requests": [
+  {
+   "id": 7,
+   "org_id": "NEXA",
+   "supplier_id": "SUP-21",
+   "new_email": "payments@zhenhua-hk.com",
+   "requested_via": "email",
+   "sender": "accounts@zhenhua-hk.com",
+   "cooling_until": "2026-11-12T14:49:46.333611+00:00",
+   "status": "pending",
+   "created_at": "2026-11-09T14:49:46.333611+00:00",
+   "supplier_name": "Zhen Hua Electronics",
+   "current_email": "dops-sup21-dada@business.example.com"
+  }
+ ]
+}

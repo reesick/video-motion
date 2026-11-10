@@ -1,7 +1,7 @@
 {
  "voice": "en-US-AvaNeural",
  "rate": "+4%",
- "duration": 73.794,
+ "duration": 74.751,
  "lines": [
   {
    "i": 1,
@@ -23,75 +23,69 @@
   },
   {
    "i": 4,
-   "text": "Meet DisruptionOps. Your buyer-side agent.",
+   "text": "Meet DisruptionOps. A team of AI agents that works for the buyer.",
    "start": 17.732,
-   "end": 20.583
+   "end": 21.825
   },
   {
    "i": 5,
-   "text": "It watches every project, every part, every shipment.",
-   "start": 20.963,
-   "end": 24.606
+   "text": "A Sentinel watches every project. When a part's order-by date turns red, it hands it to the team.",
+   "start": 22.205,
+   "end": 28.237
   },
   {
    "i": 6,
-   "text": "It knows the last day you can order each part, and orders before the deadline is at risk.",
-   "start": 24.986,
-   "end": 29.639
+   "text": "The Investigator reads the supplier's email. The carrier disagrees. So the Treasurer voids the PayPal hold.",
+   "start": 28.617,
+   "end": 35.239
   },
   {
    "i": 7,
-   "text": "A broker wants four times the fair price. Blocked.",
-   "start": 30.019,
-   "end": 33.233
+   "text": "And the team remembers. That supplier is now proof-only.",
+   "start": 35.619,
+   "end": 39.036
   },
   {
    "i": 8,
-   "text": "An AI reads the supplier's email. Plain code checks the carrier. The story doesn't match, so the PayPal hold is voided.",
-   "start": 33.613,
-   "end": 41.18
+   "text": "A broker wants four times the fair price. Blocked. A look-alike domain asks for a new payout account. Locked.",
+   "start": 39.416,
+   "end": 46.656
   },
   {
    "i": 9,
-   "text": "A duplicate invoice. A new bank account from a look-alike domain. Neither gets paid.",
-   "start": 41.56,
-   "end": 46.729
+   "text": "Money moves only on proof, minus what the supplier owes you for being late.",
+   "start": 47.036,
+   "end": 51.099
   },
   {
    "i": 10,
-   "text": "Money moves only on proof, minus what the supplier owes you for being late.",
-   "start": 47.109,
-   "end": 51.172
+   "text": "Above its limit, the team stops and asks. One click, and the same thread picks up where it paused.",
+   "start": 51.479,
+   "end": 57.325
   },
   {
    "i": 11,
-   "text": "And it keeps every project inside its budget. Over the line, it asks you first.",
-   "start": 51.552,
-   "end": 56.342
+   "text": "It even finds the hidden supplier your two backups secretly share.",
+   "start": 57.705,
+   "end": 61.303
   },
   {
    "i": 12,
-   "text": "It even finds the hidden supplier your two backups secretly share.",
-   "start": 56.722,
-   "end": 60.319
+   "text": "So the project still ships on time.",
+   "start": 61.683,
+   "end": 63.716
   },
   {
    "i": 13,
-   "text": "So the project still ships on time.",
-   "start": 60.699,
-   "end": 62.732
+   "text": "Every refusal is logged. Every dollar moves through PayPal. Nothing moves on a guess.",
+   "start": 64.296,
+   "end": 69.666
   },
   {
    "i": 14,
-   "text": "Twenty-five thousand dollars protected. Zero projects slipped. Every move through PayPal.",
-   "start": 63.312,
-   "end": 68.809
-  },
-  {
-   "i": 15,
    "text": "DisruptionOps. Never pay for what didn't arrive.",
-   "start": 69.489,
-   "end": 72.594
+   "start": 70.446,
+   "end": 73.551
   }
  ]
 }

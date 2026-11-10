@@ -1,0 +1,97 @@
+{
+ "voice": "en-US-AvaNeural",
+ "rate": "+4%",
+ "duration": 73.794,
+ "lines": [
+  {
+   "i": 1,
+   "text": "One hour of downtime in a car plant costs two point three million dollars.",
+   "start": 0.2,
+   "end": 4.184
+  },
+  {
+   "i": 2,
+   "text": "India's biggest carmaker couldn't build forty-six thousand cars in one quarter. For want of chips.",
+   "start": 4.564,
+   "end": 10.323
+  },
+  {
+   "i": 3,
+   "text": "Suppliers overcharge. Push dates back. Invoice twice. And say it shipped, when it didn't.",
+   "start": 10.703,
+   "end": 17.052
+  },
+  {
+   "i": 4,
+   "text": "Meet DisruptionOps. Your buyer-side agent.",
+   "start": 17.732,
+   "end": 20.583
+  },
+  {
+   "i": 5,
+   "text": "It watches every project, every part, every shipment.",
+   "start": 20.963,
+   "end": 24.606
+  },
+  {
+   "i": 6,
+   "text": "It knows the last day you can order each part, and orders before the deadline is at risk.",
+   "start": 24.986,
+   "end": 29.639
+  },
+  {
+   "i": 7,
+   "text": "A broker wants four times the fair price. Blocked.",
+   "start": 30.019,
+   "end": 33.233
+  },
+  {
+   "i": 8,
+   "text": "An AI reads the supplier's email. Plain code checks the carrier. The story doesn't match, so the PayPal hold is voided.",
+   "start": 33.613,
+   "end": 41.18
+  },
+  {
+   "i": 9,
+   "text": "A duplicate invoice. A new bank account from a look-alike domain. Neither gets paid.",
+   "start": 41.56,
+   "end": 46.729
+  },
+  {
+   "i": 10,
+   "text": "Money moves only on proof, minus what the supplier owes you for being late.",
+   "start": 47.109,
+   "end": 51.172
+  },
+  {
+   "i": 11,
+   "text": "And it keeps every project inside its budget. Over the line, it asks you first.",
+   "start": 51.552,
+   "end": 56.342
+  },
+  {
+   "i": 12,
+   "text": "It even finds the hidden supplier your two backups secretly share.",
+   "start": 56.722,
+   "end": 60.319
+  },
+  {
+   "i": 13,
+   "text": "So the project still ships on time.",
+   "start": 60.699,
+   "end": 62.732
+  },
+  {
+   "i": 14,
+   "text": "Twenty-five thousand dollars protected. Zero projects slipped. Every move through PayPal.",
+   "start": 63.312,
+   "end": 68.809
+  },
+  {
+   "i": 15,
+   "text": "DisruptionOps. Never pay for what didn't arrive.",
+   "start": 69.489,
+   "end": 72.594
+  }
+ ]
+}

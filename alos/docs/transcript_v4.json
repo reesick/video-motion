@@ -1,0 +1,1161 @@
+{
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.62,
+   "text": "One hour of downtime in a car plant costs $2.3 million.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.38,
+     "word": "One"
+    },
+    {
+     "start": 0.38,
+     "end": 0.54,
+     "word": "hour"
+    },
+    {
+     "start": 0.54,
+     "end": 0.76,
+     "word": "of"
+    },
+    {
+     "start": 0.76,
+     "end": 1.16,
+     "word": "downtime"
+    },
+    {
+     "start": 1.16,
+     "end": 1.42,
+     "word": "in"
+    },
+    {
+     "start": 1.42,
+     "end": 1.54,
+     "word": "a"
+    },
+    {
+     "start": 1.54,
+     "end": 1.78,
+     "word": "car"
+    },
+    {
+     "start": 1.78,
+     "end": 2.0,
+     "word": "plant"
+    },
+    {
+     "start": 2.0,
+     "end": 2.38,
+     "word": "costs"
+    },
+    {
+     "start": 2.38,
+     "end": 2.78,
+     "word": "$2"
+    },
+    {
+     "start": 2.78,
+     "end": 3.28,
+     "word": ".3"
+    },
+    {
+     "start": 3.28,
+     "end": 3.62,
+     "word": "million."
+    }
+   ]
+  },
+  {
+   "start": 4.52,
+   "end": 8.8,
+   "text": "India's biggest car maker couldn't build 46,000 cars in one quarter.",
+   "words": [
+    {
+     "start": 4.52,
+     "end": 5.0,
+     "word": "India's"
+    },
+    {
+     "start": 5.0,
+     "end": 5.3,
+     "word": "biggest"
+    },
+    {
+     "start": 5.3,
+     "end": 5.64,
+     "word": "car"
+    },
+    {
+     "start": 5.64,
+     "end": 5.9,
+     "word": "maker"
+    },
+    {
+     "start": 5.9,
+     "end": 6.36,
+     "word": "couldn't"
+    },
+    {
+     "start": 6.36,
+     "end": 6.6,
+     "word": "build"
+    },
+    {
+     "start": 6.6,
+     "end": 7.1,
+     "word": "46"
+    },
+    {
+     "start": 7.1,
+     "end": 7.62,
+     "word": ",000"
+    },
+    {
+     "start": 7.62,
+     "end": 7.96,
+     "word": "cars"
+    },
+    {
+     "start": 7.96,
+     "end": 8.22,
+     "word": "in"
+    },
+    {
+     "start": 8.22,
+     "end": 8.46,
+     "word": "one"
+    },
+    {
+     "start": 8.46,
+     "end": 8.8,
+     "word": "quarter."
+    }
+   ]
+  },
+  {
+   "start": 9.36,
+   "end": 17.16,
+   "text": "For one of chips, suppliers overcharge, push dates back, invoice twice, and say it shipped when it didn't.",
+   "words": [
+    {
+     "start": 9.36,
+     "end": 9.46,
+     "word": "For"
+    },
+    {
+     "start": 9.46,
+     "end": 9.66,
+     "word": "one"
+    },
+    {
+     "start": 9.66,
+     "end": 9.78,
+     "word": "of"
+    },
+    {
+     "start": 9.78,
+     "end": 10.02,
+     "word": "chips,"
+    },
+    {
+     "start": 11.16,
+     "end": 11.16,
+     "word": "suppliers"
+    },
+    {
+     "start": 11.16,
+     "end": 11.8,
+     "word": "overcharge,"
+    },
+    {
+     "start": 12.48,
+     "end": 12.62,
+     "word": "push"
+    },
+    {
+     "start": 12.62,
+     "end": 12.86,
+     "word": "dates"
+    },
+    {
+     "start": 12.86,
+     "end": 13.26,
+     "word": "back,"
+    },
+    {
+     "start": 13.78,
+     "end": 14.14,
+     "word": "invoice"
+    },
+    {
+     "start": 14.14,
+     "end": 14.56,
+     "word": "twice,"
+    },
+    {
+     "start": 15.2,
+     "end": 15.38,
+     "word": "and"
+    },
+    {
+     "start": 15.38,
+     "end": 15.66,
+     "word": "say"
+    },
+    {
+     "start": 15.66,
+     "end": 15.8,
+     "word": "it"
+    },
+    {
+     "start": 15.8,
+     "end": 16.1,
+     "word": "shipped"
+    },
+    {
+     "start": 16.1,
+     "end": 16.44,
+     "word": "when"
+    },
+    {
+     "start": 16.44,
+     "end": 16.58,
+     "word": "it"
+    },
+    {
+     "start": 16.58,
+     "end": 17.16,
+     "word": "didn't."
+    }
+   ]
+  },
+  {
+   "start": 17.74,
+   "end": 21.68,
+   "text": "Meet Disruption Ops, a team of AI agents that works for the buyer.",
+   "words": [
+    {
+     "start": 17.74,
+     "end": 17.9,
+     "word": "Meet"
+    },
+    {
+     "start": 17.9,
+     "end": 18.42,
+     "word": "Disruption"
+    },
+    {
+     "start": 18.42,
+     "end": 18.66,
+     "word": "Ops,"
+    },
+    {
+     "start": 19.36,
+     "end": 19.4,
+     "word": "a"
+    },
+    {
+     "start": 19.4,
+     "end": 19.64,
+     "word": "team"
+    },
+    {
+     "start": 19.64,
+     "end": 19.84,
+     "word": "of"
+    },
+    {
+     "start": 19.84,
+     "end": 20.12,
+     "word": "AI"
+    },
+    {
+     "start": 20.12,
+     "end": 20.5,
+     "word": "agents"
+    },
+    {
+     "start": 20.5,
+     "end": 20.8,
+     "word": "that"
+    },
+    {
+     "start": 20.8,
+     "end": 21.04,
+     "word": "works"
+    },
+    {
+     "start": 21.04,
+     "end": 21.28,
+     "word": "for"
+    },
+    {
+     "start": 21.28,
+     "end": 21.4,
+     "word": "the"
+    },
+    {
+     "start": 21.4,
+     "end": 21.68,
+     "word": "buyer."
+    }
+   ]
+  },
+  {
+   "start": 22.24,
+   "end": 23.98,
+   "text": "A Sentinel watches every project.",
+   "words": [
+    {
+     "start": 22.24,
+     "end": 22.36,
+     "word": "A"
+    },
+    {
+     "start": 22.36,
+     "end": 22.62,
+     "word": "Sentinel"
+    },
+    {
+     "start": 22.62,
+     "end": 23.08,
+     "word": "watches"
+    },
+    {
+     "start": 23.08,
+     "end": 23.5,
+     "word": "every"
+    },
+    {
+     "start": 23.5,
+     "end": 23.98,
+     "word": "project."
+    }
+   ]
+  },
+  {
+   "start": 24.58,
+   "end": 28.08,
+   "text": "When a parts order by date turns red, it hands it to the team.",
+   "words": [
+    {
+     "start": 24.58,
+     "end": 24.72,
+     "word": "When"
+    },
+    {
+     "start": 24.72,
+     "end": 24.84,
+     "word": "a"
+    },
+    {
+     "start": 24.84,
+     "end": 25.08,
+     "word": "parts"
+    },
+    {
+     "start": 25.08,
+     "end": 25.38,
+     "word": "order"
+    },
+    {
+     "start": 25.38,
+     "end": 25.62,
+     "word": "by"
+    },
+    {
+     "start": 25.62,
+     "end": 25.86,
+     "word": "date"
+    },
+    {
+     "start": 25.86,
+     "end": 26.12,
+     "word": "turns"
+    },
+    {
+     "start": 26.12,
+     "end": 26.48,
+     "word": "red,"
+    },
+    {
+     "start": 26.82,
+     "end": 27.0,
+     "word": "it"
+    },
+    {
+     "start": 27.0,
+     "end": 27.36,
+     "word": "hands"
+    },
+    {
+     "start": 27.36,
+     "end": 27.54,
+     "word": "it"
+    },
+    {
+     "start": 27.54,
+     "end": 27.68,
+     "word": "to"
+    },
+    {
+     "start": 27.68,
+     "end": 27.78,
+     "word": "the"
+    },
+    {
+     "start": 27.78,
+     "end": 28.08,
+     "word": "team."
+    }
+   ]
+  },
+  {
+   "start": 28.08,
+   "end": 30.68,
+   "text": "The investigator reads the supplier's email.",
+   "words": [
+    {
+     "start": 28.08,
+     "end": 28.7,
+     "word": "The"
+    },
+    {
+     "start": 28.7,
+     "end": 29.24,
+     "word": "investigator"
+    },
+    {
+     "start": 29.24,
+     "end": 29.66,
+     "word": "reads"
+    },
+    {
+     "start": 29.66,
+     "end": 29.92,
+     "word": "the"
+    },
+    {
+     "start": 29.92,
+     "end": 30.42,
+     "word": "supplier's"
+    },
+    {
+     "start": 30.42,
+     "end": 30.68,
+     "word": "email."
+    }
+   ]
+  },
+  {
+   "start": 31.34,
+   "end": 32.3,
+   "text": "The carrier disagrees.",
+   "words": [
+    {
+     "start": 31.34,
+     "end": 31.36,
+     "word": "The"
+    },
+    {
+     "start": 31.36,
+     "end": 31.74,
+     "word": "carrier"
+    },
+    {
+     "start": 31.74,
+     "end": 32.3,
+     "word": "disagrees."
+    }
+   ]
+  },
+  {
+   "start": 33.16,
+   "end": 35.1,
+   "text": "So the treasurer voids the PayPal hold.",
+   "words": [
+    {
+     "start": 33.16,
+     "end": 33.16,
+     "word": "So"
+    },
+    {
+     "start": 33.16,
+     "end": 33.32,
+     "word": "the"
+    },
+    {
+     "start": 33.32,
+     "end": 33.72,
+     "word": "treasurer"
+    },
+    {
+     "start": 33.72,
+     "end": 34.2,
+     "word": "voids"
+    },
+    {
+     "start": 34.2,
+     "end": 34.3,
+     "word": "the"
+    },
+    {
+     "start": 34.3,
+     "end": 34.68,
+     "word": "PayPal"
+    },
+    {
+     "start": 34.68,
+     "end": 35.1,
+     "word": "hold."
+    }
+   ]
+  },
+  {
+   "start": 35.66,
+   "end": 36.52,
+   "text": "And the team remembers.",
+   "words": [
+    {
+     "start": 35.66,
+     "end": 35.78,
+     "word": "And"
+    },
+    {
+     "start": 35.78,
+     "end": 35.9,
+     "word": "the"
+    },
+    {
+     "start": 35.9,
+     "end": 36.1,
+     "word": "team"
+    },
+    {
+     "start": 36.1,
+     "end": 36.52,
+     "word": "remembers."
+    }
+   ]
+  },
+  {
+   "start": 37.28,
+   "end": 38.88,
+   "text": "That supplier is now proof only.",
+   "words": [
+    {
+     "start": 37.28,
+     "end": 37.4,
+     "word": "That"
+    },
+    {
+     "start": 37.4,
+     "end": 37.82,
+     "word": "supplier"
+    },
+    {
+     "start": 37.82,
+     "end": 38.04,
+     "word": "is"
+    },
+    {
+     "start": 38.04,
+     "end": 38.28,
+     "word": "now"
+    },
+    {
+     "start": 38.28,
+     "end": 38.5,
+     "word": "proof"
+    },
+    {
+     "start": 38.5,
+     "end": 38.88,
+     "word": "only."
+    }
+   ]
+  },
+  {
+   "start": 39.44,
+   "end": 41.58,
+   "text": "A broker wants four times the fair price.",
+   "words": [
+    {
+     "start": 39.44,
+     "end": 39.52,
+     "word": "A"
+    },
+    {
+     "start": 39.52,
+     "end": 39.8,
+     "word": "broker"
+    },
+    {
+     "start": 39.8,
+     "end": 40.16,
+     "word": "wants"
+    },
+    {
+     "start": 40.16,
+     "end": 40.5,
+     "word": "four"
+    },
+    {
+     "start": 40.5,
+     "end": 40.84,
+     "word": "times"
+    },
+    {
+     "start": 40.84,
+     "end": 41.04,
+     "word": "the"
+    },
+    {
+     "start": 41.04,
+     "end": 41.22,
+     "word": "fair"
+    },
+    {
+     "start": 41.22,
+     "end": 41.58,
+     "word": "price."
+    }
+   ]
+  },
+  {
+   "start": 42.28,
+   "end": 42.48,
+   "text": "Blocked.",
+   "words": [
+    {
+     "start": 42.28,
+     "end": 42.48,
+     "word": "Blocked."
+    }
+   ]
+  },
+  {
+   "start": 43.04,
+   "end": 45.64,
+   "text": "A lookalike domain asks for a new payout account.",
+   "words": [
+    {
+     "start": 43.04,
+     "end": 43.14,
+     "word": "A"
+    },
+    {
+     "start": 43.14,
+     "end": 43.52,
+     "word": "lookalike"
+    },
+    {
+     "start": 43.52,
+     "end": 43.92,
+     "word": "domain"
+    },
+    {
+     "start": 43.92,
+     "end": 44.3,
+     "word": "asks"
+    },
+    {
+     "start": 44.3,
+     "end": 44.56,
+     "word": "for"
+    },
+    {
+     "start": 44.56,
+     "end": 44.68,
+     "word": "a"
+    },
+    {
+     "start": 44.68,
+     "end": 44.9,
+     "word": "new"
+    },
+    {
+     "start": 44.9,
+     "end": 45.2,
+     "word": "payout"
+    },
+    {
+     "start": 45.2,
+     "end": 45.64,
+     "word": "account."
+    }
+   ]
+  },
+  {
+   "start": 46.3,
+   "end": 46.46,
+   "text": "Locked.",
+   "words": [
+    {
+     "start": 46.3,
+     "end": 46.46,
+     "word": "Locked."
+    }
+   ]
+  },
+  {
+   "start": 47.12,
+   "end": 50.98,
+   "text": "Money moves only on proof, minus what the supplier owes you for being late.",
+   "words": [
+    {
+     "start": 47.12,
+     "end": 47.22,
+     "word": "Money"
+    },
+    {
+     "start": 47.22,
+     "end": 47.56,
+     "word": "moves"
+    },
+    {
+     "start": 47.56,
+     "end": 47.86,
+     "word": "only"
+    },
+    {
+     "start": 47.86,
+     "end": 48.1,
+     "word": "on"
+    },
+    {
+     "start": 48.1,
+     "end": 48.38,
+     "word": "proof,"
+    },
+    {
+     "start": 48.94,
+     "end": 49.1,
+     "word": "minus"
+    },
+    {
+     "start": 49.1,
+     "end": 49.38,
+     "word": "what"
+    },
+    {
+     "start": 49.38,
+     "end": 49.54,
+     "word": "the"
+    },
+    {
+     "start": 49.54,
+     "end": 49.92,
+     "word": "supplier"
+    },
+    {
+     "start": 49.92,
+     "end": 50.12,
+     "word": "owes"
+    },
+    {
+     "start": 50.12,
+     "end": 50.32,
+     "word": "you"
+    },
+    {
+     "start": 50.32,
+     "end": 50.48,
+     "word": "for"
+    },
+    {
+     "start": 50.48,
+     "end": 50.64,
+     "word": "being"
+    },
+    {
+     "start": 50.64,
+     "end": 50.98,
+     "word": "late."
+    }
+   ]
+  },
+  {
+   "start": 51.52,
+   "end": 53.84,
+   "text": "Above its limit, the team stops and asks.",
+   "words": [
+    {
+     "start": 51.52,
+     "end": 51.72,
+     "word": "Above"
+    },
+    {
+     "start": 51.72,
+     "end": 51.92,
+     "word": "its"
+    },
+    {
+     "start": 51.92,
+     "end": 52.22,
+     "word": "limit,"
+    },
+    {
+     "start": 52.52,
+     "end": 52.64,
+     "word": "the"
+    },
+    {
+     "start": 52.64,
+     "end": 52.86,
+     "word": "team"
+    },
+    {
+     "start": 52.86,
+     "end": 53.22,
+     "word": "stops"
+    },
+    {
+     "start": 53.22,
+     "end": 53.52,
+     "word": "and"
+    },
+    {
+     "start": 53.52,
+     "end": 53.84,
+     "word": "asks."
+    }
+   ]
+  },
+  {
+   "start": 54.38,
+   "end": 57.04,
+   "text": "One click and the same thread picks up where it paused.",
+   "words": [
+    {
+     "start": 54.38,
+     "end": 54.64,
+     "word": "One"
+    },
+    {
+     "start": 54.64,
+     "end": 54.9,
+     "word": "click"
+    },
+    {
+     "start": 54.9,
+     "end": 55.2,
+     "word": "and"
+    },
+    {
+     "start": 55.2,
+     "end": 55.34,
+     "word": "the"
+    },
+    {
+     "start": 55.34,
+     "end": 55.64,
+     "word": "same"
+    },
+    {
+     "start": 55.64,
+     "end": 56.0,
+     "word": "thread"
+    },
+    {
+     "start": 56.0,
+     "end": 56.24,
+     "word": "picks"
+    },
+    {
+     "start": 56.24,
+     "end": 56.48,
+     "word": "up"
+    },
+    {
+     "start": 56.48,
+     "end": 56.64,
+     "word": "where"
+    },
+    {
+     "start": 56.64,
+     "end": 56.78,
+     "word": "it"
+    },
+    {
+     "start": 56.78,
+     "end": 57.04,
+     "word": "paused."
+    }
+   ]
+  },
+  {
+   "start": 57.5,
+   "end": 61.14,
+   "text": "It even finds the hidden supplier your two backups secretly share.",
+   "words": [
+    {
+     "start": 57.5,
+     "end": 57.8,
+     "word": "It"
+    },
+    {
+     "start": 57.8,
+     "end": 58.08,
+     "word": "even"
+    },
+    {
+     "start": 58.08,
+     "end": 58.38,
+     "word": "finds"
+    },
+    {
+     "start": 58.38,
+     "end": 58.62,
+     "word": "the"
+    },
+    {
+     "start": 58.62,
+     "end": 58.82,
+     "word": "hidden"
+    },
+    {
+     "start": 58.82,
+     "end": 59.26,
+     "word": "supplier"
+    },
+    {
+     "start": 59.26,
+     "end": 59.5,
+     "word": "your"
+    },
+    {
+     "start": 59.5,
+     "end": 59.74,
+     "word": "two"
+    },
+    {
+     "start": 59.74,
+     "end": 60.16,
+     "word": "backups"
+    },
+    {
+     "start": 60.16,
+     "end": 60.7,
+     "word": "secretly"
+    },
+    {
+     "start": 60.7,
+     "end": 61.14,
+     "word": "share."
+    }
+   ]
+  },
+  {
+   "start": 61.7,
+   "end": 63.52,
+   "text": "So the project still ships on time.",
+   "words": [
+    {
+     "start": 61.7,
+     "end": 61.84,
+     "word": "So"
+    },
+    {
+     "start": 61.84,
+     "end": 61.98,
+     "word": "the"
+    },
+    {
+     "start": 61.98,
+     "end": 62.34,
+     "word": "project"
+    },
+    {
+     "start": 62.34,
+     "end": 62.7,
+     "word": "still"
+    },
+    {
+     "start": 62.7,
+     "end": 62.98,
+     "word": "ships"
+    },
+    {
+     "start": 62.98,
+     "end": 63.22,
+     "word": "on"
+    },
+    {
+     "start": 63.22,
+     "end": 63.52,
+     "word": "time."
+    }
+   ]
+  },
+  {
+   "start": 64.34,
+   "end": 65.62,
+   "text": "Every refusal is logged.",
+   "words": [
+    {
+     "start": 64.34,
+     "end": 64.56,
+     "word": "Every"
+    },
+    {
+     "start": 64.56,
+     "end": 65.0,
+     "word": "refusal"
+    },
+    {
+     "start": 65.0,
+     "end": 65.24,
+     "word": "is"
+    },
+    {
+     "start": 65.24,
+     "end": 65.62,
+     "word": "logged."
+    }
+   ]
+  },
+  {
+   "start": 66.22,
+   "end": 67.68,
+   "text": "Every dollar moves through PayPal.",
+   "words": [
+    {
+     "start": 66.22,
+     "end": 66.46,
+     "word": "Every"
+    },
+    {
+     "start": 66.46,
+     "end": 66.68,
+     "word": "dollar"
+    },
+    {
+     "start": 66.68,
+     "end": 67.04,
+     "word": "moves"
+    },
+    {
+     "start": 67.04,
+     "end": 67.36,
+     "word": "through"
+    },
+    {
+     "start": 67.36,
+     "end": 67.68,
+     "word": "PayPal."
+    }
+   ]
+  },
+  {
+   "start": 68.46,
+   "end": 69.42,
+   "text": "Nothing moves on a guess.",
+   "words": [
+    {
+     "start": 68.46,
+     "end": 68.64,
+     "word": "Nothing"
+    },
+    {
+     "start": 68.64,
+     "end": 68.88,
+     "word": "moves"
+    },
+    {
+     "start": 68.88,
+     "end": 69.08,
+     "word": "on"
+    },
+    {
+     "start": 69.08,
+     "end": 69.2,
+     "word": "a"
+    },
+    {
+     "start": 69.2,
+     "end": 69.42,
+     "word": "guess."
+    }
+   ]
+  },
+  {
+   "start": 70.12,
+   "end": 70.86,
+   "text": "Ask it anything.",
+   "words": [
+    {
+     "start": 70.12,
+     "end": 70.28,
+     "word": "Ask"
+    },
+    {
+     "start": 70.28,
+     "end": 70.42,
+     "word": "it"
+    },
+    {
+     "start": 70.42,
+     "end": 70.86,
+     "word": "anything."
+    }
+   ]
+  },
+  {
+   "start": 72.86,
+   "end": 73.52,
+   "text": "Disruption Ops.",
+   "words": [
+    {
+     "start": 72.86,
+     "end": 73.22,
+     "word": "Disruption"
+    },
+    {
+     "start": 73.22,
+     "end": 73.52,
+     "word": "Ops."
+    }
+   ]
+  },
+  {
+   "start": 74.2,
+   "end": 75.68,
+   "text": "Never pay for what didn't arrive.",
+   "words": [
+    {
+     "start": 74.2,
+     "end": 74.38,
+     "word": "Never"
+    },
+    {
+     "start": 74.38,
+     "end": 74.68,
+     "word": "pay"
+    },
+    {
+     "start": 74.68,
+     "end": 74.94,
+     "word": "for"
+    },
+    {
+     "start": 74.94,
+     "end": 75.12,
+     "word": "what"
+    },
+    {
+     "start": 75.12,
+     "end": 75.36,
+     "word": "didn't"
+    },
+    {
+     "start": 75.36,
+     "end": 75.68,
+     "word": "arrive."
+    }
+   ]
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "duration": 73.794,
+ "duration": 74.751,
  "voice": {
   "file": "alos/audio/vo/voiceover.wav",
   "start": 0,
@@ -31,182 +31,182 @@
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.214,
+   "t": 0.215,
    "gain_db": -24.545454545454547
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.268,
+   "t": 0.27,
    "gain_db": -24.727272727272727
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.325,
+   "t": 0.327,
    "gain_db": -24.90909090909091
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.384,
+   "t": 0.386,
    "gain_db": -25.09090909090909
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.446,
+   "t": 0.448,
    "gain_db": -25.272727272727273
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.51,
+   "t": 0.513,
    "gain_db": -25.454545454545453
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.578,
+   "t": 0.581,
    "gain_db": -25.636363636363637
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.649,
+   "t": 0.653,
    "gain_db": -25.818181818181817
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.724,
+   "t": 0.728,
    "gain_db": -26.0
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.804,
+   "t": 0.809,
    "gain_db": -26.18181818181818
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.89,
+   "t": 0.895,
    "gain_db": -26.363636363636363
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 0.982,
+   "t": 0.987,
    "gain_db": -26.545454545454547
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 1.082,
+   "t": 1.088,
    "gain_db": -26.727272727272727
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 1.192,
+   "t": 1.199,
    "gain_db": -26.90909090909091
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 1.315,
+   "t": 1.323,
    "gain_db": -27.09090909090909
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 1.456,
+   "t": 1.464,
    "gain_db": -27.272727272727273
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 1.623,
+   "t": 1.632,
    "gain_db": -27.454545454545453
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 1.832,
+   "t": 1.843,
    "gain_db": -27.636363636363637
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 2.131,
+   "t": 2.144,
    "gain_db": -27.81818181818182
   },
   {
    "file": "assets/audio/sfx/thump.wav",
-   "t": 3.28,
+   "t": 3.3,
    "gain_db": -15
   },
   {
    "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 3.29,
+   "t": 3.31,
    "gain_db": -21
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 4.83,
+   "t": 4.831,
    "gain_db": -25.285714285714285
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 4.9,
+   "t": 4.901,
    "gain_db": -25.571428571428573
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 4.974,
+   "t": 4.975,
    "gain_db": -25.857142857142858
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.052,
+   "t": 5.054,
    "gain_db": -26.142857142857142
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.136,
+   "t": 5.139,
    "gain_db": -26.428571428571427
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.226,
+   "t": 5.23,
    "gain_db": -26.714285714285715
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.324,
+   "t": 5.328,
    "gain_db": -27.0
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.432,
+   "t": 5.437,
    "gain_db": -27.285714285714285
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.553,
+   "t": 5.559,
    "gain_db": -27.571428571428573
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.691,
+   "t": 5.698,
    "gain_db": -27.857142857142858
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 5.855,
+   "t": 5.863,
    "gain_db": -28.142857142857142
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 6.06,
+   "t": 6.07,
    "gain_db": -28.428571428571427
   },
   {
    "file": "assets/audio/sfx/tick.wav",
-   "t": 6.353,
+   "t": 6.365,
    "gain_db": -28.714285714285715
   },
   {
    "file": "assets/audio/sfx/thump.wav",
-   "t": 7.48,
+   "t": 7.5,
    "gain_db": -16
   },
   {
    "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 7.49,
+   "t": 7.51,
    "gain_db": -22
   },
   {
@@ -294,12 +294,12 @@
   },
   {
    "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 11.1,
+   "t": 11.08,
    "gain_db": -14
   },
   {
    "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 12.36,
+   "t": 12.4,
    "gain_db": -14
   },
   {
@@ -330,313 +330,438 @@
    "gain_db": -14
   },
   {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 19.97,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 20.03,
+   "gain_db": -20
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 20.09,
+   "gain_db": -21
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 20.15,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 20.21,
+   "gain_db": -20
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 20.27,
+   "gain_db": -21
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 20.33,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 20.39,
+   "gain_db": -20
+  },
+  {
    "file": "assets/audio/sfx/whoosh_soft.wav",
-   "t": 20.563,
-   "gain_db": -15,
-   "max_len": 1.2
-  },
-  {
-   "file": "assets/audio/sfx/pop.wav",
-   "t": 21.563,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop.wav",
-   "t": 21.643,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop.wav",
-   "t": 21.723,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop.wav",
-   "t": 21.803,
-   "gain_db": -19
+   "t": 21.355,
+   "gain_db": -17,
+   "max_len": 0.9
   },
   {
    "file": "assets/audio/sfx/click.wav",
-   "t": 24.816,
+   "t": 24.41,
    "gain_db": -10
   },
   {
    "file": "assets/audio/sfx/whoosh_fast.wav",
-   "t": 24.836,
+   "t": 24.43,
    "gain_db": -19,
    "max_len": 0.8
   },
   {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 26.07,
+   "gain_db": -15
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 26.19,
+   "gain_db": -15
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 26.31,
+   "gain_db": -15
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 27.0,
+   "gain_db": -13
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_fast.wav",
+   "t": 28.167,
+   "gain_db": -17,
+   "max_len": 0.6
+  },
+  {
    "file": "assets/audio/sfx/click.wav",
-   "t": 27.52,
+   "t": 28.297,
    "gain_db": -10
   },
   {
    "file": "assets/audio/sfx/pop.wav",
-   "t": 27.67,
-   "gain_db": -14
+   "t": 28.767,
+   "gain_db": -21
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 29.067,
+   "gain_db": -21
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 29.367,
+   "gain_db": -21
+  },
+  {
+   "file": "assets/audio/sfx/typing_bed.wav",
+   "t": 29.52,
+   "gain_db": -16,
+   "align": "start",
+   "trim": [
+    12.9,
+    13.6
+   ]
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 31.36,
+   "gain_db": -12
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 32.81,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/thump.wav",
+   "t": 33.87,
+   "gain_db": -8
+  },
+  {
+   "file": "assets/audio/sfx/shimmer.wav",
+   "t": 36.0,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/click.wav",
+   "t": 37.11,
+   "gain_db": -10
   },
   {
    "file": "assets/audio/sfx/whoosh_fast.wav",
-   "t": 29.869,
+   "t": 37.13,
+   "gain_db": -19,
+   "max_len": 0.8
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 38.23,
+   "gain_db": -12
+  },
+  {
+   "file": "assets/audio/sfx/click.wav",
+   "t": 39.246,
+   "gain_db": -10
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_fast.wav",
+   "t": 39.266,
    "gain_db": -19,
    "max_len": 0.8
   },
   {
    "file": "assets/audio/sfx/thump.wav",
-   "t": 32.9,
+   "t": 42.28,
+   "gain_db": -8
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_soft.wav",
+   "t": 44.7,
+   "gain_db": -18,
+   "max_len": 0.8
+  },
+  {
+   "file": "assets/audio/sfx/thump.wav",
+   "t": 46.3,
+   "gain_db": -9
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 46.32,
+   "gain_db": -15
+  },
+  {
+   "file": "assets/audio/sfx/click.wav",
+   "t": 46.866,
+   "gain_db": -10
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_fast.wav",
+   "t": 46.886,
+   "gain_db": -19,
+   "max_len": 0.8
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 47.56,
+   "gain_db": -15
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 47.76,
+   "gain_db": -15
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 47.96,
+   "gain_db": -15
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_fast.wav",
+   "t": 48.79,
+   "gain_db": -22,
+   "max_len": 0.5
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_fast.wav",
+   "t": 49.19,
+   "gain_db": -22,
+   "max_len": 0.5
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_fast.wav",
+   "t": 49.59,
+   "gain_db": -22,
+   "max_len": 0.5
+  },
+  {
+   "file": "assets/audio/sfx/success.wav",
+   "t": 50.89,
+   "gain_db": -16
+  },
+  {
+   "file": "assets/audio/sfx/click.wav",
+   "t": 51.309,
+   "gain_db": -10
+  },
+  {
+   "file": "assets/audio/sfx/whoosh_fast.wav",
+   "t": 51.329,
+   "gain_db": -19,
+   "max_len": 0.8
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 52.76,
+   "gain_db": -14
+  },
+  {
+   "file": "assets/audio/sfx/click.wav",
+   "t": 54.64,
    "gain_db": -8
   },
   {
    "file": "assets/audio/sfx/success.wav",
-   "t": 33.1,
+   "t": 54.79,
+   "gain_db": -17
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 55.65,
+   "gain_db": -20
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 55.93,
+   "gain_db": -20
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 56.21,
+   "gain_db": -20
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 56.49,
+   "gain_db": -20
+  },
+  {
+   "file": "assets/audio/sfx/pop.wav",
+   "t": 56.77,
    "gain_db": -20
   },
   {
    "file": "assets/audio/sfx/click.wav",
-   "t": 34.013,
+   "t": 57.435,
    "gain_db": -10
-  },
-  {
-   "file": "assets/audio/sfx/typing_bed.wav",
-   "t": 33.84,
-   "gain_db": -14,
-   "align": "start",
-   "trim": [
-    12.9,
-    14.2
-   ]
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 36.19,
-   "gain_db": -18
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 36.33,
-   "gain_db": -18
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 36.47,
-   "gain_db": -18
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 36.61,
-   "gain_db": -18
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 38.14,
-   "gain_db": -12
-  },
-  {
-   "file": "assets/audio/sfx/thump.wav",
-   "t": 40.62,
-   "gain_db": -8
-  },
-  {
-   "file": "assets/audio/sfx/click.wav",
-   "t": 41.39,
-   "gain_db": -10
-  },
-  {
-   "file": "assets/audio/sfx/whoosh_fast.wav",
-   "t": 41.41,
-   "gain_db": -19,
-   "max_len": 0.8
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 41.58,
-   "gain_db": -13
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 43.14,
-   "gain_db": -13
-  },
-  {
-   "file": "assets/audio/sfx/thump.wav",
-   "t": 45.86,
-   "gain_db": -10
-  },
-  {
-   "file": "assets/audio/sfx/pop.wav",
-   "t": 47.62,
-   "gain_db": -15
-  },
-  {
-   "file": "assets/audio/sfx/pop.wav",
-   "t": 47.84,
-   "gain_db": -15
-  },
-  {
-   "file": "assets/audio/sfx/pop.wav",
-   "t": 48.06,
-   "gain_db": -15
   },
   {
    "file": "assets/audio/sfx/whoosh_soft.wav",
-   "t": 48.94,
-   "gain_db": -16,
-   "max_len": 1.0
-  },
-  {
-   "file": "assets/audio/sfx/success.wav",
-   "t": 50.92,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/click.wav",
-   "t": 51.352,
-   "gain_db": -10
-  },
-  {
-   "file": "assets/audio/sfx/whoosh_fast.wav",
-   "t": 54.38,
-   "gain_db": -16,
-   "max_len": 0.8
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 54.99,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 55.09,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 55.19,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 55.29,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 55.39,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/tick.wav",
-   "t": 55.49,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/click.wav",
-   "t": 56.372,
-   "gain_db": -9
-  },
-  {
-   "file": "assets/audio/sfx/success.wav",
-   "t": 56.472,
-   "gain_db": -16
-  },
-  {
-   "file": "assets/audio/sfx/click.wav",
-   "t": 57.022,
-   "gain_db": -11
-  },
-  {
-   "file": "assets/audio/sfx/whoosh_soft.wav",
-   "t": 56.822,
+   "t": 57.805,
    "gain_db": -18,
    "max_len": 1.0
   },
   {
    "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 59.18,
+   "t": 60.16,
    "gain_db": -11
   },
   {
    "file": "assets/audio/sfx/thump.wav",
-   "t": 59.23,
+   "t": 60.21,
    "gain_db": -13
   },
   {
+   "file": "assets/audio/sfx/click.wav",
+   "t": 61.513,
+   "gain_db": -10
+  },
+  {
    "file": "assets/audio/sfx/whoosh_fast.wav",
-   "t": 60.499,
+   "t": 61.483,
    "gain_db": -18,
    "max_len": 0.8
   },
   {
    "file": "assets/audio/sfx/success.wav",
-   "t": 62.22,
+   "t": 63.22,
    "gain_db": -14
   },
   {
    "file": "assets/audio/sfx/swoosh_rise.wav",
-   "t": 63.162,
+   "t": 64.146,
    "gain_db": -14,
    "max_len": 1.2
   },
   {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 64.39,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 64.522,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 64.654,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 64.786,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 64.918,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 65.05,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 65.182,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 65.314,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 65.446,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/tick.wav",
+   "t": 65.578,
+   "gain_db": -18
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 66.36,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 66.45,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 66.54,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 66.63,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 66.72,
+   "gain_db": -19
+  },
+  {
+   "file": "assets/audio/sfx/pop_hi.wav",
+   "t": 66.81,
+   "gain_db": -19
+  },
+  {
    "file": "assets/audio/sfx/pop.wav",
-   "t": 65.68,
-   "gain_db": -14
+   "t": 68.36,
+   "gain_db": -16
   },
   {
    "file": "assets/audio/sfx/pop.wav",
-   "t": 65.8,
-   "gain_db": -14
+   "t": 68.44,
+   "gain_db": -16
   },
   {
    "file": "assets/audio/sfx/pop.wav",
-   "t": 65.92,
-   "gain_db": -14
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 67.32,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 67.41,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 67.5,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 67.59,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 67.68,
-   "gain_db": -19
-  },
-  {
-   "file": "assets/audio/sfx/pop_hi.wav",
-   "t": 67.77,
-   "gain_db": -19
+   "t": 68.52,
+   "gain_db": -16
   },
   {
    "file": "assets/audio/sfx/whoosh_soft.wav",
-   "t": 69.389,
+   "t": 70.346,
    "gain_db": -14,
    "max_len": 1.2
   },
   {
    "file": "assets/audio/sfx/shimmer.wav",
-   "t": 69.589,
+   "t": 70.546,
    "gain_db": -12
   },
   {
    "file": "assets/audio/sfx/thump.wav",
-   "t": 70.88,
+   "t": 71.82,
    "gain_db": -14
   }
  ]

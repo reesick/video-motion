@@ -18,6 +18,7 @@ alos/                DisruptionOps film
   audio/vo/          voiceover.wav + lines.json (edge-tts, Ava +4%)
   research/          live-app screenshots, click states, theme samples
   make.ps1           full film      make_intros.ps1   the 5 intro candidates
+  studio_v4/ + make_v4.ps1   latest cut (brief v3: agent team, Buyer Shield, Copilot); builds alos\output\v4\
 studio/              Madison remake scenes + render.mjs / stills.mjs (shared render engine)
 tools/               cues, mixer, TTS, transcription, contact sheets, comparisons
 docs/                Madison design guidelines, beat map, process
